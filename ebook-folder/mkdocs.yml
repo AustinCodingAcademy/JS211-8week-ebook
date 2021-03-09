@@ -30,6 +30,13 @@ nav:
       - 'Class * Pre-Lessons': 
         - Intro to Material-Mkdocs: module-1/pre-class-lessons/lessonOutlineTemplate.md
         - Class 1, Template: module-1/class-plans/classOutlineTemplate.md
+    - 'Additional Resources':
+      - Whiteboarding Challenges: additionalResources/whiteboardingChallenges.md
+      - Student Presentations: additionalResources/studentPresentations.md  
+      - Keyboard Shortcuts:  additionalResources/keyboardShortcuts.md
+      - Git Commands: additionalResources/gitCommands.md
+      - Graduation Prerequisites: additionalResources/graduationPrerequisites.md
+      - Presentations Qualifications: additionalResources/presentationsQualifications.md
 
 # defines the styles, usually just a single name but `custom_dir` overrides this behavior
 theme:
