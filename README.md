@@ -12,12 +12,13 @@ To be able to edit the ebook you will need to follow these steps first:
 
 1. Install Python 3.7+ on to your computer
 2. Install [pip](https://pip.pypa.io/en/stable/installing/)
-3. Install the Python Packages `pip install -r requirements.txt` (See `requirements.txt`)
-4. `cd ebook-folder` to move into the Python package
-5. Run `mkdocs build` to build the markdown files into static HTML files into the `site/` directory.
-6. Run `mkdocs serve` to serve the files from `site/` to port 8000 **withOUT** username:password authentication
+3. `cd ebook-folder` to move into the Python package
+4. run `git clone https://github.com/squidfunk/mkdocs-material.git`
+5. Install the Python Packages `pip install -r mkdocs-material/requirements.txt` (See `requirements.txt`)
+6. Run `mkdocs build` to build the markdown files into static HTML files into the `site/` directory.
+7. Run `mkdocs serve` to serve the generated files from `site/` to port 8000 **withOUT** username:password authentication
 `cd ..`
-7. Add `.env` file with environment variables
+8. Add `.env` file with environment variables
   
   ```txt
     STUDENT_USERNAME=a-username
