@@ -23,6 +23,11 @@ nav:
       - The Flipped Classroom: preCourse/succeedInThisCourse.md
       - Prepare Your Machine: preCourse/setupInstructions.md
       - Coding + Programming: preCourse/codingAndProgramming.md
+      - Date & Time Repo: preCourse/firstRepo.md
+      - What is JavaScript: preCourse/whatIsJavaScript.md
+      - History of JavaScript: preCourse/historyOfJavaScript.md
+      - ES5 vs ES6: preCourse/es5&es6.md
+
     # - 'Module One: TITLE': 
       # - 'Class * Pre-Lessons': 
       #   - LESSON TITLE: module-2/lesson-*.md

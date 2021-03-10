@@ -50,3 +50,5 @@ Class 19:
 Class 20:
   Prompt 1: *todo*
   Prompt 2: *todo*
+
+  <!-- Estimated readtime functionality for a web page -->

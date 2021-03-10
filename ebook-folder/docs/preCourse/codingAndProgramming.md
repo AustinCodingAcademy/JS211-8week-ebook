@@ -19,7 +19,7 @@ For instance:
 Perfect! Let's walk through this step by step to see how we might **program** a solution to this problem.
 
 - [ ] Our **given input** is `[2, 5, 6, 7, 9]`.
-- [ ] We have a first action: add 1 to each number in the list.
+- [ ] We have the first action: add 1 to each number in the list.
 - [ ] A second action: return the list of new numbers.
 - [ ] And we have a third action: return the sum of the new list of numbers!
 
@@ -40,9 +40,9 @@ Now that we know what our program's actions(steps) are and what the expected out
   * [ ] hold the value of the new numbers in a place
   * [ ] in the return statement include the place you were holding sum of new numbers
 
-Hopefully you can see now how we can approach any problem. We begin with a bigger view of the problem and work our way down to the small details of it. In this way we use our natural human ability to solve complex problems with mental models and abstraction then list them into short, clear directives to give to the computer.
+Hopefully, you can see now how we can approach any problem. We begin with a bigger view of the problem and work our way down to the small details of it. In this way we use our natural human ability to solve complex problems with mental models and abstraction then list them into short, clear directives to give to the computer.
 
-And this, for our purposes, is programming. We have been given a challenge and we found a solution and listed out the steps needed to make it a process. From here we can translate(code) it into any language we want: C, C++, C#, Python, Swift, Rust, Go, Dart, Java, Erlang or Cobol. In the next section we're going to translate(code)these steps into Javascript.
+And this, for our purposes, is programming. We have been given a challenge and we found a solution and listed out the steps needed to make it a process. From here we can translate(code) it into any language we want: C, C++, C#, Python, Swift, Rust, Go, Dart, Java, Erlang, or Cobol. In the next section, we're going to translate(code)these steps into Javascript.
 
 ## What is Coding?
 
@@ -54,7 +54,7 @@ It is also important to note that **no** coding language is actually what the co
 
 > Now we're going to turn those programming steps from the last section into JavaScript code so that a computer can complete the tasks we created for it.
 
-Below are the instructions we wrote out while learning to **program**, next to **code** that describes the action steps in JavaScript code. You'll see `//comments` in the code that describe to what's happening
+Below are the instructions we wrote out while learning to **program**, next to **code** that describes the action steps in JavaScript code. You'll see `//comments` in the code that describe what's happening
 
 But, **STOP**, create a new [Repl.it](https://repl.it) and follow along! ...SERIOUSLY!!
 
@@ -158,3 +158,10 @@ But, **STOP**, create a new [Repl.it](https://repl.it) and follow along! ...SERI
 1. Solve this problem: given an array of numbers: [2, 4, 6, 8, 10], divide each number by two, return the new array and the product (multiplied all together) of the new array.
 1. Continue reading about the [differences btw coding vs programming](https://www.educba.com/coding-vs-programming/).
 
+## Summary
+
+A deciding factor in your success with programming is your ability to think critically about how to solve problems. After all, that's really what we do as engineers; whether we're building software or designing rocket ships—we solve problems.
+
+To ensure your success as a web developer, our hope is not just that you learn how to code, but that you develop the skills necessary to be an effective problem-solver. The latter is arguably more important when it comes down to what will get you hired.
+
+With that in mind, consider this section as your first lesson in fundamental programming concepts, as well as a guided tour of the kind of thinking we'd like we need you to practice as you move forward in the course. Programming and problem-solving go hand in hand—so long as you practice, ask questions and seek answers, you'll develop proficiency with both skill sets.

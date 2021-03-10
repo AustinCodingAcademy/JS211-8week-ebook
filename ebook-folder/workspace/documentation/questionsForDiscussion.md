@@ -28,5 +28,26 @@ Text editor
 Terminal
 CLI
 Command line emulator
+nput
+Loop
+Dart
+Erlang
+Cobol
+C
+C++
+Compiled
+Critical thinking
+Fork
+Clone
+Open-source
+cd
+ls
+mkdir
+NPM
+npm i
+pwd or echo %cd%
+Dependencies/packages
+package.json
+JSON - JavaScript Object Notation
 
 # Class 2
