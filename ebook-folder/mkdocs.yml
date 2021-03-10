@@ -22,6 +22,7 @@ nav:
     - 'Pre-Course Prep':
       - The Flipped Classroom: preCourse/succeedInThisCourse.md
       - Prepare Your Machine: preCourse/setupInstructions.md
+      - Coding + Programming: preCourse/codingAndProgramming.md
     # - 'Module One: TITLE': 
       # - 'Class * Pre-Lessons': 
       #   - LESSON TITLE: module-2/lesson-*.md

@@ -1,0 +1,821 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      <link rel="shortcut icon" href="../../assets/favicon.png">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-7.0.5">
+    
+    
+      
+        <title>Coding + Programming - JS211 - Foundations in Programming</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.77f3fd56.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.7fa14f5b.min.css">
+        
+          
+          
+          <meta name="theme-color" content="#000000">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>:root{--md-text-font-family:"Roboto";--md-code-font-family:"Roboto Mono"}</style>
+      
+    
+    
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="deep-orange">
+      
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#coding-programming" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="JS211 - Foundations in Programming" class="md-header__button md-logo" aria-label="JS211 - Foundations in Programming" data-md-component="logo">
+      
+  <img src="../../CE_WhiteBlue_Icon.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            JS211 - Foundations in Programming
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Coding + Programming
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    <div class="md-header__options">
+      
+    </div>
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="JS211 - Foundations in Programming" class="md-nav__button md-logo" aria-label="JS211 - Foundations in Programming" data-md-component="logo">
+      
+  <img src="../../CE_WhiteBlue_Icon.png" alt="logo">
+
+    </a>
+    JS211 - Foundations in Programming
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" checked>
+      
+      <label class="md-nav__link" for="__nav_2">
+        Pre-Course Prep
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Pre-Course Prep" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Pre-Course Prep
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../succeedInThisCourse/" class="md-nav__link">
+        The Flipped Classroom
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../setupInstructions/" class="md-nav__link">
+        Prepare Your Machine
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Coding + Programming
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Coding + Programming
+      </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#programming" class="md-nav__link">
+    Programming
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-in-coding" class="md-nav__link">
+    What in Coding?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#practice-it" class="md-nav__link">
+    Practice It
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+      
+      <label class="md-nav__link" for="__nav_3">
+        Templates
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Templates" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Templates
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_1" type="checkbox" id="__nav_3_1" >
+      
+      <label class="md-nav__link" for="__nav_3_1">
+        Class * Pre-Lessons
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Class * Pre-Lessons" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_1">
+          <span class="md-nav__icon md-icon"></span>
+          Class * Pre-Lessons
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../module-1/pre-class-lessons/lessonOutlineTemplate/" class="md-nav__link">
+        Intro to Material-Mkdocs
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../module-1/class-plans/classOutlineTemplate/" class="md-nav__link">
+        Class 1, Template
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+      
+      <label class="md-nav__link" for="__nav_4">
+        Additional Resources
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Additional Resources" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Additional Resources
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../additionalResources/whiteboardingChallenges/" class="md-nav__link">
+        Whiteboarding Challenges
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../additionalResources/studentPresentations/" class="md-nav__link">
+        Student Presentations
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../additionalResources/keyboardShortcuts/" class="md-nav__link">
+        Keyboard Shortcuts
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../additionalResources/gitCommands/" class="md-nav__link">
+        Git Commands
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../additionalResources/graduationPrerequisites/" class="md-nav__link">
+        Graduation Prerequisites
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../additionalResources/presentationsQualifications/" class="md-nav__link">
+        Presentations Qualifications
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#programming" class="md-nav__link">
+    Programming
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-in-coding" class="md-nav__link">
+    What in Coding?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#practice-it" class="md-nav__link">
+    Practice It
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="coding-programming">Coding &amp; Programming</h1>
+<p><strong>Programming</strong> is the process of solving a problem. <strong>Coding</strong> is the process of communicating that solution for the computer to execute.</p>
+<h2 id="programming">Programming</h2>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3tWMQ3ZMjbg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<p>For the sake of the class I want you to think of <strong>programming</strong> as figuring out the steps of a process(program) and telling the computer in a very detailed, non-ambiguous way how to execute the steps in the process(program).</p>
+<p>In this way, you're looking at a problem from a higher point-of-view using your vision, hearing and even touch to figure out solutions to the problem and then to implement a process of steps whereby to arrive at the solution.</p>
+<p>For instance:</p>
+<p><em>Given a list of numbers: 2, 5, 6, 7 and 9, add 1 to each number and return a list of the new values and the sum of all of those new values</em></p>
+<p>Perfect! Let's walk through this step by step to see how we might <strong>program</strong> a solution to this problem.</p>
+<ul class="task-list">
+<li class="task-list-item"><input type="checkbox"/> Our <strong>given input</strong> is <code>[2, 5, 6, 7, 9]</code>.</li>
+<li class="task-list-item"><input type="checkbox"/> We have a first action: add 1 to each number in the list.</li>
+<li class="task-list-item"><input type="checkbox"/> A second action: return the list of new numbers.</li>
+<li class="task-list-item"><input type="checkbox"/> And we have a third action: return the sum of the new list of numbers!</li>
+</ul>
+<p>We can even deduce another piece of the puzzle:</p>
+<ul class="task-list">
+<li class="task-list-item"><input type="checkbox"/> If our input is a list of numbers like: <code>[2, 5, 6, 7, 9]</code> into our program, our <strong>expect output</strong> will be <code>[3, 6, 7, 8, 10]</code> with a sum value of <code>34</code>.</li>
+</ul>
+<p>Now that we know what our program's actions(steps) are and what the expected output or our program should be we can begin to reverse-engineer the solution.</p>
+<ul class="task-list">
+<li class="task-list-item">
+<p><input type="checkbox"/> Action 1: add 1 to each number</p>
+<ul class="task-list">
+<li class="task-list-item"><input type="checkbox"/> tell the computer to loop though the list of numbers and for each number add 1 to its value</li>
+</ul>
+</li>
+<li class="task-list-item">
+<p><input type="checkbox"/> Action 2: return the list of new numbers</p>
+<ul class="task-list">
+<li class="task-list-item"><input type="checkbox"/> collect the new values in another list</li>
+<li>[ ]in the return statement include the new list</li>
+</ul>
+</li>
+<li class="task-list-item">
+<p><input type="checkbox"/> Action 3: Return the sum of the new list</p>
+</li>
+<li class="task-list-item"><input type="checkbox"/> hold the value of the new numbers in a place</li>
+<li class="task-list-item"><input type="checkbox"/> in the return statement include the place you were holding sum of new numbers</li>
+</ul>
+<p>Hopefully you can see now how we can approach any problem. We begin with a bigger view of the problem and work our way down to the small details of it. In this way we use our natural human ability to solve complex problems with mental models and abstraction then list them into short, clear directives to give to the computer.</p>
+<p>And this, for our purposes, is programming. We have been given a challenge and we found a solution and listed out the steps needed to make it a process. From here we can translate(code) it into any language we want: C, C++, C#, Python, Swift, Rust, Go, Dart, Java, Erlang or Cobol. In the next section we're going to translate(code)these steps into Javascript.</p>
+<h2 id="what-in-coding">What in Coding?</h2>
+<iframe width="891" height="501" src="https://www.youtube.com/embed/N7ZmPYaXoic" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<p>As you just saw, <strong>programming</strong> is listing out all the steps a program will need to accomplish a task given by a human so that it can return an expected result. <strong>Coding</strong>, on the other hand, is the language we use to communicate to other humans our intent for a computer's task while also telling the computer what we expect it to repeat over and over in a precise and predictable way.</p>
+<p>It is also important to note that <strong>no</strong> coding language is actually what the computer reads. All languages are <strong>compiled</strong> down to <strong>binary</strong>, the language a computer can understand. Therefore, you could use nearly any language you want to accomplish most tasks. There are restrictions, of course (i.e. all front-end apps have to be written in JS), preferences (Python for analytics), and logistical things (full coverage testing, support, open-source, and technical cost) to consider but keep in mind, the characters (<a href="https://techterms.com/definition/token">tokens</a> you type into the text editor) are not really read by the computer the same way you see them on the screen.</p>
+<blockquote>
+<p>Now we're going to turn those programming steps from the last section into JavaScript code so that a computer can complete the tasks we created for it.</p>
+</blockquote>
+<p>Below are the instructions we wrote out while learning to <strong>program</strong>, next to <strong>code</strong> that describes the action steps in JavaScript code. You'll see <code>//comments</code> in the code that describe to what's happening</p>
+<p>But, <strong>STOP</strong>, create a new <a href="https://repl.it">Repl.it</a> and follow along! ...SERIOUSLY!!</p>
+<ul class="task-list">
+<li class="task-list-item"><input type="checkbox"/> Before we can perform Action 1, let's build a function (program/process) we can call to do something at some point. Let's call it: <code>addOneWithSum</code></li>
+</ul>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="kd">const</span> <span class="nx">addOneWithSum</span> <span class="o">=</span> <span class="p">()</span> <span class="p">=&gt;</span> <span class="p">{</span>
+
+<span class="p">}</span>
+</code></pre></div>
+</td></tr></table>
+<ul class="task-list">
+<li class="task-list-item"><input type="checkbox"/> Then let's make sure it can take in an array of numbers like the one given to us in the example above: <code>const exampleArray = [2, 5, 6, 7, 9]</code></li>
+</ul>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="kd">const</span> <span class="nx">addOneWithSum</span> <span class="o">=</span> <span class="p">(</span><span class="nx">ourArray</span><span class="p">)</span> <span class="p">=&gt;</span> <span class="p">{</span>
+
+<span class="p">}</span>
+</code></pre></div>
+</td></tr></table>
+<ul class="task-list">
+<li class="task-list-item"><input type="checkbox"/> Now let's do <strong>Action 1: add 1 to each number</strong></li>
+</ul>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="kd">const</span> <span class="nx">addOneWithSum</span> <span class="o">=</span> <span class="p">(</span><span class="nx">ourArray</span><span class="p">)</span> <span class="p">=&gt;</span> <span class="p">{</span>
+  <span class="c1">// tell the computer to loop though the list of numbers and for each number add 1 to its value</span>
+  <span class="k">for</span> <span class="p">(</span><span class="kd">let</span> <span class="nx">i</span> <span class="o">=</span> <span class="mf">0</span><span class="p">;</span> <span class="nx">i</span> <span class="o">&lt;</span> <span class="nx">ourArray</span><span class="p">.</span><span class="nx">length</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nx">ourArray</span><span class="p">[</span><span class="nx">i</span><span class="p">]</span> <span class="o">+</span> <span class="mf">1</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="c1">// More details:</span>
+<span class="c1">// the for() loop states:</span>
+  <span class="c1">// let i = 0; - set i to 0, (i stands for iterator)</span>
+  <span class="c1">// i &lt; ourArray.length; - and while i is less than the length of ourArray keep doing what is inside the code block</span>
+  <span class="c1">// i++  - and each time you loop through ourArray once add 1 to the value of i so that we keep iterating through all of the numbers in the list.</span>
+<span class="c1">// ourArray[i] + 1 - inside the {} of the for() loop we add 1 to each item in ourArray</span>
+</code></pre></div>
+</td></tr></table>
+<ul class="task-list">
+<li class="task-list-item"><input type="checkbox"/> <strong>Action 2: return the list of new numbers</strong></li>
+</ul>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="kd">const</span> <span class="nx">addOneWithSum</span> <span class="o">=</span> <span class="p">(</span><span class="nx">ourArray</span><span class="p">)</span> <span class="p">=&gt;</span> <span class="p">{</span>
+  <span class="c1">// collect the new values in another list(array)</span>
+  <span class="kd">let</span> <span class="nx">newList</span> <span class="o">=</span> <span class="p">[]</span>
+  <span class="k">for</span> <span class="p">(</span><span class="kd">let</span> <span class="nx">i</span> <span class="o">=</span> <span class="mf">0</span><span class="p">;</span> <span class="nx">i</span> <span class="o">&lt;</span> <span class="nx">ourArray</span><span class="p">.</span><span class="nx">length</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nx">newList</span><span class="p">.</span><span class="nx">push</span><span class="p">(</span><span class="nx">ourArray</span><span class="p">[</span><span class="nx">i</span><span class="p">]</span> <span class="o">+</span> <span class="mf">1</span><span class="p">)</span>
+  <span class="p">}</span>
+  <span class="c1">// in the return statement include the new list</span>
+  <span class="k">return</span> <span class="nx">newList</span>
+<span class="p">}</span>
+
+<span class="c1">// let newList = []  -  creates a place we can hold the new values of the list</span>
+<span class="c1">// newList.push(ourArray[i] + 1)  -   the .push() method pushes the new values into the newList array/list</span>
+<span class="c1">// return newList  -  and then we returned the newList as the output of this program</span>
+</code></pre></div>
+</td></tr></table>
+<ul class="task-list">
+<li class="task-list-item"><input type="checkbox"/> <strong>Action 3: Return the sum of the new list</strong></li>
+</ul>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span>
+<span class="normal">14</span>
+<span class="normal">15</span>
+<span class="normal">16</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="kd">const</span> <span class="nx">addOneWithSum</span> <span class="o">=</span> <span class="p">(</span><span class="nx">ourArray</span><span class="p">)</span> <span class="p">=&gt;</span> <span class="p">{</span>
+  <span class="kd">let</span> <span class="nx">newList</span> <span class="o">=</span> <span class="p">[]</span>
+  <span class="c1">// hold the value of the new numbers in a place/variable</span>
+  <span class="kd">let</span> <span class="nx">sum</span> <span class="o">=</span> <span class="mf">0</span>
+  <span class="k">for</span> <span class="p">(</span><span class="kd">let</span> <span class="nx">i</span> <span class="o">=</span> <span class="mf">0</span><span class="p">;</span> <span class="nx">i</span> <span class="o">&lt;</span> <span class="nx">ourArray</span><span class="p">.</span><span class="nx">length</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nx">sum</span> <span class="o">+=</span> <span class="p">(</span><span class="nx">ourArray</span><span class="p">[</span><span class="nx">i</span><span class="p">]</span> <span class="o">+</span> <span class="mf">1</span><span class="p">)</span>
+    <span class="nx">newList</span><span class="p">.</span><span class="nx">push</span><span class="p">(</span><span class="nx">ourArray</span><span class="p">[</span><span class="nx">i</span><span class="p">]</span> <span class="o">+</span> <span class="mf">1</span><span class="p">)</span>
+  <span class="p">}</span>
+  <span class="c1">// in the return statement include the place you were holding sum of new numbers</span>
+  <span class="k">return</span> <span class="nx">newList</span> <span class="o">+</span> <span class="s1">&#39; &#39;</span> <span class="o">+</span> <span class="nx">sum</span>
+<span class="p">}</span>
+
+<span class="c1">// let sum = 0  -  Now we create a place to hold the sum of the new numbers: sum</span>
+<span class="c1">// sum += (ourArray[i] + 1)  -  and inside our for() loop we continually add to the value of sum</span>
+<span class="c1">// then we return sum as part of our output.</span>
+<span class="c1">// in the return we added a space, &#39; &#39; , between newList and sum so that the return would be easier to read.</span>
+</code></pre></div>
+</td></tr></table>
+<ul class="task-list">
+<li class="task-list-item"><input type="checkbox"/> The final step to this is to feed our function(program) the input and call our newly built function(program):</li>
+</ul>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="kd">const</span> <span class="nx">exampleArray</span> <span class="o">=</span> <span class="p">[</span><span class="mf">2</span><span class="p">,</span> <span class="mf">5</span><span class="p">,</span> <span class="mf">6</span><span class="p">,</span> <span class="mf">7</span><span class="p">,</span> <span class="mf">9</span><span class="p">]</span>
+
+<span class="kd">const</span> <span class="nx">addOneWithSum</span> <span class="o">=</span> <span class="p">(</span><span class="nx">ourArray</span><span class="p">)</span> <span class="p">=&gt;</span> <span class="p">{</span>
+  <span class="kd">let</span> <span class="nx">newList</span> <span class="o">=</span> <span class="p">[]</span>
+  <span class="kd">let</span> <span class="nx">sum</span> <span class="o">=</span> <span class="mf">0</span>
+  <span class="k">for</span> <span class="p">(</span><span class="kd">let</span> <span class="nx">i</span> <span class="o">=</span> <span class="mf">0</span><span class="p">;</span> <span class="nx">i</span> <span class="o">&lt;</span> <span class="nx">ourArray</span><span class="p">.</span><span class="nx">length</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nx">sum</span> <span class="o">+=</span> <span class="p">(</span><span class="nx">ourArray</span><span class="p">[</span><span class="nx">i</span><span class="p">]</span> <span class="o">+</span> <span class="mf">1</span><span class="p">)</span>
+    <span class="nx">newList</span><span class="p">.</span><span class="nx">push</span><span class="p">(</span><span class="nx">ourArray</span><span class="p">[</span><span class="nx">i</span><span class="p">]</span> <span class="o">+</span> <span class="mf">1</span><span class="p">)</span>
+  <span class="p">}</span>
+  <span class="k">return</span> <span class="nx">newList</span> <span class="o">+</span> <span class="s1">&#39; &#39;</span> <span class="o">+</span> <span class="nx">sum</span>
+<span class="p">}</span>
+
+<span class="nx">addOneWithSum</span><span class="p">(</span><span class="nx">exampleArray</span><span class="p">)</span>
+</code></pre></div>
+</td></tr></table>
+<h2 id="practice-it">Practice It</h2>
+<ol>
+<li>Throw this code into a repl.it and practice for yourself!</li>
+<li>Solve this problem: given an array of numbers: [2, 4, 6, 8, 10], divide each number by two, return the new array and the product (multiplied all together) of the new array.</li>
+<li>Continue reading about the <a href="https://www.educba.com/coding-vs-programming/">differences btw coding vs programming</a></li>
+</ol>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        <a href="../setupInstructions/" class="md-footer__link md-footer__link--prev" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Prepare Your Machine
+            </div>
+          </div>
+        </a>
+      
+      
+        <a href="../../module-1/pre-class-lessons/lessonOutlineTemplate/" class="md-footer__link md-footer__link--next" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Intro to Material-Mkdocs
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+        
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "../..", "features": [], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}, "search": "../../assets/javascripts/workers/search.fb4a9340.min.js", "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.c9759047.min.js"></script>
+      
+    
+  </body>
+</html>
