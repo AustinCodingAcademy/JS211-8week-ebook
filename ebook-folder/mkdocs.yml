@@ -23,11 +23,13 @@ nav:
       - The Flipped Classroom: preCourse/succeedInThisCourse.md
       - Prepare Your Machine: preCourse/setupInstructions.md
       - Coding + Programming: preCourse/codingAndProgramming.md
-      - Date & Time Repo: preCourse/firstRepo.md
       - What is JavaScript: preCourse/whatIsJavaScript.md
       - History of JavaScript: preCourse/historyOfJavaScript.md
       - ES5 vs ES6: preCourse/es5&es6.md
-
+      - Variables & Functions: preCourse/variablesAndFunctions.md
+      - Data Types & Functions: preCourse/dataTypesAndFunctions.md
+      - Date & Time Repo: preCourse/firstRepo.md
+    - Class 1 JS Review: module-1/class-1.md
     # - 'Module One: TITLE': 
       # - 'Class * Pre-Lessons': 
       #   - LESSON TITLE: module-2/lesson-*.md
@@ -35,13 +37,9 @@ nav:
     # - 'Module Two: TITLE':
     # - 'Module Three: TITLE':
     # - 'Module Four: TITLE':
-    - 'Templates':
-      - 'Class * Pre-Lessons': 
-        - Intro to Material-Mkdocs: module-1/pre-class-lessons/lessonOutlineTemplate.md
-        - Class 1, Template: module-1/class-plans/classOutlineTemplate.md
     - 'Additional Resources':
-      - Whiteboarding Challenges: additionalResources/whiteboardingChallenges.md
-      - Student Presentations: additionalResources/studentPresentations.md  
+      - Whiteboarding Challenges: additionalResources/interviewChallenges.md
+      - Student Presentations: additionalResources/studentPresentations.md
       - Keyboard Shortcuts:  additionalResources/keyboardShortcuts.md
       - Git Commands: additionalResources/gitCommands.md
       - Graduation Prerequisites: additionalResources/graduationPrerequisites.md
