@@ -19,6 +19,9 @@ site_name: JS211 - Foundations in Programming
 
 nav:
     - Home: 'index.md'
+    - 'Pre-Course Prep':
+      - The Flipped Classroom: preCourse/succeedInThisCourse.md
+      - Prepare Your Machine: preCourse/setupInstructions.md
     # - 'Module One: TITLE': 
       # - 'Class * Pre-Lessons': 
       #   - LESSON TITLE: module-2/lesson-*.md
