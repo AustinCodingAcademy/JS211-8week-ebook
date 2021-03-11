@@ -1,7 +1,9 @@
 # Class #: Title
 
 <!-- ! HIDE FROM STUDENT; INSTRUCTOR ONLY CONTENT -->
-## Instructor Only Content - HIDE FROM STUDENTS
+<!-- ## Instructor Only Content - HIDE FROM STUDENTS -->
+
+<!-- https://studio.zollege.com/course/course-v1:ACA+JS211+JS211_PT_MASTER?show=block-v1%3AACA%2BJS211%2BJS211_PT_MASTER%2Btype%40sequential%2Bblock%4087929252ffd94fa79b986bf3cd76c652 -->
 
 <!-- ! END INSTRUCTOR ONLY CONTENT -->
 
@@ -25,7 +27,7 @@ Today we're going to:
 <!-- This section should be structured with the 5E model: https://lesley.edu/article/empowering-students-the-5e-model-explained -->
 
 1. First Question: Tell me what you learned.
-2. [More questions to prompt discussion can be found here](./../additionalResources/questionsForDiscussion/qfd-class-2.md).
+2. [More questions to prompt discussion can be found here](./../additionalResources/questionsForDiscussion/qfd-class-3.md).
 
 
 ### Interview Challenge, 10-15 minutes
@@ -77,5 +79,3 @@ Prompt:
 <!-- TODO INSERT Student Feedback From -->
 
 <!-- TODO INSERT *HIDDEN* Instructor Feedback Form -->
-
-<!-- cp workspace/resources/classOutlineTemplate.md docs/module-1/class-3.md -->

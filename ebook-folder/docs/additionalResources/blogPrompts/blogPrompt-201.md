@@ -12,4 +12,4 @@
 
   > **Important**
   > - Remember, you will be graded for the completion of your blog but also this will be a place you can return to when preparing for interviews in a few months!
-  > - **When publishing your blogs, make sure you "@AustinCodingAcademy" and tag "Coding" and "Web Development" in your story.**
+  > - **When publishing your blogs, make sure you "@AustinCodingAcademy" and tag "Coding" and "Web Development" in your story.**f

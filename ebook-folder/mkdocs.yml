@@ -48,6 +48,10 @@ nav:
         - Conditionals: module-1/conditionals.md
         - Develop Series - Speaking: module-1/developSeries-SpeakingIsEasy.md
         - Class 2 RPS: module-1/class-2.md
+      - 'Class 3 Pre-Lessons': 
+        - Type String: module-1/typeString.md
+        - Type Array: module-1/typeArray.md
+        - Class 3 Pig Latin: module-1/class-3.md
     # - 'Module 2: TITLE':
     # - 'Module 3: TITLE':
     # - 'Module 4: TITLE':
@@ -58,6 +62,7 @@ nav:
       - 'Questions for Discussion Collections':
         - Day 1 QFD: additionalResources/questionsForDiscussion/qfd-class-1.md
         - Day 2 QFD: additionalResources/questionsForDiscussion/qfd-class-2.md
+        - Day 3 QFD: additionalResources/questionsForDiscussion/qfd-class-3.md
       - 'Blog Prompts':
         - Prompt 201: additionalResources/blogPrompts/blogPrompt-201.md
       - Keyboard Shortcuts:  additionalResources/keyboardShortcuts.md

@@ -29,8 +29,12 @@
     1. *Introduce and interest people in the event loop in Javascript.What the heap and stack about?*
     1. *Bring to the class an example of an async function with await variables. What do they do? Why would we use them and how do we use them?*
 * **Class 12** -
-    1. All Students: *In 2 minutes, pitch your graduation app to the class. What’s the problem? How does this app solve it?*
+    1. *Demo Optional Chaining & Nullish Coalescing*
+    2. *Styling Console Log Statements*
 * **Class 13** -
+    1. *Object Shorthand*
+    2. **
 * **Class 14** -
 * **Class 15** -
 * **Class 16** -
+    1. All Students: *In 2 minutes, pitch your graduation app to the class. What’s the problem? How does this app solve it?*

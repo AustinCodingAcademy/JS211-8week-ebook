@@ -1,0 +1,1631 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      <link rel="shortcut icon" href="../../assets/favicon.png">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-7.0.5">
+    
+    
+      
+        <title>Type Array - JS211 - Foundations in Programming</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.77f3fd56.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.7fa14f5b.min.css">
+        
+          
+          
+          <meta name="theme-color" content="#000000">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>:root{--md-text-font-family:"Roboto";--md-code-font-family:"Roboto Mono"}</style>
+      
+    
+    
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="deep-orange">
+      
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#type-array" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="JS211 - Foundations in Programming" class="md-header__button md-logo" aria-label="JS211 - Foundations in Programming" data-md-component="logo">
+      
+  <img src="../../CE_WhiteBlue_Icon.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            JS211 - Foundations in Programming
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Type Array
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    <div class="md-header__options">
+      
+    </div>
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="JS211 - Foundations in Programming" class="md-nav__button md-logo" aria-label="JS211 - Foundations in Programming" data-md-component="logo">
+      
+  <img src="../../CE_WhiteBlue_Icon.png" alt="logo">
+
+    </a>
+    JS211 - Foundations in Programming
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+      
+      <label class="md-nav__link" for="__nav_2">
+        Pre-Course Prep
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Pre-Course Prep" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Pre-Course Prep
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_1" type="checkbox" id="__nav_2_1" >
+      
+      <label class="md-nav__link" for="__nav_2_1">
+        Part 1: How To Succeed
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Part 1: How To Succeed" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_1">
+          <span class="md-nav__icon md-icon"></span>
+          Part 1: How To Succeed
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../preCourse/succeedInThisCourse/" class="md-nav__link">
+        The Flipped Classroom
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_2" type="checkbox" id="__nav_2_2" >
+      
+      <label class="md-nav__link" for="__nav_2_2">
+        Part 2: Set Up
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Part 2: Set Up" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_2">
+          <span class="md-nav__icon md-icon"></span>
+          Part 2: Set Up
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../preCourse/setupInstructions/" class="md-nav__link">
+        Prepare Your Machine
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3" type="checkbox" id="__nav_2_3" >
+      
+      <label class="md-nav__link" for="__nav_2_3">
+        Part 3: Coding and Programming
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Part 3: Coding and Programming" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_3">
+          <span class="md-nav__icon md-icon"></span>
+          Part 3: Coding and Programming
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../preCourse/codingAndProgramming/" class="md-nav__link">
+        Coding + Programming
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_4" type="checkbox" id="__nav_2_4" >
+      
+      <label class="md-nav__link" for="__nav_2_4">
+        Part 4: Intro to JavaScript
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Part 4: Intro to JavaScript" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_4">
+          <span class="md-nav__icon md-icon"></span>
+          Part 4: Intro to JavaScript
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../preCourse/whatIsJavaScript/" class="md-nav__link">
+        What is JavaScript
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../preCourse/variablesAndFunctions/" class="md-nav__link">
+        Variables & Functions
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../preCourse/dataTypes/" class="md-nav__link">
+        Data Types
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../preCourse/typeNumber/" class="md-nav__link">
+        Type Number
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../preCourse/typeBoolean/" class="md-nav__link">
+        Type Boolean
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../preCourse/comparisonOperators/" class="md-nav__link">
+        Comparison Operator
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../preCourse/typeofOperator/" class="md-nav__link">
+        typeof Operator
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../preCourse/functionSignatures/" class="md-nav__link">
+        Function Signatures
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../preCourse/dataTypesAndFunctions/" class="md-nav__link">
+        Practice Data Types & Functions
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../preCourse/firstRepo/" class="md-nav__link">
+        Date & Time Repo
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_5" type="checkbox" id="__nav_2_5" >
+      
+      <label class="md-nav__link" for="__nav_2_5">
+        Part 5: Nitty Gritty
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Part 5: Nitty Gritty" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_5">
+          <span class="md-nav__icon md-icon"></span>
+          Part 5: Nitty Gritty
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../preCourse/historyOfJavaScript/" class="md-nav__link">
+        History of JavaScript
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../preCourse/es5%26es6/" class="md-nav__link">
+        ES5 vs ES6
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../preCourse/testDriveDevelopmentIntro/" class="md-nav__link">
+        Intro to TDD
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../preCourse/preClassChecklist/" class="md-nav__link">
+        Day 1 Checklist
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../class-1/" class="md-nav__link">
+        Class 1
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" checked>
+      
+      <label class="md-nav__link" for="__nav_4">
+        Module 1: The Fundamentals
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Module 1: The Fundamentals" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Module 1: The Fundamentals
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_1" type="checkbox" id="__nav_4_1" >
+      
+      <label class="md-nav__link" for="__nav_4_1">
+        Class 2 Pre-Lessons
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Class 2 Pre-Lessons" data-md-level="2">
+        <label class="md-nav__title" for="__nav_4_1">
+          <span class="md-nav__icon md-icon"></span>
+          Class 2 Pre-Lessons
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../conditionals/" class="md-nav__link">
+        Conditionals
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../developSeries-SpeakingIsEasy/" class="md-nav__link">
+        Develop Series - Speaking
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../class-2/" class="md-nav__link">
+        Class 2 RPS
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_2" type="checkbox" id="__nav_4_2" checked>
+      
+      <label class="md-nav__link" for="__nav_4_2">
+        Class 3 Pre-Lessons
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Class 3 Pre-Lessons" data-md-level="2">
+        <label class="md-nav__title" for="__nav_4_2">
+          <span class="md-nav__icon md-icon"></span>
+          Class 3 Pre-Lessons
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../typeString/" class="md-nav__link">
+        Type String
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Type Array
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Type Array
+      </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    Overview
+  </a>
+  
+    <nav class="md-nav" aria-label="Overview">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#array-indexes-start-with-0" class="md-nav__link">
+    Array Indexes Start with 0
+  </a>
+  
+    <nav class="md-nav" aria-label="Array Indexes Start with 0">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#practice-nested-arrays" class="md-nav__link">
+    Practice Nested Arrays
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#looping-over-an-array" class="md-nav__link">
+    Looping Over an Array
+  </a>
+  
+    <nav class="md-nav" aria-label="Looping Over an Array">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#the-for-loop" class="md-nav__link">
+    The For Loop
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#try-it-yourself" class="md-nav__link">
+    Try it yourself,
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-methods-of-array-types" class="md-nav__link">
+    The Methods of Array Types
+  </a>
+  
+    <nav class="md-nav" aria-label="The Methods of Array Types">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#the-most-important-methods" class="md-nav__link">
+    The Most Important Methods
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#no-two-arrays-are-equal" class="md-nav__link">
+    No Two Arrays Are Equal
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mutability" class="md-nav__link">
+    Mutability
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#practice-it" class="md-nav__link">
+    Practice It
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#know-your-docs" class="md-nav__link">
+    Know Your Docs
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#additional-resources" class="md-nav__link">
+    Additional Resources
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../class-3/" class="md-nav__link">
+        Class 3 Pig Latin
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
+      
+      <label class="md-nav__link" for="__nav_5">
+        Additional Resources
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Additional Resources" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          Additional Resources
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../additionalResources/interviewChallenges/" class="md-nav__link">
+        Interview Training
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../additionalResources/studentPresentations/" class="md-nav__link">
+        Student Presentations
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../additionalResources/developSeries/" class="md-nav__link">
+        Develop Series Collection
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_4" type="checkbox" id="__nav_5_4" >
+      
+      <label class="md-nav__link" for="__nav_5_4">
+        Questions for Discussion Collections
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Questions for Discussion Collections" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_4">
+          <span class="md-nav__icon md-icon"></span>
+          Questions for Discussion Collections
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../additionalResources/questionsForDiscussion/qfd-class-1/" class="md-nav__link">
+        Day 1 QFD
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../additionalResources/questionsForDiscussion/qfd-class-2/" class="md-nav__link">
+        Day 2 QFD
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../additionalResources/questionsForDiscussion/qfd-class-3/" class="md-nav__link">
+        Day 3 QFD
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_5" type="checkbox" id="__nav_5_5" >
+      
+      <label class="md-nav__link" for="__nav_5_5">
+        Blog Prompts
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Blog Prompts" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_5">
+          <span class="md-nav__icon md-icon"></span>
+          Blog Prompts
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../additionalResources/blogPrompts/blogPrompt-201/" class="md-nav__link">
+        Prompt 201
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../additionalResources/keyboardShortcuts/" class="md-nav__link">
+        Keyboard Shortcuts
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../additionalResources/gitCommands/" class="md-nav__link">
+        Git Commands
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../additionalResources/learnYourCLI/" class="md-nav__link">
+        Learn Your CLI
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../additionalResources/graduationPrerequisites/" class="md-nav__link">
+        Graduation Prerequisites
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../additionalResources/presentationsQualifications/" class="md-nav__link">
+        Presentations Qualifications
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    Overview
+  </a>
+  
+    <nav class="md-nav" aria-label="Overview">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#array-indexes-start-with-0" class="md-nav__link">
+    Array Indexes Start with 0
+  </a>
+  
+    <nav class="md-nav" aria-label="Array Indexes Start with 0">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#practice-nested-arrays" class="md-nav__link">
+    Practice Nested Arrays
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#looping-over-an-array" class="md-nav__link">
+    Looping Over an Array
+  </a>
+  
+    <nav class="md-nav" aria-label="Looping Over an Array">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#the-for-loop" class="md-nav__link">
+    The For Loop
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#try-it-yourself" class="md-nav__link">
+    Try it yourself,
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-methods-of-array-types" class="md-nav__link">
+    The Methods of Array Types
+  </a>
+  
+    <nav class="md-nav" aria-label="The Methods of Array Types">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#the-most-important-methods" class="md-nav__link">
+    The Most Important Methods
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#no-two-arrays-are-equal" class="md-nav__link">
+    No Two Arrays Are Equal
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mutability" class="md-nav__link">
+    Mutability
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#practice-it" class="md-nav__link">
+    Practice It
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#know-your-docs" class="md-nav__link">
+    Know Your Docs
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#additional-resources" class="md-nav__link">
+    Additional Resources
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="type-array">Type Array</h1>
+<p><em>Another flaw in the human character is that everybody wants to build and nobody wants to do maintenance. —Kurt Vonnegut</em></p>
+<h2 id="overview">Overview</h2>
+<iframe src="https://player.vimeo.com/video/385371365" width="900" height="600" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+<p>So far we've been working with primitive data types, like data type: Number, String, and Boolean. These are great for storing small isolated bits of information, but what if we have large amounts of data, many names of users, phone numbers, and emails we want to use to contact our clients? It would be rather hard to maintain all of that if we had to declare a variable for each one, and then we would have to build functions for each one, too!</p>
+<p>To solve this problem of listing items we have <strong>arrays</strong> which are just that, lists or collections of items grouped together in one variable.</p>
+<blockquote>
+<p>All arrays are objects, but not all objects are arrays. This is a confusing phrase but don't worry, it'll make sense later on.</p>
+</blockquote>
+<p>Let's start by learning how to declare an <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array">array</a>. You declare an array just like you would a variable but instead of quotes like a string, use brackets like this: <code>[]</code>. Now you can put the items inside the <code>[]</code> (brackets) and separate the items in an array with a comma (see below).</p>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span>
+<span class="normal">14</span>
+<span class="normal">15</span>
+<span class="normal">16</span>
+<span class="normal">17</span>
+<span class="normal">18</span>
+<span class="normal">19</span>
+<span class="normal">20</span>
+<span class="normal">21</span>
+<span class="normal">22</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code>  <span class="kd">const</span> <span class="nx">exampleArray</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;h&#39;</span><span class="p">,</span><span class="s1">&#39;e&#39;</span><span class="p">,</span><span class="s1">&#39;l&#39;</span><span class="p">,</span><span class="s1">&#39;l&#39;</span><span class="p">,</span><span class="s1">&#39;o&#39;</span><span class="p">]</span>
+  <span class="kd">const</span> <span class="nx">ourCarTypes</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;Saab&quot;</span><span class="p">,</span> <span class="s2">&quot;Volvo&quot;</span><span class="p">,</span> <span class="s2">&quot;BMW&quot;</span><span class="p">]</span>
+  <span class="kd">const</span> <span class="nx">itemArray</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;item1&#39;</span><span class="p">,</span> <span class="s1">&#39;item2&#39;</span><span class="p">]</span>
+  <span class="kd">const</span> <span class="nx">arrayOfNumbers</span> <span class="o">=</span> <span class="p">[</span><span class="mf">1</span><span class="p">,</span> <span class="mf">200</span><span class="p">,</span> <span class="mf">98</span><span class="p">,</span> <span class="mf">75</span><span class="p">,</span> <span class="mf">4</span><span class="p">,</span> <span class="mf">4000</span><span class="p">]</span>
+  <span class="nx">An</span> <span class="nx">array</span> <span class="nx">is</span> <span class="nx">a</span> <span class="nx">collection</span> <span class="nx">or</span> <span class="nx">list</span> <span class="k">of</span> <span class="nx">items</span><span class="p">.</span> <span class="nx">This</span> <span class="nx">collection</span> <span class="k">of</span> <span class="nx">items</span> <span class="nx">could</span> <span class="nx">be</span> <span class="nx">a</span> <span class="nx">collection</span> <span class="k">of</span> <span class="nx">anything</span><span class="p">,</span> <span class="nx">like</span> <span class="nx">a</span> <span class="nx">collections</span> <span class="k">of</span> <span class="nx">numbers</span><span class="o">:</span>
+
+  <span class="kd">const</span> <span class="nx">anArrayOfNumbers</span> <span class="o">=</span> <span class="p">[</span><span class="mf">3</span><span class="p">,</span> <span class="mf">6</span><span class="p">,</span> <span class="mf">7</span><span class="p">,</span> <span class="mf">9</span><span class="p">,</span> <span class="mf">10</span><span class="p">]</span>
+  <span class="nx">Or</span> <span class="nx">a</span> <span class="nx">collection</span><span class="o">/</span><span class="nx">list</span> <span class="k">of</span> <span class="nx">strings</span><span class="o">:</span>
+
+  <span class="kd">const</span> <span class="nx">anArrayOfStrings</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;cat&quot;</span><span class="p">,</span> <span class="s2">&quot;mail&quot;</span><span class="p">,</span> <span class="s2">&quot;stars&quot;</span><span class="p">,</span> <span class="s2">&quot;hero&quot;</span><span class="p">]</span>
+  <span class="nx">Or</span> <span class="nx">a</span> <span class="nx">collection</span><span class="o">/</span><span class="nx">list</span> <span class="k">of</span> <span class="nx">Booleans</span><span class="o">:</span>
+
+  <span class="kd">const</span> <span class="nx">anArrayOfBooleans</span> <span class="o">=</span> <span class="p">[</span><span class="kc">true</span><span class="p">,</span> <span class="kc">false</span><span class="p">,</span> <span class="kc">true</span><span class="p">,</span> <span class="kc">true</span><span class="p">,</span> <span class="kc">false</span><span class="p">,</span> <span class="kc">true</span><span class="p">]</span>
+  <span class="nx">Or</span> <span class="nx">a</span> <span class="nx">collection</span><span class="o">/</span><span class="nx">list</span> <span class="k">of</span> <span class="nx">multiple</span> <span class="nx">data</span> <span class="nx">types</span><span class="o">:</span>
+
+  <span class="kd">const</span> <span class="nx">anArrayOfMixedTypes</span><span class="o">=</span> <span class="p">[</span><span class="kc">true</span><span class="p">,</span> <span class="mf">12</span><span class="p">,</span> <span class="s2">&quot;people&quot;</span><span class="p">,</span> <span class="kc">false</span><span class="p">,</span> <span class="mf">6</span><span class="p">,</span> <span class="mf">29</span><span class="p">,</span> <span class="s2">&quot;happy&quot;</span><span class="p">]</span>
+  <span class="nx">It</span> <span class="nx">could</span> <span class="nx">even</span> <span class="nx">be</span> <span class="nx">a</span> <span class="nx">collection</span> <span class="k">of</span> <span class="nx">functions</span> <span class="nx">or</span> <span class="nx">more</span> <span class="nx">arrays</span> <span class="nx">within</span> <span class="nx">the</span> <span class="nx">array</span><span class="o">:</span>
+
+  <span class="kd">const</span> <span class="nx">addTwo</span> <span class="o">=</span> <span class="p">(</span><span class="nx">num1</span><span class="p">,</span> <span class="nx">num2</span><span class="p">)</span> <span class="p">=&gt;</span> <span class="nx">num1</span> <span class="o">+</span> <span class="nx">num2</span>
+  <span class="kd">const</span> <span class="nx">anArray</span> <span class="o">=</span> <span class="p">[</span><span class="mf">2</span><span class="p">,</span> <span class="mf">5</span><span class="p">,</span> <span class="mf">7</span><span class="p">,</span> <span class="mf">68</span><span class="p">,</span> <span class="mf">12</span><span class="p">]</span>
+
+  <span class="kd">const</span> <span class="nx">anArrayOfMoreObjects</span> <span class="o">=</span> <span class="p">[</span><span class="nx">addTwo</span><span class="p">,</span> <span class="nx">anArray</span><span class="p">]</span>
+</code></pre></div>
+</td></tr></table>
+<p>Really, we can store <strong>any</strong> JavaScript thing in an array. There are a few useful reasons we would store items in an array, including:</p>
+<ul>
+<li>Anything can be stored in an array.</li>
+<li>Each item in an array has an <strong>index</strong>, meaning we can access the items in the array by the order in which they are listed!</li>
+<li>You can <strong>loop</strong> over arrays. That is to say, we can write code that will grab each item in an array and do whatever we tell it to do with each item!</li>
+<li>Arrays have many, many useful <strong>methods</strong> already built in to them!!!</li>
+</ul>
+<p>For all of these reasons, type Array is probably one of the most useable data types in JavaScript!!!</p>
+<h3 id="array-indexes-start-with-0">Array Indexes Start with 0</h3>
+<p>Items in an array each have a unique <strong>index</strong> that represents the order in which they appear. You access items in an array by their index, so order is important. It's also important to remember, just like strings, <strong>arrays are 0 indexed. 0 indexed</strong> means the first item in an array has an index of 0, the second item has an index of 1, the third item has an index of 2 and so forth. Basically, counting begins at 0, not 1.</p>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code>  <span class="c1">// an array of letters</span>
+  <span class="kd">const</span> <span class="nx">exampleArray</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;h&#39;</span><span class="p">,</span><span class="s1">&#39;e&#39;</span><span class="p">,</span><span class="s1">&#39;l&#39;</span><span class="p">,</span><span class="s1">&#39;l&#39;</span><span class="p">,</span><span class="s1">&#39;o&#39;</span><span class="p">]</span>
+  <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">exampleArray</span><span class="p">[</span><span class="mf">1</span><span class="p">])</span>
+</code></pre></div>
+</td></tr></table>
+<p>Using the example code above: <code>console.log(exampleArray[1])</code> would log to the console e because arrays are <strong>0 indexed</strong>. To access <code>'h'</code> you would need to use <code>exampleArray[0]</code>.</p>
+<p>You can re-assign items in the array in a similar manner: <code>exampleArray[1] = ‘y’</code> would rewrite the data in the array to look like this: <code>[‘h’,’y’,’l’,’l’,’o’]</code>.</p>
+<p>Again, the items stored in an array can be of any primitive or higher-order data type you've learned about so far: Number, null, String, Array, Object, Function, Boolean, Node, etc.</p>
+<blockquote>
+<p>Side-note: When we put arrays inside arrays we call this <strong>nesting</strong> which creates a fancy thing called a <strong>multi-dimensional array</strong>. See below:</p>
+</blockquote>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span>
+<span class="normal">4</span>
+<span class="normal">5</span>
+<span class="normal">6</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code>  <span class="kd">const</span> <span class="nx">multiArrays</span> <span class="o">=</span> <span class="p">[[</span><span class="mf">1</span><span class="p">,</span> <span class="mf">2</span><span class="p">,</span> <span class="mf">3</span><span class="p">,</span> <span class="mf">6</span><span class="p">,</span> <span class="mf">9</span><span class="p">,</span> <span class="mf">5</span><span class="p">],</span> <span class="p">[</span><span class="mf">90</span><span class="p">,</span> <span class="mf">5</span><span class="p">,</span> <span class="mf">8</span><span class="p">,</span> <span class="mf">65</span><span class="p">,</span> <span class="mf">3</span><span class="p">],</span> <span class="p">[</span><span class="s2">&quot;dog&quot;</span><span class="p">,</span> <span class="s2">&quot;tooth&quot;</span><span class="p">,</span> <span class="s2">&quot;friend&quot;</span><span class="p">]]</span>
+
+  <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">multiArrays</span><span class="p">[</span><span class="mf">1</span><span class="p">])</span> <span class="c1">// =&gt; [90, 5, 8, 65, 3]</span>
+  <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">multiArrays</span><span class="p">[</span><span class="mf">0</span><span class="p">])</span> <span class="c1">// =&gt; [1, 2, 3, 6, 9, 5]</span>
+  <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">multiArrays</span><span class="p">[</span><span class="mf">0</span><span class="p">][</span><span class="mf">3</span><span class="p">])</span> <span class="c1">// =&gt; 6</span>
+  <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">multiArrays</span><span class="p">[</span><span class="mf">2</span><span class="p">][</span><span class="mf">2</span><span class="p">])</span> <span class="c1">// =&gt; &quot;friend&quot;</span>
+</code></pre></div>
+</td></tr></table>
+<p>Notice that multiArrays has three arrays inside of it. When we <code>console.log</code> indexes <code>0</code>, <code>1</code>, or <code>2</code> we get the whole array at that index, but we can go even deeper by tacking two square-brackets on top of each other: <code>[][]</code> and putting numbers in them: <code>[1][4]</code>. This tells the computer to find the array we're seeking, of index <code>[1]</code>, then go inside that array and get the item we're seeking with an index of <code>[4]</code>, from that array.</p>
+<p>This can go deeper: <code>anArray[2][2][0]</code>, and deeper: <code>anArray[2][2][0][7]</code>, and deeper: <code>anArray[2][2][0][7][2]</code> depending on how many arrays are nested within the original array.</p>
+<h5 id="practice-nested-arrays">Practice Nested Arrays</h5>
+<ul class="task-list">
+<li class="task-list-item"><input type="checkbox"/> Copy/Paste the following code into a Repl.it</li>
+</ul>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span>
+<span class="normal">4</span>
+<span class="normal">5</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code>  <span class="kd">const</span> <span class="nx">numArr</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="p">[</span><span class="mf">4</span><span class="p">,</span> <span class="mf">7</span><span class="p">,</span> <span class="mf">9</span><span class="p">],</span>
+    <span class="p">[</span><span class="mf">10</span><span class="p">,</span> <span class="mf">45</span><span class="p">,</span> <span class="mf">300</span><span class="p">],</span>
+    <span class="p">[</span><span class="mf">88</span><span class="p">,</span> <span class="mf">64</span><span class="p">,</span> <span class="mf">37</span><span class="p">,</span> <span class="mf">93</span><span class="p">]</span>
+  <span class="p">];</span>
+</code></pre></div>
+</td></tr></table>
+<ul class="task-list">
+<li class="task-list-item"><input type="checkbox"/> Write a <code>console.log</code> statement that prints out the number <strong>300</strong> from the given array.</li>
+<li class="task-list-item"><input type="checkbox"/> Write a <code>console.log</code> statement that prints out the number <strong>64</strong> from the given array.</li>
+<li class="task-list-item"><input type="checkbox"/> Write a <code>console.log</code> statement that prints out the number <strong>4</strong> from the given array.</li>
+</ul>
+<h2 id="looping-over-an-array">Looping Over an Array</h2>
+<iframe src="https://player.vimeo.com/video/385377379" width="900" height="600" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+<h3 id="the-for-loop">The For Loop</h3>
+<p>A <strong>for loop</strong> repeats an action over and over until a specified condition evaluates to false. What that means is that we tell the for loop what conditions to meet and what actions to do until those conditions are met.</p>
+<p>First things first:</p>
+<ul>
+<li>A <code>for</code> loop is a function that takes in arguments like any other function. Those arguments look like this:</li>
+<li>declare a variable that will hold an iterator: <em>Initial Expression</em></li>
+<li>loop until the iterator meets a specific value: <em>Condition</em></li>
+<li>how much the iterator should increase or decrease: <em>Increment Expression</em></li>
+</ul>
+<p>Look at the syntax below:</p>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code>  <span class="k">for</span> <span class="p">([</span><span class="nx">initialExpression</span><span class="p">];</span> <span class="p">[</span><span class="nx">condition</span><span class="p">];</span> <span class="p">[</span><span class="nx">incrementExpression</span><span class="p">])</span> <span class="p">{</span>
+    <span class="nx">action</span> <span class="nx">statement</span>
+  <span class="p">}</span>
+
+  <span class="c1">// or, the same thing with real numbers and variables</span>
+
+  <span class="kd">const</span> <span class="nx">myArr</span> <span class="o">=</span> <span class="p">[</span><span class="mf">2</span><span class="p">,</span> <span class="mf">33</span><span class="p">,</span> <span class="mf">4</span><span class="p">,</span> <span class="mf">54</span><span class="p">,</span> <span class="mf">13</span><span class="p">,</span> <span class="mf">8</span><span class="p">,</span> <span class="mf">79</span><span class="p">]</span>
+  <span class="kd">let</span> <span class="nx">sum</span> <span class="o">=</span> <span class="mf">0</span>
+
+  <span class="k">for</span> <span class="p">(</span><span class="kd">let</span> <span class="nx">i</span> <span class="o">=</span> <span class="mf">0</span><span class="p">;</span> <span class="nx">i</span> <span class="o">&lt;=</span> <span class="nx">myArr</span><span class="p">.</span><span class="nx">length</span> <span class="o">-</span> <span class="mf">1</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nx">sum</span> <span class="o">+=</span> <span class="nx">myArr</span><span class="p">[</span><span class="nx">i</span><span class="p">]</span>
+  <span class="p">}</span>
+</code></pre></div>
+</td></tr></table>
+<p>In the code snippet above, the for loop states:</p>
+<ul>
+<li>Set an iterator variable, <code>i</code>, at 0.</li>
+<li>While the iterator, <code>i</code>, is less than or equal to the length of <code>myArr</code> minus 1, continue doing the action statement <em>(We need to subtract 1 because the last index will be one less than the total length. Remember 0 indexed?)</em>.</li>
+<li>After each loop, add 1 to the value of <code>i</code>.</li>
+<li>Inside the <em>Action Statement</em>, we add to the variable <code>sum</code> the value of sum + the value at the current index of the loop, which is held in the iterator, <code>i</code>.</li>
+</ul>
+<h3 id="try-it-yourself">Try it yourself,</h3>
+<p>Copy/paste the following code into a Repl.it and run it!</p>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code>  <span class="kd">const</span> <span class="nx">myArr</span> <span class="o">=</span> <span class="p">[</span><span class="mf">2</span><span class="p">,</span> <span class="mf">33</span><span class="p">,</span> <span class="mf">4</span><span class="p">,</span> <span class="mf">54</span><span class="p">,</span> <span class="mf">13</span><span class="p">,</span> <span class="mf">8</span><span class="p">,</span> <span class="mf">79</span><span class="p">]</span>
+
+  <span class="kd">const</span> <span class="nx">myFunFunction</span> <span class="o">=</span> <span class="p">(</span><span class="nx">arr</span><span class="p">)</span> <span class="p">=&gt;</span> <span class="p">{</span>
+    <span class="kd">let</span> <span class="nx">sum</span> <span class="o">=</span> <span class="mf">0</span>
+
+    <span class="k">for</span> <span class="p">(</span><span class="kd">let</span> <span class="nx">i</span> <span class="o">=</span> <span class="mf">0</span><span class="p">;</span> <span class="nx">i</span> <span class="o">&lt;=</span> <span class="nx">arr</span><span class="p">.</span><span class="nx">length</span> <span class="o">-</span> <span class="mf">1</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+      <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&quot;The value of &#39;i&#39; is: &quot;</span> <span class="o">+</span> <span class="nx">i</span> <span class="o">+</span> <span class="s2">&quot; and the value at that index is: &quot;</span> <span class="o">+</span> <span class="nx">arr</span><span class="p">[</span><span class="nx">i</span><span class="p">])</span>
+      <span class="nx">sum</span> <span class="o">+=</span> <span class="nx">arr</span><span class="p">[</span><span class="nx">i</span><span class="p">]</span>
+    <span class="p">}</span>
+    <span class="k">return</span> <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&quot;The final sum is: &quot;</span> <span class="o">+</span> <span class="nx">sum</span><span class="p">)</span>
+  <span class="p">}</span>  
+
+  <span class="nx">myFunFunction</span><span class="p">(</span><span class="nx">myArr</span><span class="p">)</span>
+</code></pre></div>
+</td></tr></table>
+<ul class="task-list">
+<li class="task-list-item"><input type="checkbox"/> Create a for loop to print out numbers from 1 - 10.</li>
+<li class="task-list-item"><input type="checkbox"/> Create a for loop to print out every multiple of 3 up to 100.</li>
+</ul>
+<h2 id="the-methods-of-array-types">The Methods of Array Types</h2>
+<iframe src="https://player.vimeo.com/video/385392247" width="900" height="600" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+<p>By now, we've talked about <strong>methods</strong> as baked-in functions that JavaScript things come with so we can manipulate those things easily.</p>
+<p>You don't have to do anything special to get them to work—all you have to do is learn about them and then call them by name when you want to use them. As you learn more about the language you'll come to learn and appreciate all of the wonderful methods JavaScript has to offer, specifically for arrays, since they come with some of the most powerful methods in the JavaScript environment!</p>
+<p>As an example, <code>.length</code> is a simple and yet very powerful method used all the time! You saw this method used above. When you call <code>.length</code> on an array, it will return the number of items in the array.</p>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code>  <span class="kd">const</span> <span class="nx">multiArrays</span> <span class="o">=</span> <span class="p">[[</span><span class="mf">1</span><span class="p">,</span> <span class="mf">2</span><span class="p">,</span> <span class="mf">3</span><span class="p">,</span> <span class="mf">6</span><span class="p">,</span> <span class="mf">9</span><span class="p">,</span> <span class="mf">5</span><span class="p">],</span> <span class="p">[</span><span class="mf">90</span><span class="p">,</span> <span class="mf">5</span><span class="p">,</span> <span class="mf">8</span><span class="p">,</span> <span class="mf">65</span><span class="p">,</span> <span class="mf">3</span><span class="p">],</span> <span class="p">[</span><span class="s2">&quot;dog&quot;</span><span class="p">,</span> <span class="s2">&quot;tooth&quot;</span><span class="p">,</span> <span class="s2">&quot;friend&quot;</span><span class="p">]]</span>
+</code></pre></div>
+</td></tr></table>
+<p>Example: If we <code>console.log(multiArrays.length)</code> from the example above we would get <code>3</code> because that array has three items in it. If we <code>console.log(multiArrays[0].length)</code> we would get <code>6</code>.</p>
+<blockquote>
+<p>Note: The <strong>index</strong> of the last item in an array is always equal to the <code>.length</code> of the array minus one (<code>console.log(multiArrays[1].length - 1) // =&gt; 4</code>).</p>
+</blockquote>
+<p>You can use this method to get the value of the last item too! c<code>onsole.log(multiArrays[1][multiArrays[1].length - 1]) =&gt; 3</code></p>
+<p>Start looking at these <a href="https://www.w3schools.com/Jsref/jsref_obj_array.asp">array methods</a> and see if you can play with some dummy variables with them. Simply copy/paste some of the code snippets above into a <a href="https://repl.it/">Repl.it</a>, add more data to them and try some of these methods inside a console.log statement. See what you come up with.</p>
+<h3 id="the-most-important-methods">The Most Important Methods</h3>
+<p>For Pig Latin you will need the first 8 array methods listed below. Open a new Repl.it, create some dummy arrays and begin playing with these methods just the same way you've played with strings, numbers, and Booleans.</p>
+<ul class="task-list">
+<li class="task-list-item"><input type="checkbox"/> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice?v=example">.slice()</a></li>
+<li class="task-list-item"><input type="checkbox"/> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice?v=example">.splice()</a></li>
+<li class="task-list-item"><input type="checkbox"/> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/toString">.toString()</a></li>
+<li class="task-list-item"><input type="checkbox"/> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/concat?v=example">.concat()</a></li>
+<li class="task-list-item"><input type="checkbox"/> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/includes">.includes()</a></li>
+<li class="task-list-item"><input type="checkbox"/> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/pop?v=example">.pop()</a></li>
+<li class="task-list-item"><input type="checkbox"/> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push?v=example">.push()</a></li>
+<li class="task-list-item"><input type="checkbox"/> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join?v=example">.join()</a></li>
+<li class="task-list-item"><input type="checkbox"/> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/length">.length</a></li>
+<li class="task-list-item"><input type="checkbox"/> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf">.indexOf()</a></li>
+<li class="task-list-item"><input type="checkbox"/> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/shift?v=example">.shift()</a></li>
+<li class="task-list-item"><input type="checkbox"/> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/unshift?v=example">.unshift()</a></li>
+<li class="task-list-item"><input type="checkbox"/> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every">.every()</a></li>
+<li class="task-list-item"><input type="checkbox"/> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/flat">.flat()</a></li>
+<li class="task-list-item"><input type="checkbox"/> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find">.find()</a></li>
+<li class="task-list-item"><input type="checkbox"/> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse?v=example">.reverse()</a></li>
+<li class="task-list-item"><input type="checkbox"/> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach">.forEach()</a></li>
+</ul>
+<p>Hint: For Pig Latin you'll also need the string method: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/splitStudy">.split()</a> each method now and make flashcards to memorize them and make your programming faster!</p>
+<h3 id="no-two-arrays-are-equal">No Two Arrays Are Equal</h3>
+<p><strong>BIG NOTE:</strong> One important thing to remember about arrays: no two arrays are the same array. So, even if you declared two arrays and gave them the same values, they will not be equal. See below:</p>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span>
+<span class="normal">4</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code>  <span class="kd">const</span> <span class="nx">arr1</span> <span class="o">=</span> <span class="p">[</span><span class="mf">1</span><span class="p">,</span><span class="mf">2</span><span class="p">,</span><span class="mf">3</span><span class="p">]</span>
+  <span class="kd">const</span> <span class="nx">arr2</span> <span class="o">=</span> <span class="p">[</span><span class="mf">1</span><span class="p">,</span><span class="mf">2</span><span class="p">,</span><span class="mf">3</span><span class="p">]</span>
+
+  <span class="nx">arr1</span> <span class="o">===</span> <span class="nx">arr2</span> <span class="c1">// =&gt;  false</span>
+</code></pre></div>
+</td></tr></table>
+<blockquote>
+<p>Questions: How would you find out if two arrays contain the same values? Think about it and see if you can come up with an answer before class.</p>
+</blockquote>
+<h3 id="mutability">Mutability</h3>
+<iframe src="https://player.vimeo.com/video/385348888" width="900" height="600" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+<p>Before moving forward we should learn about a word called <strong>mutability</strong>. Derived from the word "mutate", to change; as in <a href="https://www.youtube.com/watch?v=bojx9BDpJks">Teenage Mutant Ninja Turtles</a>.</p>
+<p>In programming terms, this simply means that the original data we are working with can be changed or is permanently changed. Permanently changing the original data/data structure is something that should generally be avoided. This is where the word <strong>immutable</strong> comes into play.</p>
+<p>We bring up immutability here because some of the array methods you just learned about permanently change the data in the array while others return a new array without mutating the original data. While you're discovering the methods, make sure to ask <strong>these four questions</strong> of each method:</p>
+<ol>
+<li>What does the method do?</li>
+<li>What does the method return?</li>
+<li>What arguments does the method take?</li>
+<li>Does the method change the original data?</li>
+</ol>
+<p>You'll learn when to change data and when not to as you go <a href="https://www.codingame.com/playgrounds/6181/javascript-arrays---tips-tricks-and-examples">deeper</a>, but for now just become aware of what each methods does, what it returns, and if it's changing the original array.</p>
+<p>An example of a method that mutates the original array is .<code>push()</code> : <code>exampleArray.push(‘x’)</code>. This method would add the string <code>'x'</code> to the end of <code>exampleArray</code> and thereby permanently change the array. The push method also returns the new length of the string. So if exampleArray had 5 elements, and you declared <code>const newLength = exampleArray.push('x')</code>, <code>newLength</code> would be equal to 6, and the string <code>'x'</code> would be added to the end of <code>exampleArray</code>.</p>
+<p>Adding new items to an array can also be accomplished without mutation by using the concat method, which merges two arrays, or merges values into an array: <code>const exArr2 = exampleArray.concat('x')</code>. In this case, <code>exampleArray</code> would not be changed, and <code>exArr2</code> would be the same as <code>exArr</code>, but with the string <code>'x'</code> added to the end of the array. This is an example of a non-mutating array method.</p>
+<p>To learn more about mutating and non-mutating array methods you can check out this <a href="https://lorenstewart.me/2017/01/22/javascript-array-methods-mutating-vs-non-mutating/">blog post</a>, but keep in mind that unlike in this article, in most cases you will want to declare all of your arrays with <code>const</code>, not <code>let</code>, whether or not you intend to mutate them.</p>
+<h2 id="practice-it">Practice It</h2>
+<p>Before coming into class...</p>
+<ul class="task-list">
+<li class="task-list-item"><input type="checkbox"/> Go to the CodePen below, click the top-right corner.</li>
+<li class="task-list-item"><input type="checkbox"/> Fork it to your account.</li>
+<li class="task-list-item"><input type="checkbox"/> If not already collapsed, drag the HTML and CSS windows to the left so you're only looking at the JS file.</li>
+</ul>
+<iframe height="600" style="width: 100%;" scrolling="no" title="Arrays Practice" src="https://codepen.io/kdybvig/embed/REqBXX?height=265&theme-id=dark&default-tab=js,result" frameborder="no" allowtransparency="true" allowfullscreen="true" loading="lazy">
+  See the Pen <a href='https://codepen.io/kdybvig/pen/REqBXX'>Arrays Practice</a> by Keith
+  (<a href='https://codepen.io/kdybvig'>@kdybvig</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+
+<h2 id="know-your-docs">Know Your Docs</h2>
+<ul>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array">MDN Docs - Type Array</a></li>
+</ul>
+<h2 id="additional-resources">Additional Resources</h2>
+<ul>
+<li><a href="https://youtu.be/EUnV-fCY0Pc">Video - Arrays for Beginners</a></li>
+<li><a href="https://youtu.be/EUnV-fCY0Pc">Video - For Loops for Beginners</a></li>
+<li><a href="https://youtu.be/Rx_JFOSxgpY">Video - 15 Array Tricks</a></li>
+<li><a href="https://youtu.be/DAN-PElQ_xw">Video - Diff Two Arrays</a></li>
+</ul>
+<!-- 
+
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code>
+</code></pre></div>
+</td></tr></table>
+
+* [MDN Docs - ...]()
+
+- [ ] ...
+- [ ] ...
+
+
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code>
+</code></pre></div>
+</td></tr></table>
+
+- [ ] ...
+- [ ] ...
+  * [ ] ...
+  * [ ] ...
+
+cp workspace/resources/templateFile.md docs/preCourse/
+
+-->
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        <a href="../typeString/" class="md-footer__link md-footer__link--prev" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Type String
+            </div>
+          </div>
+        </a>
+      
+      
+        <a href="../class-3/" class="md-footer__link md-footer__link--next" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Class 3 Pig Latin
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+        
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "../..", "features": [], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}, "search": "../../assets/javascripts/workers/search.fb4a9340.min.js", "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.c9759047.min.js"></script>
+      
+    
+  </body>
+</html>
