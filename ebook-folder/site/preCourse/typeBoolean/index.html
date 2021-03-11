@@ -14,7 +14,7 @@
     
     
       
-        <title>ES5 vs ES6 - JS211 - Foundations in Programming</title>
+        <title>Type Boolean - JS211 - Foundations in Programming</title>
       
     
     
@@ -62,7 +62,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#es5-vs-es6" class="md-skip">
+        <a href="#type-boolean" class="md-skip">
           Skip to content
         </a>
       
@@ -91,7 +91,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              ES5 vs ES6
+              Type Boolean
             
           </span>
         </div>
@@ -324,12 +324,14 @@
             
   
   
+    
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_4" type="checkbox" id="__nav_2_4" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_4" type="checkbox" id="__nav_2_4" checked>
       
       <label class="md-nav__link" for="__nav_2_4">
         Part 4: Intro to JavaScript
@@ -381,11 +383,116 @@
             
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../typeBoolean/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Type Boolean
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         Type Boolean
       </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#whats-false-and-whats-true" class="md-nav__link">
+    What's False and What's True?
+  </a>
+  
+    <nav class="md-nav" aria-label="What's False and What's True?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#the-power-of-booleans-in-javascript" class="md-nav__link">
+    The Power of Booleans in JavaScript
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-comparison-operators" class="md-nav__link">
+    The Comparison Operators
+  </a>
+  
+    <nav class="md-nav" aria-label="The Comparison Operators">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#the-double-equals-vs-the-triple-equals" class="md-nav__link">
+    The Double-Equals "==" vs the Triple-Equals "==="
+  </a>
+  
+    <nav class="md-nav" aria-label="The Double-Equals "==" vs the Triple-Equals "==="">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#value-only-comparison" class="md-nav__link">
+    Value Only Comparison, "=="
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#strictly-equals" class="md-nav__link">
+    Strictly Equals: "==="
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#practice-it" class="md-nav__link">
+    Practice It
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#know-your-docs" class="md-nav__link">
+    Know Your Docs
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -459,14 +566,12 @@
             
   
   
-    
-  
   
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_5" type="checkbox" id="__nav_2_5" checked>
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_5" type="checkbox" id="__nav_2_5" >
       
       <label class="md-nav__link" for="__nav_2_5">
         Part 5: Nitty Gritty
@@ -506,83 +611,11 @@
             
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          ES5 vs ES6
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../es5%26es6/" class="md-nav__link">
         ES5 vs ES6
       </a>
-      
-        
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#es5-vs-es6-how" class="md-nav__link">
-    ES5 vs ES6: How
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#es6-why" class="md-nav__link">
-    ES6 Why?
-  </a>
-  
-    <nav class="md-nav" aria-label="ES6 Why?">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#let-const-var" class="md-nav__link">
-    Let, Const, Var
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#fat-arrow-syntax" class="md-nav__link">
-    Fat Arrow Syntax () =&gt; {}
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#additional-resources" class="md-nav__link">
-    Additional Resources
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -816,30 +849,16 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#es5-vs-es6-how" class="md-nav__link">
-    ES5 vs ES6: How
+  <a href="#whats-false-and-whats-true" class="md-nav__link">
+    What's False and What's True?
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#es6-why" class="md-nav__link">
-    ES6 Why?
-  </a>
-  
-    <nav class="md-nav" aria-label="ES6 Why?">
+    <nav class="md-nav" aria-label="What's False and What's True?">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#let-const-var" class="md-nav__link">
-    Let, Const, Var
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#fat-arrow-syntax" class="md-nav__link">
-    Fat Arrow Syntax () =&gt; {}
+  <a href="#the-power-of-booleans-in-javascript" class="md-nav__link">
+    The Power of Booleans in JavaScript
   </a>
   
 </li>
@@ -850,8 +869,55 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#additional-resources" class="md-nav__link">
-    Additional Resources
+  <a href="#the-comparison-operators" class="md-nav__link">
+    The Comparison Operators
+  </a>
+  
+    <nav class="md-nav" aria-label="The Comparison Operators">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#the-double-equals-vs-the-triple-equals" class="md-nav__link">
+    The Double-Equals "==" vs the Triple-Equals "==="
+  </a>
+  
+    <nav class="md-nav" aria-label="The Double-Equals "==" vs the Triple-Equals "==="">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#value-only-comparison" class="md-nav__link">
+    Value Only Comparison, "=="
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#strictly-equals" class="md-nav__link">
+    Strictly Equals: "==="
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#practice-it" class="md-nav__link">
+    Practice It
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#know-your-docs" class="md-nav__link">
+    Know Your Docs
   </a>
   
 </li>
@@ -869,34 +935,110 @@
               
                 
                 
-                <h1 id="es5-vs-es6">ES5 vs ES6</h1>
-<p>Coding languages are standardized and maintained by groups or councils of people that work with and listen to the developers that use the language. Therefore languages are updated and improved periodically. JavaScript is no different. In fact, it may be one of the most rapidly improved and frequently changed languages.</p>
-<p>The body of people that maintain JavaScript is called the <a href="https://en.wikipedia.org/wiki/ECMAScript">ECMA-262</a> which is overseen by the the <a href="https://en.wikipedia.org/wiki/Ecma_International">ECMA International</a>. The ECMA-262 made its first edition in 1997 and its latest edition came out in June 2018: ES2018 (ES9).</p>
-<p>The reason we're talking about ES6 and not ES9 here is that ES6 was the biggest renovation of the language and is now the standard of the language used across multiple platforms. While there are newer features in the newer editions it is important to remember that the engines that run JavaScript, like <a href="https://en.wikipedia.org/wiki/V8_(JavaScript_engine)">Chrome V8 JS Engine</a>, have to all be updated for these newer features, so each platform can talk back and forth to one another. This process takes time so the official edition of the language in use is always a few years behind where the latest edition actually is.</p>
-<p>Note on transpiling(sic) from <a href="https://en.wikipedia.org/wiki/ECMAScript">Wikipedia</a>:</p>
-<blockquote>
-<p>Since ES 2015, transpiling JavaScript has become very common. Transpilation is a source to source compilation in which the newer versions of JavaScript are used in the user's source code and the transpiler rewrites them so that they are compliant with the current specification. Usually, transpilers transpile down to ES3 to maintain compatibility with all versions of browsers. The settings to transpiling to a specific version can be configured according to need. Transpiling adds an extra step to the build process and is sometimes done to avoid needing polyfills. Polyfills allow adding extra functionalities by including another JavaScript file which adds those specific functionalities.</p>
-</blockquote>
-<p>That said you should keep abreast of the recent changes in the languages you write so that you can utilize the fun new features!! So, as you learn in the course, watch videos and read blogs by other developers. They'll give you free information to use as you want.</p>
-<blockquote>
-<p>NOTE: The image below describes another reason we use Chrome as our default browser. Notice the conformance percentage for later versions of JS (ECMA).</p>
-</blockquote>
-<p><img alt="JS-version-compatibility-table" src="../../images/JS-version-compatibility-table.png" /></p>
-<h2 id="es5-vs-es6-how">ES5 vs ES6: How</h2>
-<iframe src="https://player.vimeo.com/video/377103400" width="900" height="600" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+                <h1 id="type-boolean">Type Boolean</h1>
+<!-- *STARLING QUOTE -Author* -->
 
-<p>The code snippets below both declare a function called <code>imAFunction</code> and take in a argument called <code>content</code></p>
-<p>ES2011 (ES5):</p>
+<p>The next easiest <strong>data type</strong> for us to begin learning with is, undoubtedly, Boolean. A <strong>Boolean</strong> is darn simple, it can only be one of two things: true or false! Let's say that again, a <strong>Boolean</strong> data type can only be true or false. That's it.</p>
+<p>It may sound simple, but really, Booleans are the most useful of the data types because they determine on/off, yes/no, do/do not so all other data types can be used. Take a look...</p>
+<h2 id="whats-false-and-whats-true">What's False and What's True?</h2>
+<p>All values in JavaScript can be summed up as having a true or false value. That is to say, all values can be evaluated as either having a true value or a false value. We often use the terms <strong>"truthy"</strong> or <strong>"falsey"</strong> to say this very thing. A 0 will evaluate to <code>false</code> while a 1 would be evaluated as <code>true</code>.</p>
+<p>However, a pure <strong>Boolean</strong> value just means it's either <code>true</code> or <code>false</code>. The code snippet below shows two variables that hold these two different values:</p>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code>  <span class="kd">const</span> <span class="nx">myVariableOne</span> <span class="o">=</span> <span class="kc">true</span>
+  <span class="kd">const</span> <span class="nx">myVariableTwo</span> <span class="o">=</span> <span class="kc">false</span>
+</code></pre></div>
+</td></tr></table>
+<p>But when we're asking if another value is "truthy" or "falsey" it just means what is the value of the value or is the value actually there (does it actually exist). Let's start with "falsey" values. Here is a complete list of ALL JavaScript values that will evaluate to "falsey":</p>
+<ul>
+<li><code>undefined</code>,</li>
+<li><code>NaN</code>,</li>
+<li><code>Null</code>,</li>
+<li><code>0</code>,</li>
+<li><code>-0</code>,</li>
+<li><code>false</code>, <code>''</code> or <code>""</code> (<strong>empty strings</strong>)</li>
+</ul>
+<blockquote>
+<p>This means that LITERALLY every other value in JavaScript (literally everything else) will evaluate to "truthy". ie. <code>true</code>, <code>10</code>, <code>"name"</code>, '.'.</p>
+</blockquote>
+<h3 id="the-power-of-booleans-in-javascript">The Power of Booleans in JavaScript</h3>
+<p>Think about the process of signing into your favorite app. When you type your username and password in, the front-end app sends that information to the server which has to use your username to pull your info out of a database and compare your inputted password to your actual password that's saved in the database. If the two passwords match, this is a true evaluation and you can be logged into your account. If not, that would be a false value.</p>
+<p>While programming we will perform various evaluations on <strong>Boolean values</strong>, in order to produce some kind of result. When properly implemented, they're kind of like asking a "yes or no" question about some piece of data at a particular point in your application. When we get a "yes/no" answer we can then start performing "if/else" procedures. Do you see where this is going yet?</p>
+<p>Back to that sign-in process. We could write:</p>
 <table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
 <span class="normal">2</span>
 <span class="normal">3</span>
-<span class="normal">4</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code>  <span class="c1">// hold a function as the value of a variable. Takes one argument: `parameter`</span>
-  <span class="kd">var</span> <span class="nx">imAFunction</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(</span><span class="nx">parameter</span><span class="p">)</span> <span class="p">{</span>
-      <span class="c1">// Do stuff here</span>
+<span class="normal">4</span>
+<span class="normal">5</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code>  <span class="k">if</span> <span class="p">(</span><span class="nx">inputtedPassword</span> <span class="o">===</span> <span class="nx">actualPassword</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="nx">logUserIn</span><span class="p">()</span>
+  <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="s2">&quot;Wrong username or password. Please try again.&quot;</span>
   <span class="p">}</span>
 </code></pre></div>
 </td></tr></table>
-<p>ES2015 (ES6):</p>
+<p>We'll talk about if/else statements, also known as <strong>conditional statements</strong>, in a few lessons, but by now you might be able to see why we need to have and to use Boolean values.</p>
+<h2 id="the-comparison-operators">The Comparison Operators</h2>
+<p>As you learned in the last section the <code>=</code> is known as the assignment operator because it points, or <em>assigns</em> value to a variable. We still need to compare values so let's look at how we can do that.</p>
+<h3 id="the-double-equals-vs-the-triple-equals">The Double-Equals "==" vs the Triple-Equals "==="</h3>
+<p>If we want to compare values we'll need to use two variations of the equal sign:</p>
+<p><code>==</code>, checks if two values are equal.
+<code>===</code>, <strong>first</strong> checks if two values are of the <strong>same type</strong> <em>then</em> checks if the values are equal.</p>
+<blockquote>
+<p>The two tokens/symbols above are doing two different things but also the same thing. One is checking if things are equal, ==. BUT, because JavaScript likes to coerce data types, we have to use the === on occasion to first check the type of data then to check the equality of the values. Check out the examples below:</p>
+</blockquote>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span>
+<span class="normal">4</span>
+<span class="normal">5</span>
+<span class="normal">6</span>
+<span class="normal">7</span>
+<span class="normal">8</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code>  <span class="mf">64</span> <span class="o">==</span> <span class="s1">&#39;64&#39;</span> <span class="c1">// true</span>
+  <span class="mf">64</span> <span class="o">==</span> <span class="s1">&#39;sixty-four&#39;</span> <span class="c1">// false</span>
+
+  <span class="c1">// the string &#39;sixty-four&#39; won&#39;t be coerced but &#39;64&#39; will be</span>
+
+  <span class="mf">64</span> <span class="o">===</span> <span class="s1">&#39;64&#39;</span> <span class="c1">// false</span>
+
+  <span class="c1">// 64 is of type Number where &#39;64&#39; is of type String so they are not equal in the strictest sense</span>
+</code></pre></div>
+</td></tr></table>
+<p>Let's look at each a little more closely on an individual basis.</p>
+<h4 id="value-only-comparison">Value Only Comparison, "=="</h4>
+<p>The <code>==</code> is used to compare values.</p>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code>  <span class="s1">&#39;blue&#39;</span> <span class="o">==</span> <span class="s1">&#39;blue&#39;</span> <span class="c1">// true</span>
+  <span class="c1">// or</span>
+  <span class="s1">&#39;blue&#39;</span> <span class="o">==</span> <span class="s1">&#39;black&#39;</span> <span class="c1">// false</span>
+</code></pre></div>
+</td></tr></table>
+<blockquote>
+<p>Above we see that the string <code>blue</code> equals <code>blue</code> but does not equal <code>black</code>. Now that you have that down, check this craziness out. Below, the string <code>'3'</code> equals the number <code>3</code>:</p>
+</blockquote>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code>  <span class="mf">3</span> <span class="o">==</span> <span class="s1">&#39;3&#39;</span> <span class="c1">// true</span>
+</code></pre></div>
+</td></tr></table>
+<p>If you use the <code>==</code> in a comparison like the one above, JavaScript will try to <strong>coerce</strong> the String type of <code>'3'</code> into a Number type <code>3</code> and then compare the two.</p>
+<p>Again, JavaScript will try to change the string of <code>"3"</code> to the number of <code>3</code> and will result in the comparison being <code>true</code>. There is a <strong>big problem</strong> here. JS is type switching the type of one of our pieces of data and we don't want that!! This can result in poor program behavior, or <strong>side-effects</strong>. Because of this problem, there was a patch to the JavaScript language which introduced the <strong>Identity Operator</strong>, or <strong>Strictly Equals</strong>(slang): <code>===</code>.</p>
+<h4 id="strictly-equals">Strictly Equals: "==="</h4>
+<p>To fix this problem of <strong>type switching</strong> or <strong>type coercion</strong> we use the <strong>identity operator</strong>. It looks like this: <code>===</code>. And it not only evaluates equality but also evaluates <strong>type of data, first.</strong> That is, it won't perform an evaluation unless the data types first match each other.</p>
+<p>Therefore:</p>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code>  <span class="mf">3</span> <span class="o">===</span> <span class="s1">&#39;3&#39;</span> <span class="c1">// false</span>
+</code></pre></div>
+</td></tr></table>
+<p>Strictly equals <code>===</code> is much safer, since each <strong>operand</strong> gets tested by its <strong>data type first</strong>.</p>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code>  <span class="mf">1</span> <span class="o">===</span> <span class="s1">&#39;1&#39;</span> <span class="c1">// false</span>
+  <span class="mf">1</span> <span class="o">===</span> <span class="mf">1</span>   <span class="c1">// true</span>
+</code></pre></div>
+</td></tr></table>
+<p>This doesn't mean you can't use <code>==</code> but you will hear most developers say that you can't. Word to the wise, always know what you're writing and what you intend it to do. If you feel a <code>==</code> works in the case do it. Otherwise, stay with the safer <code>===</code>. This will be a debate you'll have for years to come.</p>
+<h2 id="practice-it">Practice It</h2>
+<ol>
+<li>Read the code below and try to guess what the console.log will be. In other words, what will each line log out?</li>
+<li>Copy the console logs below and paste them into your text-editor and run them.</li>
+<li>Why do you think line 9 and 10 logged out different values?</li>
+</ol>
 <table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
 <span class="normal"> 2</span>
 <span class="normal"> 3</span>
@@ -910,53 +1052,60 @@
 <span class="normal">11</span>
 <span class="normal">12</span>
 <span class="normal">13</span>
-<span class="normal">14</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="c1">// same thing, taking one argument</span>
-<span class="kd">const</span> <span class="nx">imAFunction</span> <span class="o">=</span> <span class="nx">parameter</span> <span class="p">=&gt;</span> <span class="p">{</span>
-    <span class="c1">// Do stuff here</span>
-<span class="p">}</span>
+<span class="normal">14</span>
+<span class="normal">15</span>
+<span class="normal">16</span>
+<span class="normal">17</span>
+<span class="normal">18</span>
+<span class="normal">19</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code>  <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&quot;line 1 is: &quot;</span> <span class="o">+</span> <span class="p">(</span><span class="mf">1</span> <span class="o">===</span> <span class="mf">1</span><span class="p">));</span>
 
-<span class="c1">// function taking two arguments</span>
-<span class="kd">const</span> <span class="nx">imAFunction2</span> <span class="o">=</span> <span class="p">(</span><span class="nx">parameter</span><span class="p">,</span> <span class="nx">parameter2</span><span class="p">)</span> <span class="p">=&gt;</span> <span class="p">{</span>
-    <span class="c1">// Do stuff here</span>
-<span class="p">}</span>
+  <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="mf">2</span> <span class="o">===</span> <span class="mf">1</span><span class="p">);</span>
 
-<span class="c1">// function taking zero arguments</span>
-<span class="kd">const</span> <span class="nx">imAFunction3</span> <span class="o">=</span> <span class="p">()</span> <span class="p">=&gt;</span> <span class="p">{</span>
-    <span class="c1">// Do stuff here</span>
-<span class="p">}</span>
+  <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&quot;yes&quot;</span> <span class="o">===</span> <span class="s2">&quot;yes&quot;</span><span class="p">);</span>
+
+  <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&quot;yes&quot;</span> <span class="o">===</span> <span class="s2">&quot;no&quot;</span><span class="p">);</span>
+
+  <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&quot;line 5 is: &quot;</span> <span class="o">+</span> <span class="p">(</span><span class="kc">true</span> <span class="o">===</span> <span class="kc">true</span><span class="p">));</span>
+
+  <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="kc">true</span> <span class="o">===</span> <span class="kc">false</span><span class="p">);</span>
+
+  <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="mf">1.2</span> <span class="o">===</span> <span class="mf">1.2</span><span class="p">);</span>
+
+  <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="mf">1.2</span> <span class="o">===</span> <span class="mf">1.20</span><span class="p">);</span>
+
+  <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&quot;line 9 is: &quot;</span> <span class="o">+</span> <span class="p">(</span><span class="mf">12</span> <span class="o">===</span> <span class="s1">&#39;12&#39;</span><span class="p">));</span>
+
+  <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&quot;line 10 is: &quot;</span> <span class="o">+</span> <span class="p">(</span><span class="mf">12</span> <span class="o">==</span> <span class="s1">&#39;12&#39;</span><span class="p">));</span>
 </code></pre></div>
 </td></tr></table>
-<p>The code snippets below all create the same variable, <code>myVariable</code>:</p>
-<p>Pre-ES2015</p>
-<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="kd">var</span> <span class="nx">myVariable</span> <span class="o">=</span> <span class="mf">10</span><span class="p">;</span>
-</code></pre></div>
-</td></tr></table>
-<p>ES2015</p>
-<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
-<span class="normal">2</span>
-<span class="normal">3</span>
-<span class="normal">4</span>
-<span class="normal">5</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="kd">let</span> <span class="nx">myVariable</span> <span class="o">=</span> <span class="mf">10</span> 
-<span class="kd">const</span> <span class="nx">myVariable2</span> <span class="o">=</span> <span class="mf">10</span>
-
-<span class="c1">// use `let` if you expect the variable to change</span>
-<span class="c1">// use `const` if you expect the variable to be a constant value</span>
-</code></pre></div>
-</td></tr></table>
-<h2 id="es6-why">ES6 Why?</h2>
-<h3 id="let-const-var">Let, Const, Var</h3>
-<iframe width="891" height="501" src="https://www.youtube.com/embed/sjyJBL5fkp8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<h3 id="fat-arrow-syntax">Fat Arrow Syntax <code>() =&gt; {}</code></h3>
-<iframe width="891" height="501" src="https://www.youtube.com/embed/RGUAZbXTtP8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<h2 id="additional-resources">Additional Resources</h2>
-<ul class="task-list">
-<li class="task-list-item"><input type="checkbox"/> <a href="https://youtu.be/6sQDTgOqh-I">FunFunFunction - Fat Arrow Function</a></li>
-</ul>
 <blockquote>
-<p>NOTE: Don't get caught up on <code>.filter()</code>, <code>.map()</code> or <code>.reduce()</code>. These are really powerful built-in methods we will cover in-depth later on, together in class.</p>
+<p>NOTE: <code>console.log()</code> - the console is your "terminal" object in your browser and <code>.log()</code> is a built-in method that prints information on it.</p>
+<p>NOTE 2: Now that you've downloaded Node.js you can use it to run scripts like this in your computer's terminal by running the command <code>node</code> + <span class="keys"><kbd class="key-enter">Enter</kbd></span>. The press ++cntrl+c+ twice to exit.</p>
 </blockquote>
+<h2 id="know-your-docs">Know Your Docs</h2>
+<ul>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean">MDN Docs - Type Boolean</a></li>
+</ul>
+<!-- ## Additional Resources -->
+
+<!-- 
+<!-- * [Video - ...]() -->
+<!-- * [MDN Docs - ...]() -->
+
+<ul class="task-list">
+<li class="task-list-item"><input type="checkbox"/> ...</li>
+<li class="task-list-item"><input type="checkbox"/> ...</li>
+</ul>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code>
+</code></pre></div>
+</td></tr></table>
+<ul class="task-list">
+<li class="task-list-item"><input type="checkbox"/> ...</li>
+<li class="task-list-item"><input type="checkbox"/> ...</li>
+<li class="task-list-item"><input type="checkbox"/> ...</li>
+<li class="task-list-item"><input type="checkbox"/> ...</li>
+</ul>
+<p>--&gt;</p>
                 
               
               
@@ -974,7 +1123,7 @@
   
     <nav class="md-footer__inner md-grid" aria-label="Footer">
       
-        <a href="../historyOfJavaScript/" class="md-footer__link md-footer__link--prev" rel="prev">
+        <a href="../typeNumber/" class="md-footer__link md-footer__link--prev" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
           </div>
@@ -983,19 +1132,19 @@
               <span class="md-footer__direction">
                 Previous
               </span>
-              History of JavaScript
+              Type Number
             </div>
           </div>
         </a>
       
       
-        <a href="../testDriveDevelopmentIntro/" class="md-footer__link md-footer__link--next" rel="next">
+        <a href="../comparisonOperators/" class="md-footer__link md-footer__link--next" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              Intro to TDD
+              Comparison Operator
             </div>
           </div>
           <div class="md-footer__button md-icon">

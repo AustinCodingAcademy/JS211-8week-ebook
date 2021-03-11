@@ -20,15 +20,27 @@ site_name: JS211 - Foundations in Programming
 nav:
     - Home: 'index.md'
     - 'Pre-Course Prep':
-      - The Flipped Classroom: preCourse/succeedInThisCourse.md
-      - Prepare Your Machine: preCourse/setupInstructions.md
-      - Coding + Programming: preCourse/codingAndProgramming.md
-      - What is JavaScript: preCourse/whatIsJavaScript.md
-      - History of JavaScript: preCourse/historyOfJavaScript.md
-      - ES5 vs ES6: preCourse/es5&es6.md
-      - Variables & Functions: preCourse/variablesAndFunctions.md
-      - Data Types & Functions: preCourse/dataTypesAndFunctions.md
-      - Date & Time Repo: preCourse/firstRepo.md
+      - 'Part 1: How To Succeed':
+        - The Flipped Classroom: preCourse/succeedInThisCourse.md
+      - 'Part 2: Set Up':
+        - Prepare Your Machine: preCourse/setupInstructions.md
+      - 'Part 3: Coding and Programming':
+        - Coding + Programming: preCourse/codingAndProgramming.md
+      - 'Part 4: Intro to JavaScript':
+        - Variables & Functions: preCourse/variablesAndFunctions.md
+        - Data Types: preCourse/dataTypes.md
+        - Type Number: preCourse/typeNumber.md
+        - Type Boolean: preCourse/typeBoolean.md
+        - Comparison Operator:  preCourse/comparisonOperators.md
+        - typeof Operator:  preCourse/typeofOperator.md
+        - Function Signatures:  preCourse/functionSignatures.md
+        - Practice Data Types & Functions: preCourse/dataTypesAndFunctions.md
+        - Date & Time Repo: preCourse/firstRepo.md
+      - 'Part 5: Nitty Gritty': 
+        - What is JavaScript: preCourse/whatIsJavaScript.md
+        - History of JavaScript: preCourse/historyOfJavaScript.md
+        - ES5 vs ES6: preCourse/es5&es6.md
+        - Intro to TDD: preCourse/testDriveDevelopmentIntro.md
     - Class 1 JS Review: module-1/class-1.md
     # - 'Module One: TITLE': 
       # - 'Class * Pre-Lessons': 
@@ -40,8 +52,12 @@ nav:
     - 'Additional Resources':
       - Whiteboarding Challenges: additionalResources/interviewChallenges.md
       - Student Presentations: additionalResources/studentPresentations.md
+      - Develop Series Collection: additionalResources/developSeries.md
+      - 'Questions for Discussion Collections':
+        - Day 1 QFD: additionalResources/questionsForDiscussion/qfd-class-1.md
       - Keyboard Shortcuts:  additionalResources/keyboardShortcuts.md
       - Git Commands: additionalResources/gitCommands.md
+      - Learn Your CLI: additionalResources/learnYourCLI.md
       - Graduation Prerequisites: additionalResources/graduationPrerequisites.md
       - Presentations Qualifications: additionalResources/presentationsQualifications.md
 

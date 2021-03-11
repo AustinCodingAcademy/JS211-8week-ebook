@@ -47,6 +47,18 @@
     * [ ] Open-source
     * [ ] Dependencies/packages
     * [ ] JSON - JavaScript Object Notation
+    * [ ] Function signatures
+    * [ ] Function declaration
+    * [ ] Function invocation
+    * [ ] Function parameters
+    * [ ] Function arguments
+    * [ ] Executed/called/invoked
+    * [ ] Token
+    * [ ] Data type
+    * [ ] Keyword/reserved word
+    * [ ] Type coercion
+    * [ ] "Truthy"
+    * [ ] "Falsey"
 
 - [ ] Node question.Does anyone know what the `package.json` is used for?
 - [ ] What is a variable? Why is it used?
@@ -60,3 +72,20 @@
 - [ ] Why do we write 'use strict' at the top of every JS project?
 - [ ] How and why do we write comments in JS code?
 - [ ] Why is JavaScript important for web developers? Are there any alternatives?
+
+- [ ] Write on the board or in chat the symbol for each of these:
+    * [ ] Modulus Operator
+    * [ ] Bang Operator
+    * [ ] Less-Than Operator
+    * [ ] Greater Than Operator
+    * [ ] Assignment operator
+    * [ ] Identity operator
+    * [ ] And Operator
+    * [ ] Or operator
+    * [ ] Object-Literal Syntax
+    * [ ] Array Syntax
+
+- [ ] How do you: 
+    * [ ] Invoke a function/call a function
+    * [ ] Declare a function
+    * [ ] Pass in arguments

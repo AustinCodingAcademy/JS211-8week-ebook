@@ -6,10 +6,10 @@
 
 Since we don't know each other, at least, not your instructor, everyone should answer these questions aloud:
 
-1. Hey, my name is ...
+1. Hi, my name is ...
 2. I currently work as a ... but I love to spend my time ...
 3. I'm excited about learning to program because ...
-4. My best time to do a study group or tutoring is ... (example: Mondays at noon.)
+4. My best time to do a study group or tutoring is ... (example: Mondays in the afternoon.)
 
 <!-- SMART: Specific, Measurable, Attainable, Relevant, and Timely. -->
 <!-- https://examples.yourdictionary.com/well-written-examples-of-learning-objectives.html -->
@@ -21,7 +21,7 @@ Today we're going to:
 - [ ] Introductions - 15 mins
 - [ ] Explain and assign Daily Student Presentations - 10 mins
 - [ ] Questions for Discussion - 20 mins
-- [ ] Instructor led review of textbook - 15 mins:
+- [ ] Instructor led overview of the ebook - 15 mins:
     * [ ] Course Objective
     * [ ] Course Structure & Expectations
     * [ ] Graduation and Presentation Requirements

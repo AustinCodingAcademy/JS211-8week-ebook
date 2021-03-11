@@ -1,5 +1,7 @@
 # Date & Time Repo
 
+  > Try as hard as you can to complete this assignment so you can bring it to class for review. This will be your first assignment in JS211.
+
 - [ ] Go to your `devFolder` or create a new folder to work in like `JS211-Projects` or something: `mkdir JS211-Projects`
 - [ ] Fork this [repo](https://github.com/AustinCodingAcademy/JS211_CurrentDateTimeProject.git)
 - [ ] Clone it: `git clone https://github.com/AustinCodingAcademy/JS211_CurrentDateTimeProject.git`
@@ -15,9 +17,9 @@
 - [ ] Go to the `README.md` and follow the directions
 - [ ] Optional: you can first start building your solutions in a new Repl.it before adding them to the `main.js` file. This sometimes make for faster development time
 
-<iframe src="https://player.vimeo.com/video/381381268" width="900" height="600" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+## Additional Resources
 
-*****
+<iframe src="https://player.vimeo.com/video/381381268" width="900" height="600" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 <iframe src="https://player.vimeo.com/video/377168933" width="900" height="600" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
