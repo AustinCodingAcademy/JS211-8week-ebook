@@ -25,6 +25,10 @@ Speak aloud every thought you have. THIS IS THE MOST IMPORTANT PART!
     > - If an egg breaks when dropped, then it would break if dropped from a higher floor.
     > - If an egg survives a fall then it would survive a shorter fall.
 
+2. **PROMPT: Hourglasses Puzzle** - How do you measure 9 minutes from a 4 minute-glass and a 7 minute-glass?
+
+  > We have only 2 sand timers: 4 minutes and 7 minutes but we need to measure 9 minutes. How do we do it?
+  
 Class 5:
   Prompt 1: *todo*
   Prompt 2: *todo*

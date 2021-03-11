@@ -27,6 +27,7 @@ nav:
       - 'Part 3: Coding and Programming':
         - Coding + Programming: preCourse/codingAndProgramming.md
       - 'Part 4: Intro to JavaScript':
+        - What is JavaScript: preCourse/whatIsJavaScript.md
         - Variables & Functions: preCourse/variablesAndFunctions.md
         - Data Types: preCourse/dataTypes.md
         - Type Number: preCourse/typeNumber.md
@@ -37,24 +38,28 @@ nav:
         - Practice Data Types & Functions: preCourse/dataTypesAndFunctions.md
         - Date & Time Repo: preCourse/firstRepo.md
       - 'Part 5: Nitty Gritty': 
-        - What is JavaScript: preCourse/whatIsJavaScript.md
         - History of JavaScript: preCourse/historyOfJavaScript.md
         - ES5 vs ES6: preCourse/es5&es6.md
         - Intro to TDD: preCourse/testDriveDevelopmentIntro.md
-    - Class 1 JS Review: module-1/class-1.md
-    # - 'Module One: TITLE': 
-      # - 'Class * Pre-Lessons': 
-      #   - LESSON TITLE: module-2/lesson-*.md
-      #   - Class 9 TITLE: module-2/class-*.md
-    # - 'Module Two: TITLE':
-    # - 'Module Three: TITLE':
-    # - 'Module Four: TITLE':
+      - Day 1 Checklist: preCourse/preClassChecklist.md
+    - Class 1: module-1/class-1.md
+    - 'Module 1: The Fundamentals': 
+      - 'Class 2 Pre-Lessons': 
+        - Conditionals: module-1/conditionals.md
+        - Develop Series - Speaking: module-1/developSeries-SpeakingIsEasy.md
+        - Class 2 RPS: module-1/class-2.md
+    # - 'Module 2: TITLE':
+    # - 'Module 3: TITLE':
+    # - 'Module 4: TITLE':
     - 'Additional Resources':
-      - Whiteboarding Challenges: additionalResources/interviewChallenges.md
+      - Interview Training: additionalResources/interviewChallenges.md
       - Student Presentations: additionalResources/studentPresentations.md
       - Develop Series Collection: additionalResources/developSeries.md
       - 'Questions for Discussion Collections':
         - Day 1 QFD: additionalResources/questionsForDiscussion/qfd-class-1.md
+        - Day 2 QFD: additionalResources/questionsForDiscussion/qfd-class-2.md
+      - 'Blog Prompts':
+        - Prompt 201: additionalResources/blogPrompts/blogPrompt-201.md
       - Keyboard Shortcuts:  additionalResources/keyboardShortcuts.md
       - Git Commands: additionalResources/gitCommands.md
       - Learn Your CLI: additionalResources/learnYourCLI.md

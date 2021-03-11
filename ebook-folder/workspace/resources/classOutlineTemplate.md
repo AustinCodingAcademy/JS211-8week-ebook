@@ -13,7 +13,6 @@
 Today we're going to:
   
 * GENERIC OBJECTIVE: *By re-engaging with previously learned knowledge and applying it to a new challenge the student will deepen their understanding and be prepared to creatively reuse these techniques in new ways.*
-* GENERIC OBJECTIVE: *After learning new content through individual presentations and exploring their uses with familiar tasks the student will gain confidence in their abilities to effectively solve new problems in the future.*
 
 1. Questions for Student Led Discussion
 2. Interview Challenge
@@ -26,7 +25,8 @@ Today we're going to:
 <!-- This section should be structured with the 5E model: https://lesley.edu/article/empowering-students-the-5e-model-explained -->
 
 1. First Question: Tell me what you learned.
-2. ..?
+2. [More questions to prompt discussion can be found here](./../additionalResources/questionsForDiscussion/qfd-class-2.md).
+
 
 ### Interview Challenge, 10-15 minutes
 <!-- The last two E happen here: elaborate and evaluate  -->
@@ -37,8 +37,7 @@ Prompt:
 
 ### Student Presentations, 10-15 minutes
 
-Prompt 1:
-Prompt 2:
+[See Student Presentations List](./../additionalResources/studentPresentations.md)
 
 ## Creation Time, 60-90 minutes
 
@@ -50,11 +49,28 @@ Prompt 2:
   * Share with the class for evaluation (potentially carry into the next class) 
 -->
 
+- [ ] 
+- [ ] 
+- [ ] 
+
 ### Push Yourself Further
+
+- [ ] 
+- [ ] 
+- [ ] 
 
 <!-- ## Blogs to Show You Know    EVEN CLASSES ONLY -->
 
 ## Exit Recap, Attendance, and Reminders, 5 mins
+
+* Create *** Assignment
+* Create *** Blog Assignment
+* Prepare for next by completing all of your pre-class lessons
+* Complete the feedback survey
+
+<iframe id="openedx-zollege" src="https://openedx.zollege.com/feedback" style="width: 100%; height: 500px; border: 0">Browser not compatible.</iframe>
+<script src="https://openedx.zollege.com/assets/index.js" type="application/javascript"></script>
+
 
 <!-- TODO Create 3 question exit questions -->
 
