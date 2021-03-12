@@ -1,6 +1,7 @@
 # TODO replace name with name of ebook: 101: Intro to Web, 411: Front-Ends with React...etc
 site_name: JS211 - Foundations in Programming
 
+# TODO inside `ebook/`
 # TODO run `git clone https://github.com/squidfunk/mkdocs-material.git`
 # TODO run `pip install -r mkdocs-material/requirements.txt`
 # TODO run `mkdocs build` to build the static files into "/site"
@@ -42,8 +43,8 @@ nav:
         - ES5 vs ES6: preCourse/es5&es6.md
         - Intro to TDD: preCourse/testDriveDevelopmentIntro.md
       - Day 1 Checklist: preCourse/preClassChecklist.md
-    - Class 1: module-1/class-1.md
     - 'Module 1: The Fundamentals': 
+      - Class 1 JS Review: module-1/class-1.md
       - 'Class 2 Pre-Lessons': 
         - Conditionals: module-1/conditionals.md
         - Develop Series - Speaking: module-1/developSeries-SpeakingIsEasy.md
@@ -52,6 +53,8 @@ nav:
         - Type String: module-1/typeString.md
         - Type Array: module-1/typeArray.md
         - Class 3 Pig Latin: module-1/class-3.md
+      - 'Class 4 Pre-Lessons': 
+        - Type Object-Literal: module-1/typeObjectLiteral.md  
     # - 'Module 2: TITLE':
     # - 'Module 3: TITLE':
     # - 'Module 4: TITLE':
@@ -63,6 +66,7 @@ nav:
         - Day 1 QFD: additionalResources/questionsForDiscussion/qfd-class-1.md
         - Day 2 QFD: additionalResources/questionsForDiscussion/qfd-class-2.md
         - Day 3 QFD: additionalResources/questionsForDiscussion/qfd-class-3.md
+        - Day 4 QFD: additionalResources/questionsForDiscussion/qfd-class-4.md
       - 'Blog Prompts':
         - Prompt 201: additionalResources/blogPrompts/blogPrompt-201.md
       - Keyboard Shortcuts:  additionalResources/keyboardShortcuts.md

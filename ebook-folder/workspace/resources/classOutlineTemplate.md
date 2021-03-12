@@ -12,7 +12,7 @@
 
 Today we're going to:
   
-* GENERIC OBJECTIVE: *By re-engaging with previously learned knowledge and applying it to a new challenge the student will deepen their understanding and be prepared to creatively reuse these techniques in new ways.*
+*OBJECTIVE: By re-engaging with previously learned knowledge and applying it to a new challenge the student will deepen their understanding and be prepared to creatively reuse these techniques in new ways.*
 
 1. Questions for Student Led Discussion
 2. Interview Challenge
@@ -27,12 +27,11 @@ Today we're going to:
 1. First Question: Tell me what you learned.
 2. [More questions to prompt discussion can be found here](./../additionalResources/questionsForDiscussion/qfd-class-2.md).
 
-
 ### Interview Challenge, 10-15 minutes
 <!-- The last two E happen here: elaborate and evaluate  -->
 <!-- this sections should have a challenge that can be solved with the skills they've learned since their last class. -->
 <!-- ! HIDDEN CONTENT: INSTRUCTOR ONLY -->
-Prompt:
+[See Your Challenge Here](./../additionalResources/interviewChallenges.md)
 <!-- ! END HIDDEN CONTENT: INSTRUCTOR ONLY -->
 
 ### Student Presentations, 10-15 minutes
@@ -68,8 +67,8 @@ Prompt:
 * Prepare for next by completing all of your pre-class lessons
 * Complete the feedback survey
 
-<iframe id="openedx-zollege" src="https://openedx.zollege.com/feedback" style="width: 100%; height: 500px; border: 0">Browser not compatible.</iframe>
-<script src="https://openedx.zollege.com/assets/index.js" type="application/javascript"></script>
+<!-- <iframe id="openedx-zollege" src="https://openedx.zollege.com/feedback" style="width: 100%; height: 500px; border: 0">Browser not compatible.</iframe>
+<script src="https://openedx.zollege.com/assets/index.js" type="application/javascript"></script> -->
 
 
 <!-- TODO Create 3 question exit questions -->

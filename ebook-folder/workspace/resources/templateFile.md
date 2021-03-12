@@ -33,6 +33,6 @@
   * [ ] ...
   * [ ] ...
 
-cp workspace/resources/templateFile.md docs/preCourse/
+cp workspace/resources/templateFile.md docs/preCourse/module-
 
 -->
