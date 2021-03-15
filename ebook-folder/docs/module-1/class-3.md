@@ -31,20 +31,20 @@ Today we're going to:
 6. Push Yourself Further
 7. Exit Recap, Attendance, and Reminders
 
-## Questions for Student Led Discussion, 10-15 minutes
+### Questions for Student Led Discussion, 15 mins
 <!-- This section should be structured with the 5E model: https://lesley.edu/article/empowering-students-the-5e-model-explained -->
 
 1. First Question: Tell me what you learned.
 2. [More questions to prompt discussion can be found here](./../additionalResources/questionsForDiscussion/qfd-class-3.md).
 
-### Interview Challenge, 10-15 minutes
+### Interview Challenge, 15 mins
 <!-- The last two E happen here: elaborate and evaluate  -->
 <!-- this sections should have a challenge that can be solved with the skills they've learned since their last class. -->
 <!-- ! HIDDEN CONTENT: INSTRUCTOR ONLY -->
 [See Your Challenge Here](./../additionalResources/interviewChallenges.md)
 <!-- ! END HIDDEN CONTENT: INSTRUCTOR ONLY -->
 
-### Student Presentations, 10-15 minutes
+### Student Presentations, 15 mins
 
 [See Student Presentations List](./../additionalResources/studentPresentations.md)
 

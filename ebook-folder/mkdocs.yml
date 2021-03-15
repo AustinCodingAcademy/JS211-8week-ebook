@@ -55,6 +55,8 @@ nav:
         - Class 3 Pig Latin: module-1/class-3.md
       - 'Class 4 Pre-Lessons': 
         - Type Object-Literal: module-1/typeObjectLiteral.md  
+        - Loops in JS: module-1/js-loops.md  
+        - Class 4 TicTacToe: module-1/class-4.md
     # - 'Module 2: TITLE':
     # - 'Module 3: TITLE':
     # - 'Module 4: TITLE':
@@ -69,6 +71,7 @@ nav:
         - Day 4 QFD: additionalResources/questionsForDiscussion/qfd-class-4.md
       - 'Blog Prompts':
         - Prompt 201: additionalResources/blogPrompts/blogPrompt-201.md
+        - Prompt 202: additionalResources/blogPrompts/blogPrompt-202.md
       - Keyboard Shortcuts:  additionalResources/keyboardShortcuts.md
       - Git Commands: additionalResources/gitCommands.md
       - Learn Your CLI: additionalResources/learnYourCLI.md

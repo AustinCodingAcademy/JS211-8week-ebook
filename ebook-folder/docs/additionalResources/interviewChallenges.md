@@ -37,19 +37,21 @@ Speak aloud every thought you have. THIS IS THE MOST IMPORTANT PART!
   sumOfPoweredByTwo(myArr) // --> 14
 ```
 
+Class 4:
+  **PROMPT**: *FizzBuzz - Write a program that prints the numbers from 1 to 100, but for multiples of three print "Fizz" instead of the number and for the multiples of five print "Buzz". For numbers which are multiples of both three and five print "FizzBuzz".*
 
 Class 5:
-  Prompt 1: *todo*
-  Prompt 2: *todo*
+  **PROMPT 1**: *todo*
+  **PROMPT 2**: *todo*
 Class 6:
-  Prompt 1: *todo*
-  Prompt 2: *todo*
+  **PROMPT 1**: *todo*
+  **PROMPT 2**: *todo*
 Class 7:
-  Prompt 1: *todo*
-  Prompt 2: *todo*
+  **PROMPT 1**: *todo*
+  **PROMPT 2**: *todo*
 Class 8:
-  Prompt 1: *todo*
-  Prompt 2: *todo*
+  **PROMPT 1**: *todo*
+  **PROMPT 2**: *todo*
 Class 9:
   Prompt 1: *todo*
   Prompt 2: *todo*

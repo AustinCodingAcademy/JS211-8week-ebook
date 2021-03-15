@@ -33,14 +33,14 @@ Today we're going to:
 - [ ] Push Yourself Further
 - [ ] Exit Recap, Attendance, and Reminders
 
-## Questions for Student Led Discussion, 10-15 minutes
+### Questions for Student Led Discussion, 15 mins
 <!-- This section should be structured with the 5E model: https://lesley.edu/article/empowering-students-the-5e-model-explained -->
 
 1. Why do we need conditional statements?
 2. What are you struggling with so far?
 3. [More questions to prompt discussion can be found here](./../additionalResources/questionsForDiscussion/qfd-class-2.md).
 
-### Interview Challenge, 10-15 minutes
+### Interview Challenge, 15 mins
 <!-- The last two E happen here: elaborate and evaluate  -->
 <!-- this sections should have a challenge that can be solved with the skills they've learned since their last class. -->
 <!-- ! HIDDEN CONTENT: INSTRUCTOR ONLY -->
@@ -61,7 +61,7 @@ Don't be afraid to mess up and say it aloud. It's not about finding the solution
   > We have only 2 sand timers: 4 minutes and 7 minutes but we need to measure 9 minutes. How do we do it?
 <!-- ! END HIDDEN CONTENT: INSTRUCTOR ONLY -->
 
-### Student Presentations, 10-15 minutes
+### Student Presentations, 15 mins
 
 [See Student Presentations List](./../additionalResources/studentPresentations.md)
 
@@ -71,18 +71,18 @@ Your first terminal application!! YAY!! Today, you're going to build a function,
 
 Fork & Clone the [RPS Repo](https://github.com/AustinCodingAcademy/JS211_RockPaperScissorsProject.git) then follow the `README.md` file.
 
-- [ ] User1 input of rock, paper, or scissors.
-- [ ] User2 input of rock, paper, or scissors.
-- [ ] Compare User1 input to User2 input.
-- [ ] If User1 input is 'rock' and User2 input is 'scissors', User1 wins.
-- [ ] If User1 input is 'rock' and User2 input is 'paper', User2 wins.
-- [ ] If User1 input is 'rock' and User2 input is 'rock', it's a tie.
-- [ ] If User1 input is 'paper' and User2 input is 'rock', User1 wins.
-- [ ] If User1 input is 'paper' and User2 input is 'scissors', User2 wins.
-- [ ] If User1 input is 'paper' and User2 input is 'paper', it's a tie.
-- [ ] If User1 input is 'scissors' and User2 input is 'paper', User1 wins.
-- [ ] If User1 input is 'scissors' and User2 input is 'rock', User2 wins.
-- [ ] If User1 input is 'scissors' and User2 input is 'scissors', it's a tie.
+- [ ] `User1` input of `rock`, `paper`, or `scissors`.
+- [ ] `User2` input of `rock`, `paper`, or `scissors`.
+- [ ] Compare `User1` input to `User2` input.
+- [ ] If `User1` input is `'rock'` and `User2` input is `'scissors'`, `User1` wins.
+- [ ] If `User1` input is `'rock'` and `User2` input is `'paper'`, `User2` wins.
+- [ ] If `User1` input is `'rock'` and `User2` input is `'rock'`, it's a tie.
+- [ ] If `User1` input is `'paper'` and `User2` input is `'rock'`, `User1` wins.
+- [ ] If `User1` input is `'paper'` and `User2` input is `'scissors'`, User2 wins.
+- [ ] If `User1` input is `'paper'` and `User2` input is `'paper'`, it's a tie.
+- [ ] If `User1` input is `'scissors'` and `User2` input is `'paper'`, User1 wins.
+- [ ] If `User1` input is `'scissors'` and `User2` input is `'rock'`, `User2` wins.
+- [ ] If `User1` input is '`scissors'` and `User2` input is `'scissors'`, it's a tie.
 
 Can you think of a simpler way?
 
@@ -105,10 +105,12 @@ Every other class will end with a discussion over these questions. If you have n
 
 Feel free to copy/paste the question into google and read about what comes up. These interview questions are meant to broaden your knowledge and cover more ground than we can possibly get to in these few weeks. We want you to be well prepared for the rigors of interviewing for development jobs and knowing the answers to these questions will ensure that you have every tool you need to succeed!
 
+[Blog Prompt - 201](./../additionalResources/blogPrompts/blogPrompt-201.md)
+
 ## Exit Recap, Attendance, and Reminders, 5 mins
 
 * Create RPS Assignment
-* Create 201 Blog Assignment
+* Create [Blog Prompt - 201](./../additionalResources/blogPrompts/blogPrompt-201.md) Assignment
 * Prepare for Class 3 by completing all of your pre-class lessons
 * Complete the feedback survey
 

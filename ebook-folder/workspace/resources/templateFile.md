@@ -12,11 +12,25 @@
 
 * [MDN Docs - ...]()
 
-<!-- ## Additional Resources
+<!-- 
+## Additional Resources
 
 ```javascript
 
-``` 
+```
+
+- [ ] Task Two
+    *  [ ] Task Two.a
+    *  [ ] Task Two.b
+    *  [ ] Task Two.c
+
+
+| Method      | Description                          |
+| ----------- | ------------------------------------ |
+| `GET`       | Fetch resource                       |
+| `PUT`       | Update resource |
+| `DELETE`    | Delete resource |
+
 
 * [MDN Docs - ...]()
 
@@ -33,6 +47,19 @@
   * [ ] ...
   * [ ] ...
 
-cp workspace/resources/templateFile.md docs/preCourse/module-
+    `line numbers`
+:do you like 'em?
+
+=== "Javascript"
+
+    ```javascript
+    ```
+
+=== "Python"
+
+  ```python
+  ```
+
+cp workspace/resources/templateFile.md docs/module-
 
 -->

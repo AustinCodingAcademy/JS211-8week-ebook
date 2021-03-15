@@ -31,7 +31,7 @@ Today we're going to:
 - [ ] Part Two: The DOM - 30 mins
 - [ ] Push Yourself Further - 15 mins
 
-## Daily Student Presentations Overview and Organization
+### Daily Student Presentations Overview & Organization
 
 While learning to code is pretty important if you want to code for work, so is learning to talk about code! To do this, you must first know something about code. Secondly, you have to know something about talking to people in one-on-one chats, group conversations and team presentations. This is a necessary skill and will be a major part of your future interviews. To get us all prepped and ready to talk about our code, we're going to be practicing talking to the class about shortcuts and tool efficiency. It's one thing to know how to code and it's another to know how to use your computer's keyboard, text editor and terminal well. Wow your interviewers with your sharp fingers and grow your class's skill with these presentations! Today we will assign people to the remaining days of class to present for 5-7 minutes ONLY, at the beginning of class, on the pre-assigned topic.
 
@@ -43,7 +43,7 @@ While learning to code is pretty important if you want to code for work, so is l
 
 Through the next week the other two-thirds of the class will follow suit and present a four-minute pitch over their Capstone App!!
 
-## Questions for Student Led Discussion, 10-15 minutes
+### Questions for Student Led Discussion, 15 mins
 <!-- This section should be structured with the 5E model: https://lesley.edu/article/empowering-students-the-5e-model-explained -->
 
 1. What is a Capstone App? Why do we need one? Why are we starting to pitch about them now?
