@@ -5,7 +5,6 @@
 
 <!-- ! END INSTRUCTOR ONLY CONTENT -->
 
-
 *What do you do with a mistake: recognize it, admit it, learn from it, forget it. —Dean Smith*
 
 ## Greet, Outline, and Objectify
@@ -86,25 +85,15 @@ Connect your Pig Latin application to a GUI
 - [ ] From the `master`/`main` branch, create a new branch called: `PigLatin-GUI`
 - [ ] Start by making sure you have a place for the user to input a word, then a submit button, then a place for the output to be displayed.
 - [ ] How do you get your HTML file to talk to your JS file?
-- [ ] Further practice: make your app handle sentences and paragraphs at a time like this [one](https://funtranslations.com/pig-latin).
 
 ### Additional Resources
 
-* [Video DevTips - JS & the DOM 1/2](https://youtu.be/hM9h1wN4rfU)
+- [ ] [Video, DevTips - JS & the DOM 1/2](https://youtu.be/hM9h1wN4rfU)
 
-<!-- ### Push Yourself Further
+### Push Yourself Further
 
-- [ ] 
-- [ ] 
-- [ ]  -->
+- [ ] Make your app handle sentences and paragraphs at a time like this [one](https://funtranslations.com/pig-latin).
 
-<!-- ## Blogs to Show You Know    EVEN CLASSES ONLY 
-
-Every other class will end with a discussion over these questions. If you have no idea about them, ask your instructor. Nevertheless, you will need to research the topics on your own and record what you learned in a blog. You will then turn in a link with the url of the published blog in Zollege. Feel free to copy/paste the question into google and read about what comes up. These interview questions are meant to broaden your knowledge and cover more ground than we can possibly get to in these few weeks. We want you to be well prepared for the rigors of interviewing for development jobs and knowing the answers to these questions will ensure that you have every tool you need to succeed!
-
-[Blog Prompt - 201](./../additionalResources/blogPrompts/blogPrompt-202.md)
-
--->
 
 ## Exit Recap, Attendance, and Reminders, 5 mins
 

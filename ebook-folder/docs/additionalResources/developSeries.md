@@ -7,9 +7,10 @@
 - [ ] [Class 4 - The Prison of Your Mind | Sean Stephenson | TEDxIronwoodStatePrison](https://www.youtube.com/watch?v=VaRO5-V1uK0)
 - [ ] [Class 5 - What if you Stopped Thinking All the Time? Wim Hof](https://www.youtube.com/watch?v=NI4IV0M3lOo)
 
+
 <!-- 
 - [ ] [Class 6 - ]()
-- [ ] [Class * - ]()
+- [ ] [Class * - How to fix the exhausted brain | Brady Wilson](https://www.youtube.com/watch?v=XOU2ubWkoPw&t=1s)
 - [ ] [Class * - ]()
 - [ ] [Class * - ]()
 - [ ] [Class * - ]()

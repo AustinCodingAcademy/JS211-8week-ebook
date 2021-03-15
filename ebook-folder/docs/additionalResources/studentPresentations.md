@@ -35,6 +35,10 @@
     1. *Object Shorthand*
     2. *What is proper code spacing? Using the videos and examples in this textbook, demonstrate what spacing you should use and why.*
 * **Class 14** -
+    1. *What is ESLINT? How can you use it to help you with spacing, errors, and bugs? What package do the JS211 repos come with to work with ESLINT? How do you use it?*
+    2. *What is and how do you use Prettier?*
 * **Class 15** -
 * **Class 16** -
     1. All Students: *In 2 minutes, pitch your graduation app to the class. What’s the problem? How does this app solve it?*
+
+

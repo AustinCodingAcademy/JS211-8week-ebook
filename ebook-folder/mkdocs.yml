@@ -67,7 +67,9 @@ nav:
         - 'Class 6 Pre-Lessons': 
           -  Bind & This: module-2/bindThis.md
           - Class 6 Towers Of Hanoi: module-2/class-6.md
-        # - 'Class 7 Pre-Lessons':  
+        - 'Class 7 Pre-Lessons':
+          - HOF pt. 1: module-2/higherOrderFunctions-pt1.md  
+          - Class 7 MasterMind: module-2/class-7.md
         # - 'Class 8 Pre-Lessons':  
     # - 'Module 3: Algorithms':
     # - 'Module 4: Developing in Node':
@@ -82,6 +84,7 @@ nav:
         - Day 4 QFD: additionalResources/questionsForDiscussion/qfd-class-4.md
         - Day 5 QFD: additionalResources/questionsForDiscussion/qfd-class-5.md
         - Day 6 QFD: additionalResources/questionsForDiscussion/qfd-class-6.md
+        - Day 7 QFD: additionalResources/questionsForDiscussion/qfd-class-7.md
       - Blog Prompts: additionalResources/blogPrompts.md
       - Keyboard Shortcuts:  additionalResources/keyboardShortcuts.md
       - Git Commands: additionalResources/gitCommands.md
@@ -99,7 +102,10 @@ theme:
     accent: deep orange
     # Defines the logo in the top-left, file must be in the /doc directory
   logo: CE_WhiteBlue_Icon.png
-  
+  features:
+    - navigation.instant
+    - navigation.top
+    # - navigation.tabs
   # ? Not rendering as expected??
   extra:
     copyright: Copyright &copy; 2013 - 2021 Austin Coding Academy
@@ -117,8 +123,6 @@ theme:
       - icon: fontawesome/brands/facebook
         link: https://www.facebook.com/AustinCodingAcademy/
 
-
-  
   # 404 page
   static_templates:
     - 404.html
@@ -161,3 +165,6 @@ markdown_extensions:
 # Can add icons throughout the ebook https://materialdesignicons.com/
 #  - pymdownx.inlinehilite
   # - pymdownx.keys
+
+  # or
+  # https://github.com/facelessuser/mkdocs-material-extensions/
