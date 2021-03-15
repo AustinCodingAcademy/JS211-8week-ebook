@@ -47,19 +47,30 @@ nav:
       - Class 1 JS Review: module-1/class-1.md
       - 'Class 2 Pre-Lessons': 
         - Conditionals: module-1/conditionals.md
-        - Develop Series - Speaking: module-1/developSeries-SpeakingIsEasy.md
+        - Develop - Speaking: module-1/developSeries-SpeakingIsEasy.md
         - Class 2 RPS: module-1/class-2.md
       - 'Class 3 Pre-Lessons': 
         - Type String: module-1/typeString.md
         - Type Array: module-1/typeArray.md
+        - Develop-Not Weak: module-1/developSeries-NotWeak.md
         - Class 3 Pig Latin: module-1/class-3.md
       - 'Class 4 Pre-Lessons': 
         - Type Object-Literal: module-1/typeObjectLiteral.md  
         - Loops in JS: module-1/js-loops.md  
+        - Develop - Your Prison: module-1/developSeries-PrisonOfYourMind.md
         - Class 4 TicTacToe: module-1/class-4.md
-    # - 'Module 2: TITLE':
-    # - 'Module 3: TITLE':
-    # - 'Module 4: TITLE':
+    - 'Module 2: OOP & Functional Programming':
+        - 'Class 5 Pre-Lessons':
+          - The DOM: module-2/theDom.md
+          - Develop - Stop Thinking: module-2/developSeries-StopThinking.md
+          - Class 5 The DOM: module-2/class-5.md
+        - 'Class 6 Pre-Lessons': 
+          -  Bind & This: module-2/bindThis.md
+          - Class 6 Towers Of Hanoi: module-2/class-6.md
+        # - 'Class 7 Pre-Lessons':  
+        # - 'Class 8 Pre-Lessons':  
+    # - 'Module 3: Algorithms':
+    # - 'Module 4: Developing in Node':
     - 'Additional Resources':
       - Interview Training: additionalResources/interviewChallenges.md
       - Student Presentations: additionalResources/studentPresentations.md
@@ -69,9 +80,9 @@ nav:
         - Day 2 QFD: additionalResources/questionsForDiscussion/qfd-class-2.md
         - Day 3 QFD: additionalResources/questionsForDiscussion/qfd-class-3.md
         - Day 4 QFD: additionalResources/questionsForDiscussion/qfd-class-4.md
-      - 'Blog Prompts':
-        - Prompt 201: additionalResources/blogPrompts/blogPrompt-201.md
-        - Prompt 202: additionalResources/blogPrompts/blogPrompt-202.md
+        - Day 5 QFD: additionalResources/questionsForDiscussion/qfd-class-5.md
+        - Day 6 QFD: additionalResources/questionsForDiscussion/qfd-class-6.md
+      - Blog Prompts: additionalResources/blogPrompts.md
       - Keyboard Shortcuts:  additionalResources/keyboardShortcuts.md
       - Git Commands: additionalResources/gitCommands.md
       - Learn Your CLI: additionalResources/learnYourCLI.md

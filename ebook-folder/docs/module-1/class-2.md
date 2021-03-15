@@ -31,14 +31,13 @@ Today we're going to:
     * [ ] Work through your bugs
     * [ ] Achieve green checks for each of your unit tests
 - [ ] Push Yourself Further
+- [ ] Blog to Show You Know
 - [ ] Exit Recap, Attendance, and Reminders
 
 ### Questions for Student Led Discussion, 15 mins
 <!-- This section should be structured with the 5E model: https://lesley.edu/article/empowering-students-the-5e-model-explained -->
 
-1. Why do we need conditional statements?
-2. What are you struggling with so far?
-3. [More questions to prompt discussion can be found here](./../additionalResources/questionsForDiscussion/qfd-class-2.md).
+[Questions to prompt discussion](./../additionalResources/questionsForDiscussion/qfd-class-2.md)
 
 ### Interview Challenge, 15 mins
 <!-- The last two E happen here: elaborate and evaluate  -->
@@ -101,16 +100,14 @@ Can you think of a simpler way?
 
 ## Blog, to Show You Know
 
-Every other class will end with a discussion over these questions. If you have no idea about them, ask your instructor. Nevertheless, you will need to research the topics on your own and record what you learned in a blog. You will then turn in a link with the url of the published blog in Zollege.
+Every other class will end with a discussion over these questions. If you have no idea about them, ask your instructor. Nevertheless, you will need to research the topics on your own and record what you learned in a blog. You will then turn in a link with the url of the published blog in Zollege. Feel free to copy/paste the question into google and read about what comes up. These interview questions are meant to broaden your knowledge and cover more ground than we can possibly get to in these few weeks. We want you to be well prepared for the rigors of interviewing for development jobs and knowing the answers to these questions will ensure that you have every tool you need to succeed!
 
-Feel free to copy/paste the question into google and read about what comes up. These interview questions are meant to broaden your knowledge and cover more ground than we can possibly get to in these few weeks. We want you to be well prepared for the rigors of interviewing for development jobs and knowing the answers to these questions will ensure that you have every tool you need to succeed!
-
-[Blog Prompt - 201](./../additionalResources/blogPrompts/blogPrompt-201.md)
+[Blog Prompts](./../additionalResources/blogPrompts.md)
 
 ## Exit Recap, Attendance, and Reminders, 5 mins
 
 * Create RPS Assignment
-* Create [Blog Prompt - 201](./../additionalResources/blogPrompts/blogPrompt-201.md) Assignment
+* Create Blog Prompt - 201 Assignment
 * Prepare for Class 3 by completing all of your pre-class lessons
 * Complete the feedback survey
 

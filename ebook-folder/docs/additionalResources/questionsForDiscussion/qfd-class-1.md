@@ -1,5 +1,7 @@
 # Class One - Questions for Discussion
 
+- [ ] What is a Capstone App? Why do we need one? Why are we starting to pitch about them now?
+- [ ] What are you struggling to understand about JavaScript, Node, or anything else?
 - [ ] Explain Flipped classroom vs Traditional classroom?
 - [ ] What are the Questions for Discussion meant for? How do you think they should be handled?
 - [ ] How would a successful student work through pre-lesson homework?

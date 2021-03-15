@@ -33,7 +33,7 @@
     2. *Styling Console Log Statements*
 * **Class 13** -
     1. *Object Shorthand*
-    2. **
+    2. *What is proper code spacing? Using the videos and examples in this textbook, demonstrate what spacing you should use and why.*
 * **Class 14** -
 * **Class 15** -
 * **Class 16** -

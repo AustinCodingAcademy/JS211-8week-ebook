@@ -41,11 +41,16 @@ Class 4:
   **PROMPT**: *FizzBuzz - Write a program that prints the numbers from 1 to 100, but for multiples of three print "Fizz" instead of the number and for the multiples of five print "Buzz". For numbers which are multiples of both three and five print "FizzBuzz".*
 
 Class 5:
-  **PROMPT 1**: *todo*
-  **PROMPT 2**: *todo*
+  **PROMPT 1**: *Write a function that determines if a string contains all unique characters.*
 Class 6:
-  **PROMPT 1**: *todo*
-  **PROMPT 2**: *todo*
+  **PROMPT 1**: *Build a program to find the length of the longest word in a string excluding punctuation and removing whitespace.*
+
+  ```javascript
+    const myString = "This is for your own personal journey. May you have excellent navigation as a developer using your own compass."
+
+    findLongestWord(myString) => 'navigation', 10
+  ```
+
 Class 7:
   **PROMPT 1**: *todo*
   **PROMPT 2**: *todo*

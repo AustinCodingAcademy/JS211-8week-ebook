@@ -46,9 +46,7 @@ Through the next week the other two-thirds of the class will follow suit and pre
 ### Questions for Student Led Discussion, 15 mins
 <!-- This section should be structured with the 5E model: https://lesley.edu/article/empowering-students-the-5e-model-explained -->
 
-1. What is a Capstone App? Why do we need one? Why are we starting to pitch about them now?
-2. What are you struggling to understand about JavaScript, Node, or anything else?
-3. [More questions here](./../additionalResources/questionsForDiscussion/qfd-class-1.md)
+[Questions to prompt discussion](./../additionalResources/questionsForDiscussion/qfd-class-1.md)
 
 ## Creation Time, 60-90 minutes
 
