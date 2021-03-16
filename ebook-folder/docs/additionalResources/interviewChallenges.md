@@ -87,12 +87,18 @@ Speak aloud every thought you have. THIS IS THE MOST IMPORTANT PART!
 
 ### Class 11:
 
-  - [ ] **Prompt 1: title** *todo*
-  - [ ] **Prompt 2: title** *todo*
+  - [ ] **Prompt 1: inPlaceMoveZeros** *Given an array `nums`, write a function to move all 0s to the end of the array while maintaining the relative order of the non-0 numbers:*
+
+    ```console
+      Input: [0,1,0,3,12]
+      Output: [1,3,12,0,0]
+    ```
+
+  - [ ] **Prompt 2: Questionable Value** *What is the value of window.foo?* `( window.foo || ( window.foo = "bar" ) );`
 
 ### Class 12:
 
-  - [ ] **Prompt 1: title** *todo*
+  - [ ] **Prompt 1: Summing the Array:** *Given an array of numbers, return the sum of all the numbers.*
   - [ ] **Prompt 2: title** *todo*
 
 ### Class 13:

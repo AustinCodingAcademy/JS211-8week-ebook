@@ -94,7 +94,7 @@ Today students will apply their knowledge of object-oriented programming to crea
 
 ### Push Yourself Further
 
-**SavingsAccount class** - This class should extend the BankAccount class.
+#### **SavingsAccount class** - This class should extend the BankAccount class.
 
 1. The class should have an additional field:
     - [ ] `interestRate` - This value represents the rate at which the account earns interest
@@ -106,6 +106,10 @@ Today students will apply their knowledge of object-oriented programming to crea
 
 1. Additional methods:
     - [ ] `accrueInterest()` - This method should use the `balance()` to get the current balance and add a new transaction representing a deposit of the appropriate amount.
+
+#### Checkers
+
+This is a very challenging game to build but if you're ready, go for it:[Checkers](./../additionalResources/bonusMaterial/checkersBonus.md)
 
 ## Blogs to Show You Know
 

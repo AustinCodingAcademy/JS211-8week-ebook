@@ -85,12 +85,11 @@ nav:
           - Class Keyword: module-3/oop-nuts+bolts.md
           - Extending Classes: module-3/extendClasses.md
           - Class 10 Bank Account: module-3/class-10.md
-        # - 'Class 10 Pre-Lessons':
-            # - Class 9: module-3/class-10.md
-        # - 'Class 11 Pre-Lessons':
-            # - Class 9: module-3/class-11.md
+        - 'Class 11 Pre-Lessons':
+          - Algorithms pt.1: module-3/algorithms-pt1.md
+          - Class 11 Sorting & Fundamentals: module-3/class-11.md
         # - 'Class 12 Pre-Lessons':
-            # - Class 9: module-3/class-12.md
+            # - Class 12: module-3/class-12.md
     # - 'Module 4: Developing in Node':
     - 'Additional Resources':
       - Interview Training: additionalResources/interviewChallenges.md
@@ -107,17 +106,26 @@ nav:
         - Day 8 QFD: additionalResources/questionsForDiscussion/qfd-class-8.md
         - Day 9 QFD: additionalResources/questionsForDiscussion/qfd-class-9.md
         - Day 10 QFD: additionalResources/questionsForDiscussion/qfd-class-10.md
+        - Day 11 QFD: additionalResources/questionsForDiscussion/qfd-class-11.md
       - Blog Prompts: additionalResources/blogPrompts.md
       - Keyboard Shortcuts:  additionalResources/keyboardShortcuts.md
       - Git Commands: additionalResources/gitCommands.md
       - Learn Your CLI: additionalResources/learnYourCLI.md
       - Graduation Prerequisites: additionalResources/graduationPrerequisites.md
       - Presentations Qualifications: additionalResources/presentationsQualifications.md
+      - 'Bonus Materials':
+        - Checkers App: additionalResources/bonusMaterial/checkersBonus.md
+        - JavaScripting.js: additionalResources/bonusMaterial/javascriptingBonus.md
 
 # defines the styles, usually just a single name but `custom_dir` overrides this behavior
 theme:
-  name: null
+  name: material
+  # was null
   custom_dir: mkdocs-material/material
+  # not rendering as expected...
+  repo_url: https://github.com/AustinCodingAcademy/JS211-8week-ebook
+  repo_name: AustinCodingAcademy/JS211-8week-ebook
+  edit_uri: edit/master/docs/
   palette:
     scheme: slate
     primary: black
@@ -128,6 +136,8 @@ theme:
     - navigation.instant
     - navigation.top
     # - navigation.tabs
+
+
   # ? Not rendering as expected??
   extra:
     copyright: Copyright &copy; 2013 - 2021 Austin Coding Academy
