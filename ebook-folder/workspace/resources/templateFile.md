@@ -52,7 +52,7 @@
 
 ++slash++
 
-<!-- https://facelessuser.github.io/pymdown-extensions/extensions/keys/ -->
+https://facelessuser.github.io/pymdown-extensions/extensions/keys/
 
 === "Javascript"
 

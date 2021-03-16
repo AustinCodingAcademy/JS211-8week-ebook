@@ -73,7 +73,17 @@ nav:
         - 'Class 8 Pre-Lessons':
           - HOF pt. 2: module-2/higherOrderFunctions-pt2.md
           - Class 8 find & findIndex: module-2/class-8.md  
-    # - 'Module 3: Algorithms':
+    - 'Module 3: OOP & Algorithms':
+        - 'Class 9 Pre-Lessons':
+          - OOP-pt.1: module-3/oop-pt1.md
+          - Closures: module-3/closures.md
+          - Class 9: module-3/class-9.md
+        # - 'Class 10 Pre-Lessons':
+            # - Class 9: module-3/class-10.md
+        # - 'Class 11 Pre-Lessons':
+            # - Class 9: module-3/class-11.md
+        # - 'Class 12 Pre-Lessons':
+            # - Class 9: module-3/class-12.md
     # - 'Module 4: Developing in Node':
     - 'Additional Resources':
       - Interview Training: additionalResources/interviewChallenges.md
@@ -88,6 +98,7 @@ nav:
         - Day 6 QFD: additionalResources/questionsForDiscussion/qfd-class-6.md
         - Day 7 QFD: additionalResources/questionsForDiscussion/qfd-class-7.md
         - Day 8 QFD: additionalResources/questionsForDiscussion/qfd-class-8.md
+        - Day 9 QFD: additionalResources/questionsForDiscussion/qfd-class-9.md
       - Blog Prompts: additionalResources/blogPrompts.md
       - Keyboard Shortcuts:  additionalResources/keyboardShortcuts.md
       - Git Commands: additionalResources/gitCommands.md

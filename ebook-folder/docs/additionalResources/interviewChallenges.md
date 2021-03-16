@@ -68,8 +68,14 @@ Class 8:
   **Prompt 2: duplicate** - *make this work* `duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]`
   
 Class 9:
-  **Prompt: title** - *todo*
-  **Prompt: title** - *todo*
+  **Prompt: powOfTwoSumEven** - *Given an array of numbers, raise each number by the power of 2 and return the sum of all the numbers that are evenly divisible by 4, i.e.* `const myArr = [1, 5, 10, 4, 2] // => 120`
+  **Prompt: title** - *How would you make the following work?*
+  
+  ```javascript
+    add(2, 5); // 7
+    add(2)(5); //  7
+  ```
+
 Class 10:
   Prompt 1: *todo*
   Prompt 2: *todo*

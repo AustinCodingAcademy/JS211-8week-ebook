@@ -79,14 +79,10 @@ Look at the example on the Mozilla docs on [`.reduce()`](https://developer.mozil
 - [ ] [YT, Steve Griffith - JS .every()](https://youtu.be/jY1WZ29YOkM)
 - [ ] [YT, Steve Griffith - JS .some()](https://youtu.be/l155liDxty8)
 
-
-```javascript
-
-```
-
+<!-- 
 ## Know Your Docs
 
-* [MDN Docs - ...]()
+* [MDN Docs - ...]() -->
 
 <!-- 
 
@@ -127,7 +123,7 @@ Look at the example on the Mozilla docs on [`.reduce()`](https://developer.mozil
 
 ++slash++
 
-<!-- https://facelessuser.github.io/pymdown-extensions/extensions/keys/ -->
+https://facelessuser.github.io/pymdown-extensions/extensions/keys/ 
 
 === "Javascript"
 
