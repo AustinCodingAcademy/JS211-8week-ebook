@@ -64,8 +64,9 @@ Speak aloud every thought you have. THIS IS THE MOST IMPORTANT PART!
     * [ ] **Prompt 2: float precision**: *What will be the output of this code? `console.log(0.1 + 0.2 == 0.3);`*
 
 Class 8:
-  **Prompt 1: title** - *todo*
-  **Prompt 2: title** - *todo*
+  **Prompt 1: reverseArray** - *Build a function that takes in an array and returns it in reverse order.*
+  **Prompt 2: duplicate** - *make this work* `duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]`
+  
 Class 9:
   **Prompt: title** - *todo*
   **Prompt: title** - *todo*

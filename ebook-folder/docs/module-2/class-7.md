@@ -105,11 +105,10 @@ Every other class will end with a discussion over these questions. If you have n
 <!-- <iframe id="openedx-zollege" src="https://openedx.zollege.com/feedback" style="width: 100%; height: 500px; border: 0">Browser not compatible.</iframe>
 <script src="https://openedx.zollege.com/assets/index.js" type="application/javascript"></script> -->
 
-
 <!-- TODO Create 3 question exit questions -->
 
 <!-- TODO INSERT Student Feedback From -->
 
 <!-- TODO INSERT *HIDDEN* Instructor Feedback Form -->
 
-<!-- cp workspace/resources/classOutlineTemplate.md docs/module-1/class-3.md -->
+<!-- cp workspace/resources/classOutlineTemplate.md docs/module- -->

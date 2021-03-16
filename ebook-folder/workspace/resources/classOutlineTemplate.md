@@ -41,7 +41,7 @@ Today we're going to:
 ## Creation Time, 60-90 mins
 
 <!-- 
-  * Instructor to Demonstrate with Examples, Explain and Set Expectations using the Rubric for the Project
+  * Instructor to Demonstrate with Examples, Explain and Set Expectations
   * Group Students in 3s 
     * plan and implements
   * Partner with other groups for elaboration
@@ -58,16 +58,9 @@ Today we're going to:
 - [ ] 
 - [ ] 
 
-<!-- 
+<!-- ## Blogs to Show You Know
 
-## Blogs to Show You Know    
-
-EVEN CLASSES ONLY 
-[Blog Prompts](./../additionalResources/blogPrompts.md)
-
-Every other class will end with a discussion over these questions. If you have no idea about them, ask your instructor. Nevertheless, you will need to research the topics on your own and record what you learned in a blog. You will then turn in a link with the url of the published blog in Zollege. Feel free to copy/paste the question into google and read about what comes up. These interview questions are meant to broaden your knowledge and cover more ground than we can possibly get to in these few weeks. We want you to be well prepared for the rigors of interviewing for development jobs and knowing the answers to these questions will ensure that you have every tool you need to succeed!
-
--->
+[Blog Prompts](./../additionalResources/blogPrompts.md) -->
 
 ## Exit Recap, Attendance, and Reminders, 5 mins
 
@@ -86,4 +79,6 @@ Every other class will end with a discussion over these questions. If you have n
 
 <!-- TODO INSERT *HIDDEN* Instructor Feedback Form -->
 
-<!-- cp workspace/resources/classOutlineTemplate.md docs/module-1/class-3.md -->
+<!-- 
+cp workspace/resources/classOutlineTemplate.md docs/module-
+ -->

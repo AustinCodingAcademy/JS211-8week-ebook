@@ -36,3 +36,14 @@
 - [ ] What are the differences between ES6 classes and ES5 function constructors?
 
 ## Class 8 - Prompt 204
+
+- [ ] Describe one thing you're learning in class today.
+- [ ] Can you describe the main difference between a forEach loop and a .map() loop and why you would pick one versus the other?
+- [ ] Describe event bubbling.
+- [ ] What is the definition of a higher-order function?
+- [ ] ES6 Template Literals offer a lot of flexibility in generating strings. Can you give an example?
+- [ ] What Is an associative array in JavaScript?
+- [ ] Why should you never use new Array in JavaScript?
+
+## Class 10 - Prompt 205
+
