@@ -6,14 +6,14 @@
 - [ ] [Class 3 - Its NOT O.K. to Be WEAK - Jordan Peterson](https://www.youtube.com/watch?v=5G8Gwr5JJ6Y)
 - [ ] [Class 4 - The Prison of Your Mind | Sean Stephenson | TEDxIronwoodStatePrison](https://www.youtube.com/watch?v=VaRO5-V1uK0)
 - [ ] [Class 5 - What if you Stopped Thinking All the Time? Wim Hof](https://www.youtube.com/watch?v=NI4IV0M3lOo)
+- [ ] [Class 6 - How to fix the exhausted brain | Brady Wilson](https://www.youtube.com/watch?v=XOU2ubWkoPw&t=1s)
+- [ ] [Class 7 - Millennials in the Workforce, A Generation of Weakness - Simon Sinek](https://www.youtube.com/watch?v=QXWNChoIluo)
 
 
 <!-- 
-- [ ] [Class 6 - ]()
-- [ ] [Class * - How to fix the exhausted brain | Brady Wilson](https://www.youtube.com/watch?v=XOU2ubWkoPw&t=1s)
-- [ ] [Class * - ]()
-- [ ] [Class * - ]()
-- [ ] [Class * - ]()
+- [ ] [Class 8 - ]()
+- [ ] [Class 9 - ]()
+- [ ] [Class 10 - ]()
 - [ ] [Class * - ]()
 - [ ] [Class * - ]()
 - [ ] [Class * - ]()
@@ -24,3 +24,7 @@
 
 <!-- height/width = 1.777 ---- width="655" height="368" -->
 <!-- TODO Add Intriguing Follow-up Questions -->
+
+
+<!-- Last of the program?? 
+[Allow things to unfold and you will find your purpose in life | Peggy Oki](https://www.youtube.com/watch?v=ycB29FkoylE) -->

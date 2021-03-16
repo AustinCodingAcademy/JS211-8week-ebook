@@ -1,11 +1,10 @@
-# Object-Oriented pt. 2
+# Object-Oriented Programming Part Two
 
 *Your mind is a powerful thing. When you fill it with positive thoughts, your life will start to change.*
 
 ## Overview
 
 We covered the the basics of object-oriented programming through very visual tasks and concrete ideas. Today we're going to go into a little more detail as to why OOP is a common paradigm of programming, including weird words like: `_proto_`, prototype and *prototypal inheritance*. The meaning behind these words isn't absolutely necessary for you to understand at this very moment or this week, but it is important that you know of them because eventually, when you're a mid-level programmer, you will need to understand them to advance to the next stage of your career. Today, let's just get into what each are and what we can do with them now.
-
 
 ### _proto_ vs prototype
 
