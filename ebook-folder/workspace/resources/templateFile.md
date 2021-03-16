@@ -66,4 +66,6 @@ https://facelessuser.github.io/pymdown-extensions/extensions/keys/
 
 cp workspace/resources/templateFile.md docs/module-
 
+height/width = 1.777 ---- width="655" height="368"
+
 -->

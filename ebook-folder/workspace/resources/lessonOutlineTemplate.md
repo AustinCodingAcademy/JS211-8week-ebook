@@ -28,7 +28,8 @@ Unfortunately you have to have quite a bit to say here otherwise the next sectio
 
 Or embed it on the screen
 
-<iframe width="825" height="550" src="https://www.youtube.com/embed/IRapyO6u1Ak" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<!-- height/width = 1.777 ---- width="655" height="368" -->
+<iframe width="655" height="368"  src="https://www.youtube.com/embed/IRapyO6u1Ak" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Code Blocks & Snippets
 

@@ -77,7 +77,11 @@ nav:
         - 'Class 9 Pre-Lessons':
           - OOP-pt.1: module-3/oop-pt1.md
           - Closures: module-3/closures.md
-          - Class 9: module-3/class-9.md
+          - Class 9 Mission to Mars: module-3/class-9.md
+          - OOP-pt.2: module-3/oop-pt2.md
+          - Class Keyword: module-3/oop-nuts+bolts.md
+          - Extending Classes: module-3/extendClasses.md
+          - Class 10 Bank Account: module-3/class-10.md
         # - 'Class 10 Pre-Lessons':
             # - Class 9: module-3/class-10.md
         # - 'Class 11 Pre-Lessons':

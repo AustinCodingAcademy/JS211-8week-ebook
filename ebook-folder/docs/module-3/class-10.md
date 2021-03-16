@@ -1,4 +1,4 @@
-# Class #: Title
+# Class 10: Bank Account
 
 <!-- ! HIDE FROM STUDENT; INSTRUCTOR ONLY CONTENT -->
 <!-- ## Instructor Only Content - HIDE FROM STUDENTS -->
@@ -80,6 +80,5 @@ Today we're going to:
 <!-- TODO INSERT *HIDDEN* Instructor Feedback Form -->
 
 <!-- 
-height/width = 1.777 ---- width="655" height="368"
 cp workspace/resources/classOutlineTemplate.md docs/module-
  -->
