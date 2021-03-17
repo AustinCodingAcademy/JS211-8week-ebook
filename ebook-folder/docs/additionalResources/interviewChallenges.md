@@ -111,12 +111,22 @@ Speak aloud every thought you have. THIS IS THE MOST IMPORTANT PART!
 ### Class 13:
 
 - [ ] **Prompt 1: MaxValueOfArray** *Talk through: Given an array, find the maximum value of the array*
-- [ ] **Prompt 2: title** *todo*
+- [ ] **Prompt 2: Merge Sort** *Hand build merge sort*
+- [ ] **Prompt 3: FizzBuzz Sum** *If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23. Build a function to find the sum of all the multiples of 3 or 5 below 1000.*
 
 ### Class 14:
 
 - [ ] **Prompt 1: title** *todo*
-- [ ] **Prompt 2: title** *todo*
+- [ ] **Prompt 2: title** *What is the outcome of the two alerts below?*
+
+  ```javascript
+    var foo = "Hello";
+      (function() {
+        var bar = " World";
+        alert(foo + bar);
+      })();
+      alert(foo + bar);
+  ```
 
 ### Class 15:
 
