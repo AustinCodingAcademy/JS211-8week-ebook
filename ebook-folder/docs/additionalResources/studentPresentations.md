@@ -30,9 +30,9 @@
     1. *Bring to the class an example of an async function with await variables. What do they do? Why would we use them and how do we use them?*
 * **Class 12** -
     1. *Demo Optional Chaining & Nullish Coalescing*
-    2. *Styling Console Log Statements*
+    2. *What is a hackathon? Why do they exist? What does one do at a hackathon? Where can you participate in them? Share with the class upcoming hackathons.*
 * **Class 13** -
-    1. *Object Shorthand*
+    1. *Object Shorthand & Styling Console Log Statements*
     2. *What is proper code spacing? Using the videos and examples in this textbook, demonstrate what spacing you should use and why.*
 * **Class 14** -
     1. *What is ESLINT? How can you use it to help you with spacing, errors, and bugs? What package do the JS211 repos come with to work with ESLINT? How do you use it?*

@@ -55,15 +55,15 @@ Speak aloud every thought you have. THIS IS THE MOST IMPORTANT PART!
 
 ### Class 7:
 
-  - [ ] **Prompt 1: sortedScores** - *Return unsorted scores in a descending sorted array.*
+- [ ] **Prompt 1: sortedScores** - *Return unsorted scores in a descending sorted array.*
 
-      ```javascript
-        /*Example*/
-        const unsortedScores = [37, 89, 41, 65, 91, 53]
-        sortedScores(unsortedScores) => [91, 89, 65, 53, 41, 37]
-      ```
+    ```javascript
+      /*Example*/
+      const unsortedScores = [37, 89, 41, 65, 91, 53]
+      sortedScores(unsortedScores) => [91, 89, 65, 53, 41, 37]
+    ```
 
-  - [ ] **Prompt 2: float precision** *What will be the output of this code? `console.log(0.1 + 0.2 == 0.3);`*
+- [ ] **Prompt 2: float precision** *What will be the output of this code? `console.log(0.1 + 0.2 == 0.3);`*
 
 ### Class 8:
 
@@ -82,44 +82,51 @@ Speak aloud every thought you have. THIS IS THE MOST IMPORTANT PART!
 
 ### Class 10:
 
-  - [ ] **Prompt 1: isPalindrome** *Build a function that would determine if a string was a palindrome.*
-  - [ ] **Prompt 2: Method Chaining** *What value is returned from the following statement?* `"i'm a lasagna hog".split("").reverse().join("");`
+- [ ] **Prompt 1: isPalindrome** *Build a function that would determine if a string was a palindrome.*
+- [ ] **Prompt 2: Method Chaining** *What value is returned from the following statement?* `"i'm a lasagna hog".split("").reverse().join("");`
 
 ### Class 11:
 
-  - [ ] **Prompt 1: inPlaceMoveZeros** *Given an array `nums`, write a function to move all 0s to the end of the array while maintaining the relative order of the non-0 numbers:*
+- [ ] **Prompt 1: inPlaceMoveZeros** *Given an array `nums`, write a function to move all 0s to the end of the array while maintaining the relative order of the non-0 numbers:*
 
-    ```console
-      Input: [0,1,0,3,12]
-      Output: [1,3,12,0,0]
-    ```
+  ```console
+    Input: [0,1,0,3,12]
+    Output: [1,3,12,0,0]
+  ```
 
-  - [ ] **Prompt 2: Questionable Value** *What is the value of window.foo?* `( window.foo || ( window.foo = "bar" ) );`
+- [ ] **Prompt 2: Questionable Value** *What is the value of window.foo?* `( window.foo || ( window.foo = "bar" ) );`
 
 ### Class 12:
 
-  - [ ] **Prompt 1: Summing the Array:** *Given an array of numbers, return the sum of all the numbers.*
-  - [ ] **Prompt 2: title** *todo*
+- [ ] **Prompt 1: Summing the Array:** *Given an array of numbers, return the sum of all the numbers.*
+- [ ] **Prompt 2: Bubble Sort** Hand built bubble sort:
+
+  ```javascript
+
+    bubbleSort([120, 315, 43, 56, 22, 8224, 8, 68, 90, 10, 32, 23, 45, 5, 20, 34, 250])
+    // returns => [ 8224, 315, 250, 120, 90, 68, 56, 45, 43, 34, 32, 23, 22, 20, 10, 8, 5]
+
+  ```
 
 ### Class 13:
 
-  - [ ] **Prompt 1: title** *todo*
-  - [ ] **Prompt 2: title** *todo*
+- [ ] **Prompt 1: MaxValueOfArray** *Talk through: Given an array, find the maximum value of the array*
+- [ ] **Prompt 2: title** *todo*
 
 ### Class 14:
 
-  - [ ] **Prompt 1: title** *todo*
-  - [ ] **Prompt 2: title** *todo*
+- [ ] **Prompt 1: title** *todo*
+- [ ] **Prompt 2: title** *todo*
 
 ### Class 15:
 
-  - [ ] **Prompt 1: title** *todo*
-  - [ ] **Prompt 2: title** *todo*
+- [ ] **Prompt 1: title** *todo*
+- [ ] **Prompt 2: title** *todo*
 
 ### Class 16:
 
-  - [ ] **Prompt 1: title** *todo*
-  - [ ] **Prompt 2: title** *todo*
+- [ ] **Prompt 1: title** *todo*
+- [ ] **Prompt 2: title** *todo*
 
 <!-- Class 17:
   Prompt 1: *todo*

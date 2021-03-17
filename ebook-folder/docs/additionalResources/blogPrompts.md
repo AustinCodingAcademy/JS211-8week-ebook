@@ -57,6 +57,15 @@
 
 ## Class 12 - Prompt 206
 
+- [ ] Tell us about something you learned this week.
+- [ ] What are the pros and cons of immutability?
+- [ ] How can you achieve immutability in your own code?
+- [ ] What are Divide and Conquer algorithms? Describe how they work. Can you give any common examples of the types of problems where this approach might be used?
+- [ ] How do insertion sort, heap sort, quick sort, and merge sort work?
+- [ ] What are the key advantages of insertion sort, quick sort, heap sort and merge sort? Discuss best, average, and worst case time and memory complexity.
+- [ ] Explain the difference between mutable and immutable objects.
+- [ ] What are the three laws of algorithm recursion? Describe them in your own words and what they mean to you.
+
 ## Class 14 - Prompt 207
 
 ## Class 16 - Prompt 208
