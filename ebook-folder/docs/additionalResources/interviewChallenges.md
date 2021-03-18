@@ -155,12 +155,19 @@ Speak aloud every thought you have. THIS IS THE MOST IMPORTANT PART!
 
 ### Class 15
 
-- [ ] **Prompt 1: title** *todo*
+- [ ] **Prompt 1: What is Foo?** *What is the value of foo.x in the code below?*
+
+  ```javascript
+    var foo = {n: 1};
+    var bar = foo;
+    foo.x = foo = {n: 2};
+  ```
+
 - [ ] **Prompt 2: Quick** *As a class, build a quick sort by hand.*
 
 ### Class 16
 
-- [ ] **Prompt 1: title** *todo*
+- [ ] **Prompt 1: Reduce Function** *Everyone, build Reduce sort function. Start with the 4 questions of any method.*
 - [ ] **Prompt 2: title** *todo*
 
 <!-- Class 17:

@@ -62,7 +62,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#subject" class="md-skip">
+        <a href="#function-recursion" class="md-skip">
           Skip to content
         </a>
       
@@ -1601,16 +1601,29 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#example-2" class="md-nav__link">
-    Example 2
+  <a href="#more-of-recursion" class="md-nav__link">
+    More of Recursion
+  </a>
+  
+    <nav class="md-nav" aria-label="More of Recursion">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#see-recursion" class="md-nav__link">
+    See Recursion
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#know-your-docs" class="md-nav__link">
-    Know Your Docs
+        
+          <li class="md-nav__item">
+  <a href="#practice-recursion" class="md-nav__link">
+    Practice Recursion
   </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -1618,6 +1631,18 @@
   
 </nav>
       
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../testingFetch/" class="md-nav__link">
+        Dependency Injection
+      </a>
     </li>
   
 
@@ -2067,16 +2092,29 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#example-2" class="md-nav__link">
-    Example 2
+  <a href="#more-of-recursion" class="md-nav__link">
+    More of Recursion
+  </a>
+  
+    <nav class="md-nav" aria-label="More of Recursion">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#see-recursion" class="md-nav__link">
+    See Recursion
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#know-your-docs" class="md-nav__link">
-    Know Your Docs
+        
+          <li class="md-nav__item">
+  <a href="#practice-recursion" class="md-nav__link">
+    Practice Recursion
   </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -2093,16 +2131,69 @@
               
                 
                 
-                <h1 id="subject">Subject</h1>
+                <h1 id="function-recursion">Function Recursion</h1>
 <!-- *STARLING QUOTE -Author* -->
 
-<h2 id="example-2">Example 2</h2>
-<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code>
+<p>Recursion, put simply, is when a function calls itself until a condition is met and then it stops calling itself. Pretty simple right? It may be hard to imagine what it looks like but a function can call itself inside of itself.</p>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code>  <span class="kd">let</span> <span class="nx">x</span> <span class="o">=</span> <span class="mf">0</span>
+
+  <span class="kd">const</span> <span class="nx">callMyself</span> <span class="o">=</span> <span class="p">()</span> <span class="p">=&gt;</span> <span class="p">{</span>
+    <span class="nx">x</span><span class="o">++</span>
+    <span class="k">if</span> <span class="p">(</span><span class="nx">x</span> <span class="o">&gt;</span> <span class="mf">9</span><span class="p">)</span> <span class="k">return</span>
+
+    <span class="nx">callMyself</span><span class="p">()</span>
+
+    <span class="k">return</span> <span class="nx">x</span>
+  <span class="p">}</span>
+
+  <span class="nx">callMyself</span><span class="p">()</span>
 </code></pre></div>
 </td></tr></table>
-<h2 id="know-your-docs">Know Your Docs</h2>
-<ul>
-<li><a href="">MDN Docs - ...</a></li>
+<blockquote>
+<p>The function above returns 10. Why?</p>
+</blockquote>
+<h2 id="more-of-recursion">More of Recursion</h2>
+<p>Recursion is very powerful in creating algorithms because you can perform the same tasks on the information over and over with each iteration of the information. Password hashing algorithms use this method. Merging and sorting algorithms use this method. It's all over the place and you need to know how to use it. Watch the following video. Pause and play as you need to make sure you understand what every line is doing.</p>
+<blockquote>
+<p>NOTE: MPJ shares some very useful tips to programming in general in the video. Pay attention.</p>
+</blockquote>
+<h3 id="see-recursion">See Recursion</h3>
+<iframe width="655" height="368" src="https://www.youtube.com/embed/k7-N8R0-KY4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<h3 id="practice-recursion">Practice Recursion</h3>
+<ul class="task-list">
+<li class="task-list-item">
+<p><input type="checkbox"/> In a new Repl.it called: <strong>Factorial of n</strong>:</p>
+<ul class="task-list">
+<li class="task-list-item"><input type="checkbox"/> Write a JavaScript program to calculate the factorial of a number. (In mathematics, the factorial of a non-negative integer <code>n</code>, denoted by <code>n!</code>, is the product of all positive integers less than or equal to n. For example, <code>5! = 5 x 4 x 3 x 2 x 1 = 120</code></li>
+</ul>
+</li>
+<li class="task-list-item">
+<p><input type="checkbox"/> In a new Repl.it called: <strong>Integer Range</strong>:</p>
+<ul class="task-list">
+<li class="task-list-item"><input type="checkbox"/> Write a JavaScript program to get the integers in range (x, y)</li>
+<li class="task-list-item"><input type="checkbox"/> Example : <code>range(2, 9) // Expected Output : [3, 4, 5, 6, 7, 8]</code></li>
+</ul>
+</li>
+<li class="task-list-item">
+<p><input type="checkbox"/> In a new Repl.it called: <strong>Recursive Fibonacci</strong>: (<em>I know...</em>)</p>
+<ul class="task-list">
+<li class="task-list-item"><input type="checkbox"/> Write a JavaScript program to get the first n of the Fibonacci numbers. The Fibonacci Sequence is the series of numbers: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, ...</li>
+<li class="task-list-item"><input type="checkbox"/> Each subsequent number is the sum of the previous two.</li>
+<li class="task-list-item"><input type="checkbox"/> Example <code>firstOfFib(6) // [0, 1, 1, 2, 3, 5]</code></li>
+</ul>
+</li>
 </ul>
 <!-- 
 ## Additional Resources
@@ -2212,13 +2303,13 @@ height/width = 1.777 ---- width="655" height="368"
         </a>
       
       
-        <a href="../class-15/" class="md-footer__link md-footer__link--next" rel="next">
+        <a href="../testingFetch/" class="md-footer__link md-footer__link--next" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              Class 15
+              Dependency Injection
             </div>
           </div>
           <div class="md-footer__button md-icon">

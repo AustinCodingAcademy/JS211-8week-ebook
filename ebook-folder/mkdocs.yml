@@ -106,6 +106,7 @@ nav:
         - 'Class 15 Pre-Lessons':
           - Function Currying: module-4/functionCurrying.md
           - Function Recursion: module-4/functionRecursion.md
+          - Dependency Injection: module-4/testingFetch.md
           - Class 15: module-4/class-15.md
     - 'Additional Resources':
       - Interview Training: additionalResources/interviewChallenges.md

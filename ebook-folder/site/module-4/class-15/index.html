@@ -62,7 +62,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#class-title" class="md-skip">
+        <a href="#class-15-testing-fetch-recursion" class="md-skip">
           Skip to content
         </a>
       
@@ -1580,6 +1580,18 @@
             
   
   
+  
+    <li class="md-nav__item">
+      <a href="../testingFetch/" class="md-nav__link">
+        Dependency Injection
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
     
   
   
@@ -1655,8 +1667,35 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#push-yourself-further" class="md-nav__link">
-    Push Yourself Further
+  <a href="#part-1-testing-your-fetch" class="md-nav__link">
+    Part 1: Testing Your Fetch
+  </a>
+  
+    <nav class="md-nav" aria-label="Part 1: Testing Your Fetch">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#instructions" class="md-nav__link">
+    Instructions
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#part-2-recursive-exponent" class="md-nav__link">
+    Part 2: Recursive Exponent
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#part-3-recursive-sum-of-array" class="md-nav__link">
+    Part 3: Recursive Sum of Array
   </a>
   
 </li>
@@ -2156,8 +2195,35 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#push-yourself-further" class="md-nav__link">
-    Push Yourself Further
+  <a href="#part-1-testing-your-fetch" class="md-nav__link">
+    Part 1: Testing Your Fetch
+  </a>
+  
+    <nav class="md-nav" aria-label="Part 1: Testing Your Fetch">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#instructions" class="md-nav__link">
+    Instructions
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#part-2-recursive-exponent" class="md-nav__link">
+    Part 2: Recursive Exponent
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#part-3-recursive-sum-of-array" class="md-nav__link">
+    Part 3: Recursive Sum of Array
   </a>
   
 </li>
@@ -2187,12 +2253,13 @@
               
                 
                 
-                <h1 id="class-title">Class #: Title</h1>
+                <h1 id="class-15-testing-fetch-recursion">Class 15: Testing Fetch &amp; Recursion</h1>
 <!-- ! HIDE FROM STUDENT; INSTRUCTOR ONLY CONTENT -->
 <!-- ## Instructor Only Content - HIDE FROM STUDENTS -->
 
 <!-- ! END INSTRUCTOR ONLY CONTENT -->
 
+<p><em>Your true success in life begins only when you make the commitment to become excellent at what you do. —Brian Tracy</em></p>
 <h2 id="greet-outline-and-objectify">Greet, Outline, and Objectify</h2>
 <!-- SMART: Specific, Measurable, Attainable, Relevant, and Timely. -->
 <!-- https://examples.yourdictionary.com/well-written-examples-of-learning-objectives.html -->
@@ -2203,14 +2270,19 @@
 <li class="task-list-item"><input type="checkbox"/> Questions for Student Led Discussion</li>
 <li class="task-list-item"><input type="checkbox"/> Interview Challenge</li>
 <li class="task-list-item"><input type="checkbox"/> Student Presentations</li>
-<li class="task-list-item"><input type="checkbox"/> Creation Time</li>
+<li class="task-list-item"><input type="checkbox"/> Creation Time<ul class="task-list">
+<li class="task-list-item"><input type="checkbox"/> Project 1: Unit Testing</li>
+<li class="task-list-item"><input type="checkbox"/> Project 2: Recursion, Exponent of Number</li>
+<li class="task-list-item"><input type="checkbox"/> Project 3: Recursion, Sum of Array</li>
+</ul>
+</li>
 <li class="task-list-item"><input type="checkbox"/> Push Yourself Further</li>
 <li class="task-list-item"><input type="checkbox"/> Exit Recap, Attendance, and Reminders</li>
 </ul>
 <h3 id="questions-for-student-led-discussion-15-mins">Questions for Student Led Discussion, 15 mins</h3>
 <!-- This section should be structured with the 5E model: https://lesley.edu/article/empowering-students-the-5e-model-explained -->
 
-<p><a href="../../additionalResources/questionsForDiscussion/qfd-class-6/">Questions to prompt discussion</a></p>
+<p><a href="../../additionalResources/questionsForDiscussion/qfd-class-15/">Questions to prompt discussion</a></p>
 <h3 id="interview-challenge-15-mins">Interview Challenge, 15 mins</h3>
 <!-- The last two E happen here: elaborate and evaluate  -->
 <!-- this sections should have a challenge that can be solved with the skills they've learned since their last class. -->
@@ -2221,24 +2293,40 @@
 <h3 id="student-presentations-15-mins">Student Presentations, 15 mins</h3>
 <p><a href="../../additionalResources/studentPresentations/">See Student Presentations List</a></p>
 <h2 id="creation-time-60-90-mins">Creation Time, 60-90 mins</h2>
-<!-- 
-  * Instructor to Demonstrate with Examples, Explain and Set Expectations
-  * Group Students in 3s 
-    * plan and implements
-  * Partner with other groups for elaboration
-  * Share with the class for evaluation (potentially carry into the next class) 
--->
-
+<h3 id="part-1-testing-your-fetch">Part 1: Testing Your Fetch</h3>
+<p>Last week you paired up and built an app that fetches data from an API. Today you're going to add unit tests for multiple situations:</p>
 <ul class="task-list">
-<li class="task-list-item"><input type="checkbox"/> </li>
-<li class="task-list-item"><input type="checkbox"/> </li>
-<li class="task-list-item"><input type="checkbox"/> </li>
+<li class="task-list-item"><input type="checkbox"/> Mistyped address</li>
+<li class="task-list-item"><input type="checkbox"/> Out of range request</li>
+<li class="task-list-item"><input type="checkbox"/> Wrong API key</li>
+<li class="task-list-item"><input type="checkbox"/> <em>Hypothetical 4</em></li>
+<li class="task-list-item"><input type="checkbox"/> <em>Hypothetical 5</em></li>
 </ul>
-<h3 id="push-yourself-further">Push Yourself Further</h3>
+<h4 id="instructions">Instructions</h4>
 <ul class="task-list">
-<li class="task-list-item"><input type="checkbox"/> </li>
-<li class="task-list-item"><input type="checkbox"/> </li>
-<li class="task-list-item"><input type="checkbox"/> </li>
+<li class="task-list-item"><input type="checkbox"/> Pair up with your partner again</li>
+<li class="task-list-item"><input type="checkbox"/> <code>git status</code> to make sure you each have pushed up and merge all of your changes</li>
+<li class="task-list-item"><input type="checkbox"/> Work on one computer and add the 5 unit tests mentioned. You will have to refactor your request a bit to add in <code>fetch</code> as a dependency</li>
+</ul>
+<h3 id="part-2-recursive-exponent">Part 2: Recursive Exponent</h3>
+<p>In a Repl.it called Exponent of Number - Recursively</p>
+<ul class="task-list">
+<li class="task-list-item"><input type="checkbox"/> Write a recursive JavaScript program to compute the exponent of any number given. </li>
+</ul>
+<blockquote>
+<p>Note: The exponent of a number says how many times the base number is used as a factor.</p>
+</blockquote>
+<ul class="task-list">
+<li class="task-list-item"><input type="checkbox"/> Example: If you were given the number 64: <code>8 ** 2 = 8 x 8 = 64</code>. Here <code>8</code> is the base and <code>2</code> is the exponent.</li>
+<li class="task-list-item"><input type="checkbox"/> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Exponentiation">MDN Docs- Exponentiation**</a></li>
+<li class="task-list-item"><input type="checkbox"/> Turn in the URL.</li>
+</ul>
+<h3 id="part-3-recursive-sum-of-array">Part 3: Recursive Sum of Array</h3>
+<p>In a new Repl.it called Sum of Array - Recursively</p>
+<ul class="task-list">
+<li class="task-list-item"><input type="checkbox"/> Write a recursive JavaScript program to compute the sum of an array of integers.</li>
+<li class="task-list-item"><input type="checkbox"/> Example : <code>const array1 = [1, 2, 3, 4, 5, 6] sumArr(array1) // =&gt; Expected Output : 21</code></li>
+<li class="task-list-item"><input type="checkbox"/> Turn in the URL.</li>
 </ul>
 <!-- ## Blogs to Show You Know
 
@@ -2246,8 +2334,8 @@
 
 <h2 id="exit-recap-attendance-and-reminders-5-mins">Exit Recap, Attendance, and Reminders, 5 mins</h2>
 <ul>
-<li>Create *** Assignment</li>
-<li>Create *** Blog Assignment</li>
+<li>Create FetchTesting Assignment</li>
+<li>Create 1 Recursion Assignment</li>
 <li>Prepare for next by completing all of your pre-class lessons</li>
 <li>Complete the feedback survey</li>
 </ul>
@@ -2281,7 +2369,7 @@ cp workspace/resources/classOutlineTemplate.md docs/module-
   
     <nav class="md-footer__inner md-grid" aria-label="Footer">
       
-        <a href="../functionRecursion/" class="md-footer__link md-footer__link--prev" rel="prev">
+        <a href="../testingFetch/" class="md-footer__link md-footer__link--prev" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
           </div>
@@ -2290,7 +2378,7 @@ cp workspace/resources/classOutlineTemplate.md docs/module-
               <span class="md-footer__direction">
                 Previous
               </span>
-              Function Recursion
+              Dependency Injection
             </div>
           </div>
         </a>

@@ -62,7 +62,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#subject" class="md-skip">
+        <a href="#function-currying" class="md-skip">
           Skip to content
         </a>
       
@@ -1589,9 +1589,36 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#example-2" class="md-nav__link">
-    Example 2
+  <a href="#what-is-currying" class="md-nav__link">
+    What is Currying
   </a>
+  
+    <nav class="md-nav" aria-label="What is Currying">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#more-on-currying" class="md-nav__link">
+    More on Currying
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#see-currying" class="md-nav__link">
+    See Currying
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#practice-currying" class="md-nav__link">
+    Practice Currying
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -1617,6 +1644,18 @@
     <li class="md-nav__item">
       <a href="../functionRecursion/" class="md-nav__link">
         Function Recursion
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../testingFetch/" class="md-nav__link">
+        Dependency Injection
       </a>
     </li>
   
@@ -2067,9 +2106,36 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#example-2" class="md-nav__link">
-    Example 2
+  <a href="#what-is-currying" class="md-nav__link">
+    What is Currying
   </a>
+  
+    <nav class="md-nav" aria-label="What is Currying">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#more-on-currying" class="md-nav__link">
+    More on Currying
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#see-currying" class="md-nav__link">
+    See Currying
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#practice-currying" class="md-nav__link">
+    Practice Currying
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -2093,16 +2159,97 @@
               
                 
                 
-                <h1 id="subject">Subject</h1>
-<!-- *STARLING QUOTE -Author* -->
+                <h1 id="function-currying">Function Currying</h1>
+<p><em>Strength does not come from physical capacity. It comes from an indomitable will. —Mahatma Gandhi</em></p>
+<p><strong>Functional programming (FP)</strong> is an engineering paradigm much like OOP, which is what we've been working on lately. It's definitely an advanced subject and you're going to feel some anxiety when you first approach it. Why? Because it doesn't make as much direct-sense as expressing a function clearly and then invoking it (the imperative way). Today we're going to cover two big pieces of this functional programming thing, but as we work through them you may notice that you have already, inadvertently, been exposed to some of these concepts such as <code>.map()</code> and <code>.reduce()</code> (the declarative approach). However, before we continue, you need to read these two blogs:</p>
+<p>FIRST: <a href="https://medium.com/javascript-scene/master-the-javascript-interview-what-is-functional-programming-7f218c68b3a0">Get the vocab down</a>—and do the homework at the end!
+SECOND: <a href="https://www.smashingmagazine.com/2014/07/dont-be-scared-of-functional-programming/">Prep for libraries</a></p>
+<p>They should set the stage for the why, where and what we're going to cover today.</p>
+<p><strong>PAUSE</strong></p>
+<p>We'll wait here for you...</p>
+<h2 id="what-is-currying">What is Currying</h2>
+<p>The first thing we'll cover today is a bit of a tricky concept. We'll start by saying this methodology was created by <a href="https://en.wikipedia.org/wiki/Haskell_Curry">Haskell Curry</a> after whom <a href="https://en.wikipedia.org/wiki/Haskell_(programming_language)">Haskell</a> was named. The main thing you need to know about <a href="https://en.wikipedia.org/wiki/Currying">currying</a> is that it is something that you will use but you shouldn't be frustrated about now if you don't get it right away. It's totally okay to not understand it as it's an advanced topic. But we're in the end of our Intermediate course so we're getting to be more advanced students of web development and therefore should be excited to jump into new and challenging concepts!</p>
+<p>By now we're familiar with passing multiple arguments into a function like the example below:</p>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span>
+<span class="normal">4</span>
+<span class="normal">5</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="kd">const</span> <span class="nx">myFunction</span> <span class="o">=</span> <span class="p">(</span><span class="nx">arg1</span><span class="p">,</span> <span class="nx">arg2</span><span class="p">,</span> <span class="nx">arg3</span><span class="p">,</span> <span class="nx">arg4</span><span class="p">)</span> <span class="p">=&gt;</span> <span class="p">{</span>
+  <span class="kd">const</span> <span class="nx">newVariable</span> <span class="o">=</span> <span class="c1">// do something with the four arguments</span>
 
-<h2 id="example-2">Example 2</h2>
-<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code>
+  <span class="k">return</span> <span class="nx">newVariable</span>
+<span class="p">}</span>
+</code></pre></div>
+</td></tr></table>
+<p>Above we can pass in 4 arguments to be used inside the function. We don't have to use all four but we have to use 1 and 2 if we want to use 3 <strong>because order matters</strong>. To do that we would call the function like this: <code>myFunction(null, null, 68)</code>. Pretty simple right? In fact, you've already used functions that take multiple arguments that you haven't used yet. The callback function that goes inside <code>.filter()</code> takes three arguments: the element, the index of the element and the original <code>array</code> that <code>.filter()</code> was called on. In addition, <code>.filter()</code> takes the contextual this as a second argument after the callback function.</p>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code>  <span class="nx">arr</span><span class="p">.</span><span class="nx">filter</span><span class="p">(</span><span class="nx">callback</span><span class="p">(</span><span class="nx">element</span><span class="p">[,</span> <span class="nx">index</span><span class="p">[,</span> <span class="nx">array</span><span class="p">]])[,</span> <span class="nx">thisArg</span><span class="p">])</span>
+</code></pre></div>
+</td></tr></table>
+<p>You've used <code>.filter()</code> before and have probably not had to use these arguments. That's okay. I only bring them up here because I want you to be aware of unused arguments in functions before we move on to currying.</p>
+<p>In brief, we can, instead of passing multiple parameters to a single function, pass a single argument to a function that then returns a single function with a single argument in it that also returns a single function that takes a single argument. And that, in short, is currying.</p>
+<p>Sound confusing? Good! It should be. It's going to take a bit for your mind to figure out how this works and to develop a mental model of it for you to understand it in your mind's eye.</p>
+<h3 id="more-on-currying">More on Currying</h3>
+<p>Currying is when you break down a function that takes multiple arguments into a series of functions that take part of the arguments. Here's an example in JavaScript:</p>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code>  <span class="kd">const</span> <span class="nx">addTwo</span> <span class="o">=</span> <span class="p">(</span><span class="nx">num1</span><span class="p">,</span> <span class="nx">num2</span><span class="p">)</span> <span class="p">=&gt;</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="nx">num1</span> <span class="o">+</span> <span class="nx">num2</span>
+  <span class="p">}</span>
+</code></pre></div>
+</td></tr></table>
+<p>This is a function that takes two arguments, num1 and num2, and returns their sum. Let's see what this function looks liked curried:</p>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span>
+<span class="normal">4</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code>  <span class="kd">const</span> <span class="nx">addTwo</span> <span class="o">=</span> <span class="p">(</span><span class="nx">num1</span><span class="p">)</span> <span class="p">=&gt;</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">num2</span><span class="p">)</span> <span class="p">{</span>
+      <span class="k">return</span> <span class="nx">num1</span> <span class="o">+</span> <span class="nx">num2</span>
+    <span class="p">}</span>
+</code></pre></div>
+</td></tr></table>
+<p>This is now a function that takes one argument, num1, and returns a function that takes another argument, num2, and that function returns their sum. We can call it like this:</p>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span>
+<span class="normal">4</span>
+<span class="normal">5</span>
+<span class="normal">6</span>
+<span class="normal">7</span>
+<span class="normal">8</span>
+<span class="normal">9</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code>  <span class="nx">addTwo</span><span class="p">(</span><span class="mf">5</span><span class="p">)(</span><span class="mf">6</span><span class="p">)</span> <span class="c1">// =&gt; 11</span>
+
+  <span class="c1">// or hold the first function as a variable</span>
+
+  <span class="kd">const</span> <span class="nx">addToFive</span> <span class="o">=</span> <span class="nx">addTwo</span><span class="p">(</span><span class="mf">5</span><span class="p">)</span>
+
+  <span class="c1">// then add it to what ever number we want:</span>
+
+<span class="nx">addToFive</span><span class="p">(</span><span class="mf">6</span><span class="p">)</span>  <span class="c1">// =&gt; 11</span>
+</code></pre></div>
+</td></tr></table>
+<p>This is what some people may call a closure. The third statement uses the <code>addToFive</code> operation to add 5 to 6, again producing 11 as a result.</p>
+<p>Still confused? That's okay, it'll sink in with time. For now, read the <a href="https://hackernoon.com/javascript-and-functional-programming-currying-pt-4-96e3230782ab">4th part of this FP Blog</a> and then watch the following video.</p>
+<h3 id="see-currying">See Currying</h3>
+<iframe width="655" height="368" src="https://www.youtube.com/embed/iZLP4qOwY8I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<h3 id="practice-currying">Practice Currying</h3>
+<ul class="task-list">
+<li class="task-list-item"><input type="checkbox"/> Open a new Repl.it</li>
+<li class="task-list-item"><input type="checkbox"/> Name it: Curried Function</li>
+<li class="task-list-item"><input type="checkbox"/> Paste the code below into it and curry it</li>
+<li class="task-list-item"><input type="checkbox"/> The result should be able to be called like this: <code>curriedGreet("Hi there")("Howard")("Austin,TX")("Angela");</code></li>
+</ul>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code>  <span class="kd">const</span> <span class="nx">greet</span> <span class="o">=</span> <span class="p">(</span><span class="nx">greeting</span><span class="p">,</span> <span class="nx">name</span><span class="p">,</span> <span class="nx">location</span><span class="p">,</span> <span class="nx">greeter</span><span class="p">)</span> <span class="p">=&gt;</span> <span class="p">{</span>
+    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="sb">`</span><span class="si">${</span><span class="nx">greeting</span><span class="si">}</span><span class="sb">, </span><span class="si">${</span><span class="nx">name</span><span class="si">}</span><span class="sb">! Welcome to </span><span class="si">${</span><span class="nx">location</span><span class="si">}</span><span class="sb">. My name is </span><span class="si">${</span><span class="nx">greeter</span><span class="si">}</span><span class="sb">.`</span><span class="p">);</span>
+  <span class="p">};</span>
 </code></pre></div>
 </td></tr></table>
 <h2 id="know-your-docs">Know Your Docs</h2>
 <ul>
-<li><a href="">MDN Docs - ...</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function">MDN Docs - Function</a></li>
+<li><a href="https://javascript.info/currying-partials">Javascript.info - Currying</a></li>
 </ul>
 <!-- 
 ## Additional Resources

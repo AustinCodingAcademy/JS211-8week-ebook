@@ -25,6 +25,7 @@ Today we're going to:
     * [ ] The instructor will help students [learn to create](https://medium.com/@thejasonfile/using-dotenv-package-to-create-environment-variables-33da4ac4ea8f) a `.env` file!!
     * [ ] Whiteboard, code plan and build your app in a new repo
 - [ ] Push Yourself Further
+- [ ] Interview Questions: Blog to Show You Know
 - [ ] Exit Recap, Attendance, and Reminders
 
 ### Questions for Student Led Discussion, 15 mins
