@@ -20,7 +20,9 @@ Speak aloud every thought you have. THIS IS THE MOST IMPORTANT PART!
 
 ## The Prompts
 
-### **Class 1 Prompt: Two Eggs & 100 Floors** - The following is a description of this famous puzzle involving 2 eggs and a building with 100 floors. Suppose that we wish to know which stories in a 100-story building are safe to drop eggs from, and which will cause the eggs to break on landing. What strategy should be used to drop eggs such that the total number of drops in the worst case is minimized and we find the required floor?
+### Class 1 Prompt: Two Eggs & 100 Floors** -
+
+*The following is a description of this famous puzzle involving 2 eggs and a building with 100 floors. Suppose that we wish to know which stories in a 100-story building are safe to drop eggs from, and which will cause the eggs to break on landing. What strategy should be used to drop eggs such that the total number of drops in the worst case is minimized and we find the required floor?*
 
     > We may make a few assumptions:
       > - An egg that survives a fall can be used again.
@@ -29,11 +31,15 @@ Speak aloud every thought you have. THIS IS THE MOST IMPORTANT PART!
       > - If an egg breaks when dropped, then it would break if dropped from a higher floor.
       > - If an egg survives a fall then it would survive a shorter fall.
 
-### **Class  2 Prompt: Hourglasses Puzzle** - How do you measure 9 minutes from a 4 minute-glass and a 7 minute-glass?
+### Class  2 Prompt: Hourglasses Puzzle - 
+
+*How do you measure 9 minutes from a 4 minute-glass and a 7 minute-glass?*
 
     > We have only 2 sand timers: 4 minutes and 7 minutes but we need to measure 9 minutes. How do we do it?
   
-### **Class 3 Prompt: Take an array of numbers, raise each number by the power of two and return the sum of the new array.**
+### Class 3 Prompt: sumPoweredByTwo
+
+*Take an array of numbers, raise each number by the power of two and return the sum of the new array.*
 
     ```javascript
       const myArr = [ 1, 2, 3]
@@ -41,11 +47,22 @@ Speak aloud every thought you have. THIS IS THE MOST IMPORTANT PART!
       sumOfPoweredByTwo(myArr) // --> 14
     ```
 
-### **Class 4 Prompt: FizzBuzz** - *Write a program that prints the numbers from 1 to 100, but for multiples of three print "Fizz" instead of the number and for the multiples of five print "Buzz". For numbers which are multiples of both three and five print "FizzBuzz".*
+### Class 4 Prompt: FizzBuzz
 
-### **Class 5 Prompt: isUnique** - *Write a function that determines if a string contains all unique characters.*
+*Write a program that prints the numbers from 1 to 100, but for multiples of three print "Fizz" instead of the number and for the multiples of five print "Buzz". For numbers which are multiples of both three and five print "FizzBuzz".*
 
-### **Class 6 Prompt: wordLength** - *Build a program to find the length of the longest word in a string excluding punctuation and removing whitespace.*
+### Class 5 Prompt: isUnique
+
+*Write a function that determines if a string contains all unique characters.*
+
+  ```javascript
+    isUnique('egg') // --> false
+    isUnique('Artemis') // --> true
+  ```
+
+### Class 6 Prompt: wordLength
+
+*Build a program to find the length of the longest word in a string excluding punctuation and removing whitespace.*
 
     ```javascript
       const myString = "This is for your own personal journey. May you have excellent navigation as a developer using your own compass."
@@ -53,7 +70,7 @@ Speak aloud every thought you have. THIS IS THE MOST IMPORTANT PART!
       findLongestWord(myString) => 'navigation', 10
     ```
 
-### Class 7:
+### Class 7
 
 - [ ] **Prompt 1: sortedScores** - *Return unsorted scores in a descending sorted array.*
 
@@ -65,12 +82,12 @@ Speak aloud every thought you have. THIS IS THE MOST IMPORTANT PART!
 
 - [ ] **Prompt 2: float precision** *What will be the output of this code? `console.log(0.1 + 0.2 == 0.3);`*
 
-### Class 8:
+### Class 8
 
   **Prompt 1: reverseArray** - *Build a function that takes in an array and returns it in reverse order.*
   **Prompt 2: duplicate** - *make this work* `duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]`
   
-### Class 9:
+### Class 9
 
   **Prompt 1: powOfTwoSumEven** - *Given an array of numbers, raise each number by the power of 2 and return the sum of all the numbers that are evenly divisible by 4, i.e.* `const myArr = [1, 5, 10, 4, 2] // => 120`
   **Prompt 2: Function Currying** - *How would you make the following work? What's the utility of it?*
@@ -80,12 +97,12 @@ Speak aloud every thought you have. THIS IS THE MOST IMPORTANT PART!
     add(2)(5); // --> 7
   ```
 
-### Class 10:
+### Class 10
 
 - [ ] **Prompt 1: isPalindrome** *Build a function that would determine if a string was a palindrome.*
 - [ ] **Prompt 2: Method Chaining** *What value is returned from the following statement?* `"i'm a lasagna hog".split("").reverse().join("");`
 
-### Class 11:
+### Class 11
 
 - [ ] **Prompt 1: inPlaceMoveZeros** *Given an array `nums`, write a function to move all 0s to the end of the array while maintaining the relative order of the non-0 numbers:*
 
@@ -96,7 +113,7 @@ Speak aloud every thought you have. THIS IS THE MOST IMPORTANT PART!
 
 - [ ] **Prompt 2: Questionable Value** *What is the value of window.foo?* `( window.foo || ( window.foo = "bar" ) );`
 
-### Class 12:
+### Class 12
 
 - [ ] **Prompt 1: Summing the Array:** *Given an array of numbers, return the sum of all the numbers.*
 - [ ] **Prompt 2: Bubble Sort** Hand built bubble sort:
@@ -108,32 +125,40 @@ Speak aloud every thought you have. THIS IS THE MOST IMPORTANT PART!
 
   ```
 
-### Class 13:
+### Class 13
 
 - [ ] **Prompt 1: MaxValueOfArray** *Talk through: Given an array, find the maximum value of the array*
 - [ ] **Prompt 2: Merge Sort** *Hand build merge sort*
 - [ ] **Prompt 3: FizzBuzz Sum** *If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23. Build a function to find the sum of all the multiples of 3 or 5 below 1000.*
 
-### Class 14:
+### Class 14
 
-- [ ] **Prompt 1: title** *todo*
-- [ ] **Prompt 2: title** *What is the outcome of the two alerts below?*
+- [ ] **Prompt 1: The Fibonacci Sequence...** *Each new term in the Fibonacci sequence is generated by adding the previous two numbers together. By starting with 1 and 2, the first 10 numbers will be:*`1, 2, 3, 5, 8, 13, 21, 34, 55, 89, ...` *By considering the terms in the Fibonacci sequence whose maximum value does not exceed four million, find the sum of the even-valued terms.*
+- [ ] **Prompt 2: Scope** *What is the outcome of the two alerts below?*
 
   ```javascript
-    var foo = "Hello";
-      (function() {
-        var bar = " World";
-        alert(foo + bar);
-      })();
+  var foo = "Hello";
+    (function() {
+      var bar = " World";
       alert(foo + bar);
+    })();
+    alert(foo + bar);
+  ```
+  
+- [ ] **Prompt 3: length** *What is the value of foo.length?*
+  
+  ```javascript
+    var foo = [];
+    foo.push(1);
+    foo.push(2);
   ```
 
-### Class 15:
+### Class 15
 
 - [ ] **Prompt 1: title** *todo*
-- [ ] **Prompt 2: title** *todo*
+- [ ] **Prompt 2: Quick** *As a class, build a quick sort by hand.*
 
-### Class 16:
+### Class 16
 
 - [ ] **Prompt 1: title** *todo*
 - [ ] **Prompt 2: title** *todo*
@@ -151,4 +176,5 @@ Class 20:
   Prompt 1: *todo*
   Prompt 2: *todo* -->
 
-  <!-- Estimated readtime functionality for a web page -->
+  <!-- Create a function that estimates the read time for a web page based on average reading speed -->
+  <!-- https://medium.com/frontend-development-with-js/answers-of-front-end-job-interview-coding-questions-3c227d59016c -->

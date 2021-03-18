@@ -24,7 +24,7 @@ Today we're going to:
 ### Questions for Student Led Discussion, 15 mins
 <!-- This section should be structured with the 5E model: https://lesley.edu/article/empowering-students-the-5e-model-explained -->
 
-[Questions to prompt discussion](./../additionalResources/questionsForDiscussion/qfd-class-6.md)
+[Questions to prompt discussion](./../additionalResources/questionsForDiscussion/qfd-class-15.md)
 
 
 ### Interview Challenge, 15 mins

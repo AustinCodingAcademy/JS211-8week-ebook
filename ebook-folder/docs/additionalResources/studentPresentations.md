@@ -43,6 +43,3 @@
 * **Class 16** -
     1. All Students: *In 2 minutes, pitch your graduation app to the class. What’s the problem? How does this app solve it?*
 
-
-
-

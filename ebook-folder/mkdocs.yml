@@ -59,7 +59,7 @@ nav:
         - Loops in JS: module-1/js-loops.md  
         - Develop - Your Prison: module-1/developSeries-PrisonOfYourMind.md
         - Class 4 TicTacToe: module-1/class-4.md
-    - 'Module 2: OOP & Functional Programming':
+    - 'Module 2: Functional Programming':
         - 'Class 5 Pre-Lessons':
           - The DOM: module-2/theDom.md
           - Develop - Stop Thinking: module-2/developSeries-StopThinking.md
@@ -89,6 +89,7 @@ nav:
           - Algorithms pt.1: module-3/algorithms-pt1.md
           - Class 11 Sorting & Fundamentals: module-3/class-11.md
         - 'Class 12 Pre-Lessons':
+          - Develop - Thinking Programmer: module-3/developeSeries-thinkingLikeAProgrammer.md
           - Algorithms pt.2: module-3/algorithms-pt2.md
           - Class 12 Hackathon: module-3/class-12.md
     - 'Module 4: Developing in Node':
@@ -97,6 +98,15 @@ nav:
           - Promises: module-4/promises.md
           - Fetch API: module-4/fetch-API.md
           - Class 13 Address Book: module-4/class-13.md
+        - 'Class 14 Pre-Lessons':
+          - API Keys: module-4/api-keys.md
+          - Fetch Error Handling: module-4/fetch-errorHandling.md
+          - Develop - Code Music: module-4/developSeries-MusicForYourBrain.md
+          - Class 14: module-4/class-14.md
+        - 'Class 15 Pre-Lessons':
+          - Function Currying: module-4/functionCurrying.md
+          - Function Recursion: module-4/functionRecursion.md
+          - Class 15: module-4/class-15.md
     - 'Additional Resources':
       - Interview Training: additionalResources/interviewChallenges.md
       - Student Presentations: additionalResources/studentPresentations.md
@@ -115,6 +125,8 @@ nav:
         - Day 11 QFD: additionalResources/questionsForDiscussion/qfd-class-11.md
         - Day 12 QFD: additionalResources/questionsForDiscussion/qfd-class-12.md
         - Day 13 QFD: additionalResources/questionsForDiscussion/qfd-class-13.md
+        - Day 14 QFD: additionalResources/questionsForDiscussion/qfd-class-14.md
+        - Day 15 QFD: additionalResources/questionsForDiscussion/qfd-class-15.md
       - Blog Prompts: additionalResources/blogPrompts.md
       - Keyboard Shortcuts:  additionalResources/keyboardShortcuts.md
       - Git Commands: additionalResources/gitCommands.md

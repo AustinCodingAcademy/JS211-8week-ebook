@@ -68,4 +68,13 @@
 
 ## Class 14 - Prompt 207
 
+- [ ] Write about something you learned this week.
+- [ ] Why would you use something like the load event? Does this event have disadvantages? Do you know any alternatives, and why would you use those?
+- [ ] What are the advantages and disadvantages of using Ajax?
+- [ ] Explain how JSONP works (and how it's not really Ajax).
+- [ ] Explain Ajax in as much detail as possible.
+- [ ] What does it mean when we talk about time complexity of an algorithm?
+- [ ] What are the three laws of algorithm recursion?
+- [ ] How do you see yourself growing as a web developer?
+
 ## Class 16 - Prompt 208
