@@ -78,3 +78,9 @@
 - [ ] How do you see yourself growing as a web developer?
 
 ## Class 16 - Prompt 208
+
+- [ ] Talk about something you learned this week.
+- [ ] Explain `Function.prototype.bind()`
+- [ ] Describe event bubbling.
+- [ ] What's the difference between the window load event and document DOMContentLoaded event?
+- [ ] Describe the call stack.

@@ -38,8 +38,7 @@
     1. *What is ESLINT? How can you use it to help you with spacing, errors, and bugs? What package do the JS211 repos come with to work with ESLINT? How do you use it?*
     2. *What is and how do you use Prettier?*
 * **Class 15** -
-    1. **
-    2. **
+    1. *Demonstrate the use of axios compared to fetch. When would you use it over fetch? Why?*
+    2. *Find a graph of all the Node packages. (The Node Universe) Demo it to the class and help them understand the environment you're learning to program in.*
 * **Class 16** -
     1. All Students: *In 2 minutes, pitch your graduation app to the class. What’s the problem? How does this app solve it?*
-

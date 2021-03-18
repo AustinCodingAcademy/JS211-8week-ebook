@@ -168,20 +168,21 @@ Speak aloud every thought you have. THIS IS THE MOST IMPORTANT PART!
 ### Class 16
 
 - [ ] **Prompt 1: Reduce Function** *Everyone, build Reduce sort function. Start with the 4 questions of any method.*
-- [ ] **Prompt 2: title** *todo*
+- [ ] **Prompt 2: Promise** *What does the following code print?*
 
-<!-- Class 17:
-  Prompt 1: *todo*
-  Prompt 2: *todo*
-Class 18:
-  Prompt 1: *todo*
-  Prompt 2: *todo*
-Class 19:
-  Prompt 1: *todo*
-  Prompt 2: *todo*
-Class 20:
-  Prompt 1: *todo*
-  Prompt 2: *todo* -->
+  ```javascript
+    console.log('one');
+    setTimeout(function() {
+      console.log('two');
+    }, 0);
+    Promise.resolve().then(function() {
+      console.log('three');
+    })
+    console.log('four');
+  ```
 
-  <!-- Create a function that estimates the read time for a web page based on average reading speed -->
-  <!-- https://medium.com/frontend-development-with-js/answers-of-front-end-job-interview-coding-questions-3c227d59016c -->
+- [ ] **Prompt 2: Filter Function** *Everyone build a Filter function, start with those 4 questions!!*
+
+<!-- Create a function that estimates the read time for a web page based on average reading speed -->
+
+<!-- https://medium.com/frontend-development-with-js/answers-of-front-end-job-interview-coding-questions-3c227d59016c -->

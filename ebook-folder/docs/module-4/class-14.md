@@ -1,4 +1,4 @@
-# Class 14: Pair Programming with a new API
+# Class 14: Pair Programming New API App
 
 <!-- ! HIDE FROM STUDENT; INSTRUCTOR ONLY CONTENT -->
 <!-- ## Instructor Only Content - HIDE FROM STUDENTS -->

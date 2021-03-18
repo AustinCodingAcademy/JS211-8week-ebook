@@ -10,10 +10,10 @@ site_name: JS211 - Foundations in Programming
 # TODO replace all CAPITALIZED words with appropriate titles
 
 # defines where the markdown to build from
-# docs_dir: 'test-node-book'
+# docs_dir: 'docs'
 
 # defines where to put the generated static files
-# site_dir: 'docs'
+# site_dir: 'site'
 
 # "pages" has been deprecated
 # use this to create the nav bar on the left-side of the window view
@@ -102,12 +102,16 @@ nav:
           - API Keys: module-4/api-keys.md
           - Fetch Error Handling: module-4/fetch-errorHandling.md
           - Develop - Code Music: module-4/developSeries-MusicForYourBrain.md
-          - Class 14: module-4/class-14.md
+          - Class 14 New API App: module-4/class-14.md
         - 'Class 15 Pre-Lessons':
           - Function Currying: module-4/functionCurrying.md
           - Function Recursion: module-4/functionRecursion.md
           - Dependency Injection: module-4/testingFetch.md
-          - Class 15: module-4/class-15.md
+          - Class 15 Testing Fetch: module-4/class-15.md
+        - 'Class 16 Pre-Lessons':
+          - Pure Functional Programming: module-4/pureFunctions.md
+          - Immutability: module-4/immutability.md
+          - Class 16 Lodash & Recursion: module-4/class-16.md
     - 'Additional Resources':
       - Interview Training: additionalResources/interviewChallenges.md
       - Student Presentations: additionalResources/studentPresentations.md
@@ -128,8 +132,9 @@ nav:
         - Day 13 QFD: additionalResources/questionsForDiscussion/qfd-class-13.md
         - Day 14 QFD: additionalResources/questionsForDiscussion/qfd-class-14.md
         - Day 15 QFD: additionalResources/questionsForDiscussion/qfd-class-15.md
+        - Day 16 QFD: additionalResources/questionsForDiscussion/qfd-class-16.md
       - Blog Prompts: additionalResources/blogPrompts.md
-      - Keyboard Shortcuts:  additionalResources/keyboardShortcuts.md
+      - Keyboard Shortcuts: additionalResources/keyboardShortcuts.md
       - Git Commands: additionalResources/gitCommands.md
       - Learn Your CLI: additionalResources/learnYourCLI.md
       - Graduation Prerequisites: additionalResources/graduationPrerequisites.md
@@ -159,7 +164,7 @@ theme:
     # - navigation.tabs
 
 
-  # ? Not rendering as expected??
+  # ? Not rendering as expected?? Supposed to be in the footer
   extra:
     copyright: Copyright &copy; 2013 - 2021 Austin Coding Academy
     social:
@@ -193,6 +198,7 @@ theme:
   icon:
     logo: logo
 
+# extensions to create nicer code fences and highlighting
 markdown_extensions:
   - pymdownx.highlight
   - pymdownx.superfences
