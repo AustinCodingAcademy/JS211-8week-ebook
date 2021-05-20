@@ -19,6 +19,7 @@ Today we're going to:
 - [ ] Questions for Student Led Discussion
 - [ ] Interview Challenge
 - [ ] Student Presentations: **Graduation App Pitches** - 60 minutes
+- [ ] End of Course Evaluation
 - [ ] Creation Time
     * [ ] Project 1: Lodash - 20 minutes
     * [ ] Project 2: Recursion, find GCD - 30 minutes
@@ -41,6 +42,21 @@ Today we're going to:
 ### Student Presentations, 15 mins
 
 [See Student Presentations List](./../additionalResources/studentPresentations.md)
+
+*****
+
+## End of Course Feedback
+
+Take 5 - 10 minutes now to complete the End of Course Evaluation. This information is incredibly important to our organization to improve, grow our instructors, textbooks, and community.
+
+- [ ] [End of Course Evaluation](https://docs.google.com/forms/d/e/1FAIpQLScSN8i3bPtmSH5KzpRDtH7RBUO0y4sgIji2t2vZ9N4VueYqdg/viewform)
+
+<!-- TODO find this form and where it's collecting data -->
+<!-- TODO Improve this FORM!!!  https://docs.google.com/forms/d/1d99ZNONx6Y2XC8DCv_yisiwDUXL1CM5EuV4md1OVyv8/edit -->
+<!-- <iframe id="openedx-zollege" src="https://openedx.zollege.com/end-of-course-survey" style="width: 100%; height: 500px; border: 0">Browser not compatible.</iframe>
+<script src="https://openedx.zollege.com/assets/index.js" type="application/javascript"></script>  -->
+
+*****
 
 ## Creation Time, 60-90 mins
 
