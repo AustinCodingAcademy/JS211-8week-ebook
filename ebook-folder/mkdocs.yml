@@ -139,7 +139,7 @@ nav:
       - Git & CLI Commands: additionalResources/gitCommands.md
       - Learn Your CLI: additionalResources/learnYourCLI.md
       - Graduation Prerequisites: additionalResources/graduationPrerequisites.md
-      - Presentations Qualifications: additionalResources/presentationsQualifications.md
+      - Presentation Qualifications: additionalResources/presentationsQualifications.md
       - 'Bonus Materials':
         - Checkers App: additionalResources/bonusMaterial/checkersBonus.md
         - JavaScripting.js: additionalResources/bonusMaterial/javascriptingBonus.md
@@ -156,7 +156,7 @@ theme:
   palette:
     scheme: slate
     primary: black
-    accent: deep orange
+    accent: cyan
     # Defines the logo in the top-left, file must be in the /doc directory
   logo: CE_WhiteBlue_Icon.png
   features:
