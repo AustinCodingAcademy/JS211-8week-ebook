@@ -113,6 +113,7 @@ nav:
           - Pure Functional Programming: module-4/pureFunctions.md
           - Immutability: module-4/immutability.md
           - Class 16 Lodash & Recursion: module-4/class-16.md
+    - Report A Bug: additionalResources/reportABug.md
     - 'Additional Resources':
       - Interview Training: additionalResources/interviewChallenges.md
       - Student Presentations: additionalResources/studentPresentations.md
