@@ -18,8 +18,8 @@
 - [ ] Interview Challenge
 - [ ] Student Presentations
 - [ ] Creation Time
-    * [ ] Towers of Hanoi
-    * [ ] Git Refresher
+    - [ ]  Towers of Hanoi
+    - [ ]  Git Refresher
 - [ ] Blog to Show You Know
 - [ ] Exit Recap, Attendance, and Reminders
 
@@ -47,13 +47,13 @@ In class today you will whiteboard and construct your code plan with your instru
 
 - [ ] Always start with whiteboarding!
 - [ ] Make your code plan.
-    * [ ] Work through the logic of the game.
-    * [ ] Break down to the smallest step what the computer has to do to make the Towers app work.
-    * [ ] List out the steps.
-    * [ ] Draw pictures.
-    * [ ] Write out pseudo code for your app.
-    * [ ] Translate pseudo code to JavaScript so the computer can understand it.
-    * [ ] Write in the code one block at a time, testing as you go.
+    - [ ]  Work through the logic of the game.
+    - [ ]  Break down to the smallest step what the computer has to do to make the Towers app work.
+    - [ ]  List out the steps.
+    - [ ]  Draw pictures.
+    - [ ]  Write out pseudo code for your app.
+    - [ ]  Translate pseudo code to JavaScript so the computer can understand it.
+    - [ ]  Write in the code one block at a time, testing as you go.
 - [ ] Place your code in the `main.js` file in your [JS211-TowersOfHanoi](https://github.com/AustinCodingAcademy/JS211_TowersOfHanoi). Read the `README`!
 - [ ] Off of master create a new branch called `checkpoint-1`.
 - [ ] Add your code to this branch and when you're finished turn in your pull request url.
@@ -68,6 +68,9 @@ Every other class will end with a discussion over these questions. If you have n
 
 [Blog Prompts](./../additionalResources/blogPrompts.md)
 
+## Student Feedback
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScjuL10i2xFGMWRwkjtgAL8F1Y5ipMPPjtTCDzkO1ZBcxUYZA/viewform?embedded=true" width="640" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 
 ## Exit Recap, Attendance, and Reminders, 5 mins
 

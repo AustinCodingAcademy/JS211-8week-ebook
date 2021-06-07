@@ -20,11 +20,11 @@ Today we're going to:
 - [ ] Interview Challenge
 - [ ] Student Presentations
 - [ ] Creation Time
-    * [ ] Choose a challenge
-    * [ ] Choose a team of 2-3
-    * [ ] Whiteboard, code plan, pseudo code, JavaScript
-    * [ ] Test
-    * [ ] Present!
+    - [ ]  Choose a challenge
+    - [ ]  Choose a team of 2-3
+    - [ ]  Whiteboard, code plan, pseudo code, JavaScript
+    - [ ]  Test
+    - [ ]  Present!
 - [ ] Push Yourself Further
 - [ ] Interview Questions - BlogPost_206
 - [ ] Exit Recap, Attendance, and Reminders
@@ -189,6 +189,10 @@ Given a sentence, paragraph or novel, count the letters in the string. Ignore wh
       3. Count each word's appearance
       4. [Calculate the grade level/proficiency of English](https://www.thoughtco.com/calculating-reading-level-1857103) for the sentence, paragraph or novel
     ```
+
+## Student Feedback
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScjuL10i2xFGMWRwkjtgAL8F1Y5ipMPPjtTCDzkO1ZBcxUYZA/viewform?embedded=true" width="640" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 
 ## Blogs to Show You Know
 

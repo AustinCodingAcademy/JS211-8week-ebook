@@ -1,3 +1,9 @@
+
+Develop Series
+
+* [7 types of Rest](https://blog.trello.com/7-types-of-rest?utm_source=newsletter&utm_medium=email&utm_campaign=trello-may2021-newsletter2)
+
+
 bring in the lessons:
 
 Low Level Concepts

@@ -20,10 +20,10 @@ Today we're going to:
 - [ ] Interview Challenge
 - [ ] Student Presentations
 - [ ] Creation Time
-    * [ ] Choose a prompt that interests you
-    * [ ] Partner up and plan your app
-    * [ ] The instructor will help students [learn to create](https://medium.com/@thejasonfile/using-dotenv-package-to-create-environment-variables-33da4ac4ea8f) a `.env` file!!
-    * [ ] Whiteboard, code plan and build your app in a new repo
+    - [ ]  Choose a prompt that interests you
+    - [ ]  Partner up and plan your app
+    - [ ]  The instructor will help students [learn to create](https://medium.com/@thejasonfile/using-dotenv-package-to-create-environment-variables-33da4ac4ea8f) a `.env` file!!
+    - [ ]  Whiteboard, code plan and build your app in a new repo
 - [ ] Push Yourself Further
 - [ ] Interview Questions: Blog to Show You Know
 - [ ] Exit Recap, Attendance, and Reminders
@@ -52,15 +52,15 @@ We've done a lot of programming by ourselves but rarely do we program in a bubbl
 - [ ] Pair up with someone based on your interests
 - [ ] Create a repo using your template
 - [ ] Clone it to one of your machines
-    * [ ] `npm init`
-    * [ ] Understand [dotenv](https://youtu.be/zDup0I2VGmk)
-    * [ ] `npm install dotenv --save`
-    * [ ] `require('dotenv').config()` at the top of your `main.js`
-    * [ ] save your api key in the `.env` file like this:
-    * [ ] `SECRET_KEY=abcd1234`
-    * create a `.gitignore` file
-    * add `.env` to the `.gitignore` file
-- [ ] `git add commit push`
+    - [ ]  `npm init`
+    - [ ]  Understand [dotenv](https://youtu.be/zDup0I2VGmk)
+    - [ ]  `npm install dotenv --save`
+    - [ ]  `require('dotenv').config()` at the top of your `main.js`
+    - [ ]  create a `.gitignore` file in the root folder
+    - [ ]  add `.env` to the `.gitignore` file
+    - [ ]  create a `.env` in the root folder and save your API key in it by...
+    - [ ]  adding something like `SECRET_KEY=abcd1234` to the `.env` file
+- [ ] `git` `add` `commit` `push`...
 - [ ] Now clone it to your partner's machine
 - [ ] Repeat the .env file process so each of you have a copy of the API key
 - [ ] Work in separate branches (be careful of merge conflicts)
@@ -104,6 +104,10 @@ If they get it right they get a point added to their side. (Use the logic from y
 
 - [ ] Find [more APIs](https://www.reddit.com/r/webdev/comments/3wrswc/what_are_some_fun_apis_to_play_with/) to spark your imagination.
 - [ ] Check out this [API](https://rapidapi.com/) of APIs!
+
+## Student Feedback
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScjuL10i2xFGMWRwkjtgAL8F1Y5ipMPPjtTCDzkO1ZBcxUYZA/viewform?embedded=true" width="640" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 
 ## Blogs to Show You Know
 

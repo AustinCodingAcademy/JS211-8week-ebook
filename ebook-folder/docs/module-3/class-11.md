@@ -20,12 +20,12 @@ Today we're going to:
 - [ ] Interview Challenge
 - [ ] Student Presentations
 - [ ] Creation Time
-    * [ ] Questions/assistance on BankAccount
-    * [ ] Git refresher
-    * [ ] Functional (higher-order from scratch) programming rebuild
-    * [ ] Sorting practice
+    - [ ]  Questions/assistance on BankAccount
+    - [ ]  Git refresher
+    - [ ]  Functional (higher-order from scratch) programming rebuild
+    - [ ]  Sorting practice
 - [ ] Push Yourself Further
-    * [ ] Javascripting.js
+    - [ ]  Javascripting.js
 - [ ] Exit Recap, Attendance, and Reminders
 
 ### Questions for Student Led Discussion, 15 mins
@@ -55,9 +55,9 @@ Instructor led discussion over Git and BankAccount
 By now you should very much know how to build higher-order functions from scratch. Today you will warm-up on the more important and useful higher order functions: `.map()`, `.reduce()` and `.filter()`.
 
 - [ ] Whiteboard, make a code plan and build each of the following methods:
-    * [ ] `.map()` - function that takes an array of items and a function that returns an array with each item manipulated by that function.
-    * [ ] `.reduce()` - function that takes an array of food orders with their amounts and returns the total amount of all the food orders.
-    * [ ] `.filter()` - function that takes an array of items and a function that returns an array with only the items that return true in the function.
+    - [ ]  `.map()` - function that takes an array of items and a function that returns an array with each item manipulated by that function.
+    - [ ]  `.reduce()` - function that takes an array of food orders with their amounts and returns the total amount of all the food orders.
+    - [ ]  `.filter()` - function that takes an array of items and a function that returns an array with only the items that return true in the function.
 - [ ] Create a repo called "Higher-Order-From-Scratch".
 - [ ] Practice working from branches by creating a new branch called: "HigherOrder".
 - [ ] Place your code in a file called `main.js`.
@@ -70,6 +70,10 @@ By now you should very much know how to build higher-order functions from scratc
 ### Push Yourself Further
 
 [JavaScripting.js](./../additionalResources/bonusMaterial/javascriptingBonus.md)
+
+## Student Feedback
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScjuL10i2xFGMWRwkjtgAL8F1Y5ipMPPjtTCDzkO1ZBcxUYZA/viewform?embedded=true" width="640" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 
 ## Exit Recap, Attendance, and Reminders, 5 mins
 

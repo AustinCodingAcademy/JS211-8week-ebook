@@ -20,8 +20,8 @@ Today we're going to:
 - [ ] Interview Challenge
 - [ ] Student Presentations
 - [ ] Creation Time
-    * [ ] Discuss how to create the BankAccount and Transaction classes.
-    * [ ] Create the BankAccount and Transaction classes.
+    - [ ]  Discuss how to create the BankAccount and Transaction classes.
+    - [ ]  Create the BankAccount and Transaction classes.
 - [ ] Push Yourself Further
 - [ ] Interview Questions - BlogPost_205
 - [ ] Exit Recap, Attendance, and Reminders
@@ -110,6 +110,10 @@ Today students will apply their knowledge of object-oriented programming to crea
 #### Checkers
 
 This is a very challenging game to build but if you're ready, go for it:[Checkers](./../additionalResources/bonusMaterial/checkersBonus.md)
+
+## Student Feedback
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScjuL10i2xFGMWRwkjtgAL8F1Y5ipMPPjtTCDzkO1ZBcxUYZA/viewform?embedded=true" width="640" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 
 ## Blogs to Show You Know
 

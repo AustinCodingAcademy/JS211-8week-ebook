@@ -20,9 +20,9 @@ Today we're going to:
 - [ ] Interview Challenge
 - [ ] Student Presentations
 - [ ] Creation Time
-    * [ ] Exercise your knowledge of arrays in Project 1
-    * [ ] Rebuild Tic Tac Toe with a GUI
-    * [ ] Rebuild Pig Latin with a GUI
+    - [ ]  Exercise your knowledge of arrays in Project 1
+    - [ ]  Rebuild Tic Tac Toe with a GUI
+    - [ ]  Rebuild Pig Latin with a GUI
 - [ ] Push Yourself Further
 - [ ] Exit Recap, Attendance, and Reminders
 
@@ -94,6 +94,9 @@ Connect your Pig Latin application to a GUI
 
 - [ ] Make your app handle sentences and paragraphs at a time like this [one](https://funtranslations.com/pig-latin).
 
+## Student Feedback
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScjuL10i2xFGMWRwkjtgAL8F1Y5ipMPPjtTCDzkO1ZBcxUYZA/viewform?embedded=true" width="640" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 
 ## Exit Recap, Attendance, and Reminders, 5 mins
 

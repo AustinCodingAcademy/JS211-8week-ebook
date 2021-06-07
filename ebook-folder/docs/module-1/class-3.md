@@ -89,14 +89,17 @@ Use a whiteboard to plan how Pig Latin works before building it with code.
 - [ ] Write a unit test for multiple words: "Pig Latin", "Jurassic Park"
 - [ ] Build the functionality for this new complexity.
 
-
 <!-- ## Blogs to Show You Know    EVEN CLASSES ONLY -->
+
+## Student Feedback
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScjuL10i2xFGMWRwkjtgAL8F1Y5ipMPPjtTCDzkO1ZBcxUYZA/viewform?embedded=true" width="640" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 
 ## Exit Recap, Attendance, and Reminders, 5 mins
 
-* Create Pig Latin Assignment
-* Prepare for next by completing all of your pre-class lessons
-* Complete the feedback survey
+- [ ] Create Pig Latin Assignment
+- [ ] Prepare for next by completing all of your pre-class lessons
+- [ ] Complete the feedback survey
 
 <!-- <iframe id="openedx-zollege" src="https://openedx.zollege.com/feedback" style="width: 100%; height: 500px; border: 0">Browser not compatible.</iframe>
 <script src="https://openedx.zollege.com/assets/index.js" type="application/javascript"></script> -->

@@ -20,9 +20,9 @@ Today we're going to:
 - [ ] Interview Challenge
 - [ ] Student Presentations
 - [ ] Creation Time
-    * [ ] Whiteboard, code plan, and build `.forEach()` from scratch
-    * [ ] Whiteboard, code plan, and build MasterMind
-    * [ ] [Build Tests for MasterMind](https://github.com/AustinCodingAcademy/JS211_MasterMind)
+    - [ ]  Whiteboard, code plan, and build `.forEach()` from scratch
+    - [ ]  Whiteboard, code plan, and build MasterMind
+    - [ ]  [Build Tests for MasterMind](https://github.com/AustinCodingAcademy/JS211_MasterMind)
 - [ ] Push Yourself Further
 - [ ] Exit Recap, Attendance, and Reminders
 
@@ -95,6 +95,10 @@ EVEN CLASSES ONLY
 Every other class will end with a discussion over these questions. If you have no idea about them, ask your instructor. Nevertheless, you will need to research the topics on your own and record what you learned in a blog. You will then turn in a link with the url of the published blog in Zollege. Feel free to copy/paste the question into google and read about what comes up. These interview questions are meant to broaden your knowledge and cover more ground than we can possibly get to in these few weeks. We want you to be well prepared for the rigors of interviewing for development jobs and knowing the answers to these questions will ensure that you have every tool you need to succeed!
 
 -->
+
+## Student Feedback
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScjuL10i2xFGMWRwkjtgAL8F1Y5ipMPPjtTCDzkO1ZBcxUYZA/viewform?embedded=true" width="640" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 
 ## Exit Recap, Attendance, and Reminders, 5 mins
 

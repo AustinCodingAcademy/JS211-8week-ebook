@@ -21,8 +21,8 @@ Today we're going to:
 - [ ] Student Presentations: **Graduation App Pitches** - 60 minutes
 - [ ] End of Course Evaluation
 - [ ] Creation Time
-    * [ ] Project 1: Lodash - 20 minutes
-    * [ ] Project 2: Recursion, find GCD - 30 minutes
+    - [ ]  Project 1: Lodash - 20 minutes
+    - [ ]  Project 2: Recursion, find GCD - 30 minutes
 - [ ] Push Yourself Further
 - [ ] Interview Questions: Blog to Show You Know
 - [ ] Exit Recap, Attendance, and Reminders
@@ -73,10 +73,10 @@ You've used `dotenv` already so you know about Node and npm. Now bring in this n
 - [ ] Use the [lodash documentation](https://lodash.com/docs/4.17.10).
 - [ ] Use this [video](https://www.youtube.com/watch?v=kdfikit351Y) to see how to use lodash.
 - [ ] Build a simple terminal app that uses at least 5 lodash methods.
-    * [ ] Use fake data or APIs you have worked with in previous projects or google fake data you can use. * [ ] Either make a fetch or save it in a few variables.
-    * [ ] Console.log the output of each lodash method called on the fake data.
-    * [ ] Use at least these methods: `_.chunk()`, `_.reverse()`, `_.without()`, `_.shuffle()`.
-    * [ ] Create unit tests with Mocha for each function you build.
+    - [ ]  Use fake data or APIs you have worked with in previous projects or google fake data you can use. - [ ]  Either make a fetch or save it in a few variables.
+    - [ ]  Console.log the output of each lodash method called on the fake data.
+    - [ ]  Use at least these methods: `_.chunk()`, `_.reverse()`, `_.without()`, `_.shuffle()`.
+    - [ ]  Create unit tests with Mocha for each function you build.
 
   > TIP: use the data from day 11 for arrays and objects to tinker with. Or google fake data.
 
@@ -91,6 +91,10 @@ Write a recursive JavaScript program to find the greatest common divisor (gcd) o
 - [ ] Continue on! After you finish these five, switch roles—navigator is now the driver and the driver is now the navigator.
 - [ ] Create 5 more inputs, buttons and displays for 5 more lodash methods.
 - [ ] Create unit tests for each of your functions.
+
+## Student Feedback
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScjuL10i2xFGMWRwkjtgAL8F1Y5ipMPPjtTCDzkO1ZBcxUYZA/viewform?embedded=true" width="640" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 
 ## Blogs to Show You Know
 

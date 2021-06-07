@@ -20,16 +20,16 @@ Today we're going to:
 - [ ] Interview Challenge
 - [ ] Student Presentations
 - [ ] Creation Time Project: R.P.S. - 70 mins
-    * [ ] Fork & Clone the [RPS Repo](https://github.com/AustinCodingAcademy/JS211_RockPaperScissorsProject.git)
-    * [ ] Ensure you have installed all dependencies/packages: `npm install`
-    * [ ] Instructor covers the `package.json` and what the `"scripts":` and `"test":` objects are.
-    * [ ] Ensure you know how to run tests for each program: `npm test main.js`
-    * [ ] Whiteboard a solution to building a Rock, Paper, Scissors program
-    * [ ] Translate the broad ideas to pseudo code
-    * [ ] Convert the pseudo code to real JavaScript code
-    * [ ] Type into your text editor the JavaScript code you've come up with one step at a time
-    * [ ] Work through your bugs
-    * [ ] Achieve green checks for each of your unit tests
+    - [ ]  Fork & Clone the [RPS Repo](https://github.com/AustinCodingAcademy/JS211_RockPaperScissorsProject.git)
+    - [ ]  Ensure you have installed all dependencies/packages: `npm install`
+    - [ ]  Instructor covers the `package.json` and what the `"scripts":` and `"test":` objects are.
+    - [ ]  Ensure you know how to run tests for each program: `npm test main.js`
+    - [ ]  Whiteboard a solution to building a Rock, Paper, Scissors program
+    - [ ]  Translate the broad ideas to pseudo code
+    - [ ]  Convert the pseudo code to real JavaScript code
+    - [ ]  Type into your text editor the JavaScript code you've come up with one step at a time
+    - [ ]  Work through your bugs
+    - [ ]  Achieve green checks for each of your unit tests
 - [ ] Push Yourself Further
 - [ ] Blog to Show You Know
 - [ ] Exit Recap, Attendance, and Reminders
@@ -97,6 +97,10 @@ Can you think of a simpler way?
 - [ ] Can you use `.trim()` to solve the problem if a user types in a space with their input?
 - [ ] Minimize redundancy: D.R.Y. up your code. Are their ways to not type as much as you've typed? Can you make the code smaller?
 - [ ] Compartmentalize your code into individual functions. This game doesn't have to run just one function. Can you pull code blocks out and put them into other functions that can be called from `rockPaperScissors`?
+
+## Student Feedback
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScjuL10i2xFGMWRwkjtgAL8F1Y5ipMPPjtTCDzkO1ZBcxUYZA/viewform?embedded=true" width="640" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 
 ## Blog, to Show You Know
 

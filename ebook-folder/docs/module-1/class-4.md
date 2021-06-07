@@ -24,8 +24,8 @@ Today we're going to:
 - [ ] Interview Challenge
 - [ ] Student Presentations
 - [ ] Creation Time - [Tic Tac Toe](https://github.com/AustinCodingAcademy/JS211_TicTacToeProject.git)
-  * [ ] Unit Test Overview
-  * [ ] Build TTT
+  - [ ]  Unit Test Overview
+  - [ ]  Build TTT
 - [ ] Push Yourself Further - Build GUI for TTT
 - [ ] Blog to Show You Know
 - [ ] Exit Recap, Attendance, and Reminders
@@ -54,9 +54,9 @@ Today we're going to:
 - [ ] `git push` your latest changes
 - [ ] `git checkout -b unit-test-practice` to create a new branch to safely work within.
 - [ ] Use the examples below to build additional tests for your application to pass:
-    * [ ] What if a user adds a space before or after their input?
-    * [ ] What if the user hit ENTER before typing in an input?
-    * [ ] Brainstorm with your classmates to test for even more **edge cases**.
+    - [ ]  What if a user adds a space before or after their input?
+    - [ ]  What if the user hit ENTER before typing in an input?
+    - [ ]  Brainstorm with your classmates to test for even more **edge cases**.
 
 ```javascript
   if (typeof describe === 'function') {
@@ -99,6 +99,10 @@ Today we're going to:
 ### Push Yourself Further
 
 - [ ] Connect this Tic Tac Toe logic to your [TTT-GUI from Web 101](https://github.com/AustinCodingAcademy/TicTacToe-101).
+
+## Student Feedback
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScjuL10i2xFGMWRwkjtgAL8F1Y5ipMPPjtTCDzkO1ZBcxUYZA/viewform?embedded=true" width="640" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 
 ## Blogs to Show You Know
 

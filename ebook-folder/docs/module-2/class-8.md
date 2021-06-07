@@ -20,9 +20,9 @@ Today we're going to:
 - [ ] Interview Challenge
 - [ ] Student Presentations
 - [ ] Creation Time
-    * [ ] Loops
-    * [ ] `.find(`) from scratch
-    * [ ] `.findIndex()` from scratch
+    - [ ]  Loops
+    - [ ]  `.find(`) from scratch
+    - [ ]  `.findIndex()` from scratch
 - [ ] Push Yourself Further
 - [ ] Interview Questions - BlogPost_204
 - [ ] Exit Recap, Attendance, and Reminders
@@ -60,10 +60,10 @@ Complete each of the following exercises:
 
 - [ ] Use a do...while loop to `console.log` the numbers from 1 to 1000.
 - [ ] Create an object (with keys and values) called person with the following data:
-    * [ ] `firstName: "Jane",`
-    * [ ] `lastName: "Doe",`
-    * [ ] `birthDate: "Jan 5, 1925",`
-    * [ ] `gender: "female"`
+    - [ ]  `firstName: "Jane",`
+    - [ ]  `lastName: "Doe",`
+    - [ ]  `birthDate: "Jan 5, 1925",`
+    - [ ]  `gender: "female"`
 - [ ] Create a function that logs out the keys of the object using `Object.keys()`.
 - [ ] Create a function that logs out the keys and values of the object using `Object.entries()`.
 - [ ] Create an `arrayOfPersons` that contains multiple "people" objects. You can simply copy/paste the person object you made above multiple times. Feel free to change the values to reflect multiple people you might have in your database.
@@ -111,6 +111,10 @@ We're only going to introduce RegEx briefly. It's a subject for you to truly lea
 - [ ] [Tool - RegEx Pal](https://www.regexpal.com/)
 - [ ] [Tool - RegExr](https://regexr.com/)
 - [ ] [Practice - RegEx on HackerRank](https://www.hackerrank.com/domains/regex)
+
+## Student Feedback
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScjuL10i2xFGMWRwkjtgAL8F1Y5ipMPPjtTCDzkO1ZBcxUYZA/viewform?embedded=true" width="640" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 
 ## Blogs to Show You Know
 

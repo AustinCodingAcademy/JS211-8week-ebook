@@ -22,11 +22,11 @@ Today we're going to:
 - [ ] Explain and assign Daily Student Presentations - 10 mins
 - [ ] Questions for Discussion - 20 mins
 - [ ] Instructor led overview of the ebook - 15 mins:
-    * [ ] Course Objective
-    * [ ] Course Structure & Expectations
-    * [ ] Graduation and Presentation Requirements
-    * [ ] Capstone Project Presentation Guidelines
-    * [ ] Utility of Git commands
+    - [ ]  Course Objective
+    - [ ]  Course Structure & Expectations
+    - [ ]  Graduation and Presentation Requirements
+    - [ ]  Capstone Project Presentation Guidelines
+    - [ ]  Utility of Git commands
 - [ ] Part One: Solutions - 30 mins
 - [ ] Part Two: The DOM - 30 mins
 - [ ] Push Yourself Further - 15 mins
@@ -52,20 +52,20 @@ Through the next week the other two-thirds of the class will follow suit and pre
 
 1. Let's take a look at the [JS211-CurrentDate Repo](https://github.com/AustinCodingAcademy/JS211_CurrentDateTimeProject.git)
 
-    * [ ] Did anyone not finish it?
-    * [ ] Let's walk through it one by one starting from the `package.json` file.
-    * [ ] Did anyone not get it pushed up to their gitHub account?
+- [ ]  Did anyone not finish it?
+- [ ]  Let's walk through it one by one starting from the `package.json` file.
+- [ ]  Did anyone not get it pushed up to their gitHub account?
 
 2. Use your knowledge of HTML and CSS to bring the functionality of these code blocks to the DOM
 
-    * [ ] Go to the index.html file and see how the file is connected to main.js.
-    * [ ] Follow the pattern to bring your JavaScript solutions to the DOM for a user to see visually.
-    * [ ] `git status`
-    * [ ] `git add main.js index.html`
-    * [ ] `git status`
-    * [ ] `git commit -m "Solutions are fixed and showing in the DOM"`
-    * [ ] `git push`
-    * [ ] Turn the URL of this this repo in to be graded.
+- [ ]  Go to the index.html file and see how the file is connected to main.js.
+- [ ]  Follow the pattern to bring your JavaScript solutions to the DOM for a user to see visually.
+- [ ]  `git status`
+- [ ]  `git add main.js index.html`
+- [ ]  `git status`
+- [ ]  `git commit -m "Solutions are fixed and showing in the DOM"`
+- [ ]  `git push`
+- [ ]  Turn the URL of this this repo in to be graded.
 
 ### Push Yourself Further
 
@@ -73,14 +73,19 @@ Through the next week the other two-thirds of the class will follow suit and pre
 
 #### Additional Resources
 
-1. [Video - How to Display Date and Time](https://youtu.be/bkvH28PXLWc)
-2. [Video - JavaScript for Beginners](https://youtu.be/TrGI9Yki-24)
-3. [Video - JS211 - Class Work](https://player.vimeo.com/video/377147232)
+1. [YT, nevsky.programming - How to Display Date and Time](https://youtu.be/bkvH28PXLWc)
+2. [YT, The Net Ninja - JavaScript for Beginners](https://youtu.be/TrGI9Yki-24)
+3. [VMEO, Joe@ACA - Class Work](https://player.vimeo.com/video/377147232)
+
+## Student Feedback
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScjuL10i2xFGMWRwkjtgAL8F1Y5ipMPPjtTCDzkO1ZBcxUYZA/viewform?embedded=true" width="640" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 
 ## Exit Recap, Attendance, and Reminders, 5 mins
 
-1. Create assignment for "CurrentDate&Time"
-1. Do your pre-lessons before next class!
+- [ ] Create assignment for "CurrentDate&Time"
+- [ ] Do your pre-lessons before next class!
+- [ ] Complete the feedback survey
 
 <!-- TODO Create 3 question exit questions -->
 
