@@ -86,6 +86,8 @@ Connect your Pig Latin application to a GUI
 - [ ] Start by making sure you have a place for the user to input a word, then a submit button, then a place for the output to be displayed.
 - [ ] How do you get your HTML file to talk to your JS file?
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kpIOLo11uJg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### Additional Resources
 
 - [ ] [Video, DevTips - JS & the DOM 1/2](https://youtu.be/hM9h1wN4rfU)

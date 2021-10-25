@@ -115,9 +115,13 @@ Every other class will end with a discussion over these questions. If you have n
 * Prepare for Class 3 by completing all of your pre-class lessons
 * Complete the feedback survey
 
+## Student Feedback
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScjuL10i2xFGMWRwkjtgAL8F1Y5ipMPPjtTCDzkO1ZBcxUYZA/viewform?embedded=true" width="640" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+
 <!-- INSERT Student Feedback From -->
-<iframe id="openedx-zollege" src="https://openedx.zollege.com/feedback" style="width: 100%; height: 500px; border: 0">Browser not compatible.</iframe>
-<script src="https://openedx.zollege.com/assets/index.js" type="application/javascript"></script>
+<!-- <iframe id="openedx-zollege" src="https://openedx.zollege.com/feedback" style="width: 100%; height: 500px; border: 0">Browser not compatible.</iframe>
+<script src="https://openedx.zollege.com/assets/index.js" type="application/javascript"></script> -->
 
 <!-- TODO Create 3 question exit questions -->
 <!-- TODO INSERT *HIDDEN* Instructor Feedback Form -->

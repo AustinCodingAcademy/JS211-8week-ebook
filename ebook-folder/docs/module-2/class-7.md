@@ -58,7 +58,7 @@ When working with the many built-in methods of JavaScript or any language, it's 
 
 ### Pt. 3 - MasterMind
 
-[Mastermind](https://en.wikipedia.org/wiki/Mastermind_(board_game%29) is a code-breaking game, where a player tries to guess the code based on a limited amount of information given from an incorrect guess. You can [play the game here](http://www.web-games-online.com/mastermind/).
+[Mastermind](https://en.wikipedia.org/wiki/Mastermind_(board_game%29)) is a code-breaking game, where a player tries to guess the code based on a limited amount of information given from an incorrect guess. You can [play the game here](http://www.web-games-online.com/mastermind/).
 
 #### MasterMind App Specs
 
