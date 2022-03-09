@@ -10,11 +10,13 @@ The short? You read and study outside of class and apply that knowledge in class
 
 [A more academic definition can be found here](https://www.advance-he.ac.uk/knowledge-hub/flipped-learning). But the following videos do well to explain it well. Either way, this approach works and works well. The only challenge now is to shape your mindset around it.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/BCIxikOq73Q" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="655" height="368" src="https://www.youtube.com/embed/BCIxikOq73Q" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ******
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/iQWvc6qhTds" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<!-- ! Video Content: YT, Peter Lane - Penguins - Flipping the Classroom: Explained -->
+
+<iframe width="655" height="368" src="https://www.youtube.com/embed/tSCN9nDNw_k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ******
 
