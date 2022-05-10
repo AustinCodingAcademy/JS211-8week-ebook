@@ -16,7 +16,7 @@ In JavaScript, to use a variable you must:
 
 1. **Declare** the variables name `let myVariable`
 2. **Assign** it a value with the `=` operator
-3. And **define** its value by putting the value after the `=`: `let myProblems = 99`
+3. And **Define** its value by putting the value after the `=`: `let myProblems = 99`
 
 * The name must start with a letter, *not a number*, and must not be a [reserved word](https://www.w3schools.com/js/js_reserved.asp) in JavaScript.
 * JavaScript is a case sensitive language. `const Score` and `const score` would be treated as two different variables.
@@ -24,14 +24,16 @@ In JavaScript, to use a variable you must:
 
 ### Declare A Variable
 
-In older versions of JS you'll see the keyword `var` BUT DO NOT USE THIS WORD FOR ANYTHING YOU BUILD in the future! The `var` keyword is out of date/**deprecated**. Instead use one of the two other keyword: `let` or `const`
+In older versions of JS you'll see the keyword `var` **BUT DO NOT USE THIS WORD FOR ANYTHING YOU BUILD** in the future! The `var` keyword is out of date/**deprecated**. Instead use one of the two other keywords: `let` or `const`
 
-The simplest, way to remember which to use is make all variables a `const` until you realize its value needs to dynamically change them make it a `let`.
+The simplest way to remember which to use is make all variables a `const` until you realize its value needs to dynamically change then make it a `let`. 
+
+  > Remember: The Universal `Const`ant is the speed of light, but we can `let` all other things change.
 
 You can name your variables almost anything you want, i.e. `myVariable`, `user`, `bonsaiTree`, but there are some guidelines, *see below*:
 
-* **Descriptive Naming** - remember: variables are for us humans to reference later. It's helpful for you and your team if you name a variable what you expect to be in the variable, i.e. `userPhoneNumber` is better than `userNumber`.
-* **camelCased** - first letter is lower-cased, all other words will have their first letter upper-cased.
+* **Descriptive Naming** - remember: variables are for us humans to reference later. It's helpful for you and your team if you name a variable what you expect to be in the variable, i.e. `const userPhoneNumber` is better than `const userNumber`.
+* **camelCased** - first letter is lower-cased, all other words will have their first letter upper-cased: `const babyBoy`, `const greaterThan`, `const lessThanOtherNumber`.
 
 ### Assign
 
@@ -52,7 +54,7 @@ The last step to creating a variable is to define its value. In the next lesson 
 
 ## Know Your Docs
 
-From here on out, you'll see this section telling you to go to the linked website and BOOKMARK the page so you can easily reference it. It's not important that you memorize everything in JavaScript, only that you know how to find what you're looking for.
+From here on out, you'll see this section telling you to go to the linked website and **BOOKMARK** the page so you can easily reference it. It's not important that you memorize everything in JavaScript, only that you know how to find what you're looking for.
 
 Let's start by reading the [syntax of a variable in JS](https://www.w3schools.com/js/js_syntax.asp) and bookmarking it in a bookmark folder called "JavaScript".
 

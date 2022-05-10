@@ -13,12 +13,18 @@ A dead simple Node Express app that serves static [Material Themed docs](https:/
 
 To be able to edit the ebook you will need to follow these steps first:
 
-1. Install Python 3.7+ on to your computer
-2. Install [pip](https://pip.pypa.io/en/stable/installing/)
+1. [Install Python 3.7+](https://www.python.org/downloads/) on to your computer
+2. pip should be installed with Python but if not: install [pip](https://pip.pypa.io/en/stable/installing/) or [`pip3 install pip`](https://pip.pypa.io/en/stable/installation/)
 3. `cd ebook-folder` to move into the Python package
 4. run `git clone https://github.com/squidfunk/mkdocs-material.git`
-5. Install the Python Packages `pip install -r requirements.txt` (See `requirements.txt`)
+5. Install the Python Packages `pip install -r requirements.txt` (See `requirements.txt`) or `pip3 install -r requirements.txt`
 6. Run `mkdocs build` to build the markdown files into static HTML files into the `site/` directory.
+
+  > NOTE1: if you are running Python 2.7 this will not work. You'll need to [update to Python 3.7 or higher](https://phoenixnap.com/kb/upgrade-python).
+
+  > NOTE2: if you are still running into the error your machine may have Python 2.7 set as a default. [Change it to an alias so you alwasy use 3.7+](https://osxdaily.com/2022/02/15/make-python-3-default-macos/) or [change to alternative versions](https://www.skillsugar.com/how-to-change-the-default-python-version).
+
+  > NOTE3: potential updates needed to Python packages, see `requirements.txt`. Upgraded ` pymdown_extensions-8.1.1` to [`pymdown_extensions-9.4`](https://facelessuser.github.io/pymdown-extensions/) & `mkdocs-1.1.2` to `mkdocs-1.3.0` on May 10, 2022. run `pip3 install <package> --upgrade`
 
 ## Serve
 
