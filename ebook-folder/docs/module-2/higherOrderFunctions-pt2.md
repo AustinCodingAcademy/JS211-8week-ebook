@@ -12,7 +12,7 @@ What's even better? RegEx translates to all languages. Use [the RegEx docs on Mo
 
 <!-- TODO these should be replaced with original content -->
 - [ ] [YT, TechSith - RegEx in JS](https://youtu.be/rPNGB0ZLvdw)
-- [ ] [YT, Corey Shafer - How to Match Any Pattern](https://youtu.be/rPNGB0ZLvdw)
+- [ ] [YT, Corey Shafer - How to Match Any Pattern](https://www.youtube.com/watch?v=sa-TUpSx1JA&t=1347s)
 
 ### Practice RegEx
 
