@@ -10,9 +10,8 @@ One of the downsides to using fetch is that it doesn't have proper error handlin
 
 **HEY!! You MUST do these practice problems before class!!!**
 
-- [ ] Go back to your [practice problem](https://studio.zollege.com/jump_to_id/d475ee0d7e0d4fa6a723266694aa0a0b) from the last homework and add error handling to it.
+- [ ] Go back to your [practice problem](./fetch-API.md#practice-it-fetch) from the last homework and add error handling to it.
 - [ ] Use this code to get started:
-- [ ] Push Yourself Further: Can you separate your error handling into a separate function as you saw in the video before?
 
 ```javascript
   const getPosts = () => {
@@ -26,8 +25,11 @@ One of the downsides to using fetch is that it doesn't have proper error handlin
     .catch(err => console.log(`Error,  ${err}`))
   }
 ```
-
 - [ ] Make sure you add error handling to all your requests in the practice problem.
+
+### Push Yourself Further
+
+- [ ] Can you move your error handling into a separate function as you saw in the video before?
 - [ ] Intentionally break your fetch URL to test your error handling. Hint: simply changing one character in the URL will break the fetch and return and error.
 
 ## Know Your Docs
