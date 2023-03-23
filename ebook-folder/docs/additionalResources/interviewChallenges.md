@@ -51,6 +51,8 @@ Speak aloud every thought you have. THIS IS THE MOST IMPORTANT PART!
 
 *Write a program that prints the numbers from 1 to 100, but for multiples of three print "Fizz" instead of the number and for the multiples of five print "Buzz". For numbers which are multiples of both three and five print "FizzBuzz".*
 
+Bonus: What's the Big O of your algorithm? 
+
 ### Class 5 Prompt: isUnique
 
 *Write a function that determines if a string contains all unique characters.*
@@ -59,6 +61,7 @@ Speak aloud every thought you have. THIS IS THE MOST IMPORTANT PART!
     isUnique('egg') // --> false
     isUnique('Artemis') // --> true
   ```
+Bonus: What's the Big O of your algorithm? 
 
 ### Class 6 Prompt: wordLength
 
@@ -69,6 +72,8 @@ Speak aloud every thought you have. THIS IS THE MOST IMPORTANT PART!
 
       findLongestWord(myString) => 'navigation', 10
     ```
+
+Requirement: What's the Big O of your algorithm? 
 
 ### Class 7
 
@@ -82,11 +87,15 @@ Speak aloud every thought you have. THIS IS THE MOST IMPORTANT PART!
 
 - [ ] **Prompt 2: float precision** *What will be the output of this code? `console.log(0.1 + 0.2 == 0.3);`*
 
+Requirement: What's the Big O of your algorithm? 
+
 ### Class 8
 
   **Prompt 1: reverseArray** - *Build a function that takes in an array and returns it in reverse order.*
   **Prompt 2: duplicate** - *make this work* `duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]`
-  
+
+Requirement: What's the Big O of your algorithm? 
+
 ### Class 9
 
   **Prompt 1: powOfTwoSumEven** - *Given an array of numbers, raise each number by the power of 2 and return the sum of all the numbers that are evenly divisible by 4, i.e.* `const myArr = [1, 5, 10, 4, 2] // => 120`
@@ -96,11 +105,14 @@ Speak aloud every thought you have. THIS IS THE MOST IMPORTANT PART!
     add(2, 5); // --> 7
     add(2)(5); // --> 7
   ```
+Requirement: What's the Big O of your algorithm? 
 
 ### Class 10
 
 - [ ] **Prompt 1: isPalindrome** *Build a function that would determine if a string was a palindrome.*
 - [ ] **Prompt 2: Method Chaining** *What value is returned from the following statement?* `"i'm a lasagna hog".split("").reverse().join("");`
+
+Requirement: What's the Big O of your algorithm? 
 
 ### Class 11
 
@@ -112,6 +124,8 @@ Speak aloud every thought you have. THIS IS THE MOST IMPORTANT PART!
   ```
 
 - [ ] **Prompt 2: Questionable Value** *What is the value of window.foo?* `( window.foo || ( window.foo = "bar" ) );`
+
+Requirement: What's the Big O of your algorithm? 
 
 ### Class 12
 
@@ -125,11 +139,15 @@ Speak aloud every thought you have. THIS IS THE MOST IMPORTANT PART!
 
   ```
 
+Requirement: What's the Big O of your algorithm? 
+
 ### Class 13
 
 - [ ] **Prompt 1: MaxValueOfArray** *Talk through: Given an array, find the maximum value of the array*
 - [ ] **Prompt 2: Merge Sort** *Hand build merge sort*
 - [ ] **Prompt 3: FizzBuzz Sum** *If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23. Build a function to find the sum of all the multiples of 3 or 5 below 1000.*
+
+Requirement: What's the Big O of your algorithm? 
 
 ### Class 14
 
@@ -152,6 +170,7 @@ Speak aloud every thought you have. THIS IS THE MOST IMPORTANT PART!
     foo.push(1);
     foo.push(2);
   ```
+Requirement: What's the Big O of your algorithm? 
 
 ### Class 15
 
@@ -164,6 +183,8 @@ Speak aloud every thought you have. THIS IS THE MOST IMPORTANT PART!
   ```
 
 - [ ] **Prompt 2: Quick** *As a class, build a quick sort by hand.*
+
+Requirement: What's the Big O of your algorithm? 
 
 ### Class 16
 
@@ -182,6 +203,7 @@ Speak aloud every thought you have. THIS IS THE MOST IMPORTANT PART!
   ```
 
 - [ ] **Prompt 2: Filter Function** *Everyone build a Filter function, start with those 4 questions!!*
+
 
 <!-- Create a function that estimates the read time for a web page based on average reading speed -->
 
