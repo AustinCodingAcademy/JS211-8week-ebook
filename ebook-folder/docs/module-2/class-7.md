@@ -76,6 +76,7 @@ Spec 2 - Generate a hint: `generateHint()` should take one argument, guess.
 
 ### Additional Resources
 
+ - [ ] [Hexcodle - Fun, MasterMind like game using CSS HexCode](https://hexcodle.com/)
  - [ ] [Video, Lydia Hallie - map, filter, reduce](https://youtu.be/UXiYii0Y7Nw)
  - [ ] [Video, pressmantoy - How to Play Mastermind](https://youtu.be/dMHxyulGrEk)
 
