@@ -52,13 +52,22 @@ Today we're going to:
   * Share with the class for evaluation (potentially carry into the next class) 
 -->
 
-### Pt. 1 - .forEach() from Scratch
 
-When working with the many built-in methods of JavaScript or any language, it's important to know how they work internally so you are not constrained by their usage or unaware of their "gotchyas". Create a Repl.it and turn in the URL of it.
+### Pt. 1 - MasterMind
 
-### Pt. 3 - MasterMind
+In class today you will whiteboard and construct your code plan for the [Mastermind](https://github.com/AustinCodingAcademy/JS211_MasterMind) project. [Mastermind](https://en.wikipedia.org/wiki/Mastermind_(board_game%29)) is a code-breaking game, where a player tries to guess the code based on a limited amount of information given from an incorrect guess. You can [play the game here](http://www.web-games-online.com/mastermind/).
 
-[Mastermind](https://en.wikipedia.org/wiki/Mastermind_(board_game%29)) is a code-breaking game, where a player tries to guess the code based on a limited amount of information given from an incorrect guess. You can [play the game here](http://www.web-games-online.com/mastermind/).
+
+- [ ] Always start with whiteboarding!
+- [ ] Make your code plan.
+    - [ ]  Work through the logic of the game.
+    - [ ]  List out the steps.
+    - [ ]  Draw pictures.
+    - [ ]  Write out pseudo code for your app.
+    - [ ]  Translate pseudo code to JavaScript so the computer can understand it.
+    - [ ]  Write in the code one block at a time, testing as you go.
+- [ ] Place your code in the `main.js` file in your [JS211_MasterMind](https://github.com/AustinCodingAcademy/JS211_MasterMind). Read the `README`!
+
 
 #### MasterMind App Specs
 
@@ -73,6 +82,10 @@ Spec 2 - Generate a hint: `generateHint()` should take one argument, guess.
     > (NOTE: If you choose to use this color package, only `console.log` the result. If you `return` the result your program will fail the tests.)
 - [ ] **Spec 3 - Add guess and hint to the board**: Define a variable called hint that collects the returned value of `generateHint(guess)`. `.push` the `guess` and the `hint` (as a combined string) into the board.
 - [ ] **Spec 4 - End the game**: After 10 incorrect guesses, if the `board` `length` equals `10`, `return` `'You ran out of turns! The solution was `' and the `solution`. Otherwise, return `'Guess again.'`.
+
+### Pt. 2 - .forEach() from Scratch
+
+When working with the many built-in methods of JavaScript or any language, it's important to know how they work internally so you are not constrained by their usage or unaware of their "gotchyas". Create a Repl.it and turn in the URL of it.
 
 ### Additional Resources
 

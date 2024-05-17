@@ -44,7 +44,7 @@ Today we're going to:
 
 The instructor will discuss how `__prototype__` is used in the building of JavaScript and its many built-in methods as they relate to the principles of OOP: abstractions, inheritance, encapsulation, and polymorphism.
 
-Further resources: [JavaScript is Sexy: OOP](https://javascriptissexy.com/oop-in-javascript-what-you-need-to-know/)
+Further resources: [MDN: OOP](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_programming)
 
 ## Creation Time, 60-90 mins
 
