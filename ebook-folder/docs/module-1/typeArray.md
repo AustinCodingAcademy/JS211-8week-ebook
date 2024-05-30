@@ -177,31 +177,31 @@ Example: If we `console.log(multiArrays.length)` from the example above we would
 
 You can use this method to get the value of the last item too! c`onsole.log(multiArrays[1][multiArrays[1].length - 1]) => 3`
 
-Start looking at these [array methods](https://www.w3schools.com/Jsref/jsref_obj_array.asp) and see if you can play with some dummy variables with them. Simply copy/paste some of the code snippets above into a [Repl.it](https://repl.it/), add more data to them and try some of these methods inside a console.log statement. See what you come up with.
+Start looking at these [array methods](https://www.w3schools.com/Jsref/jsref_obj_array.asp){:target="_blank"} and see if you can play with some dummy variables with them. Simply copy/paste some of the code snippets above into a [Repl.it](https://repl.it/){:target="_blank"}, add more data to them and try some of these methods inside a console.log statement. See what you come up with.
 
 ### The Most Important Methods
 
 For Pig Latin you will need the first 8 array methods listed below. Open a new Repl.it, create some dummy arrays and begin playing with these methods just the same way you've played with strings, numbers, and Booleans.
 
-- [ ] [.slice()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice?v=example)
-- [ ] [.splice()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice?v=example)
-- [ ] [.toString()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/toString)
-- [ ] [.concat()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/concat?v=example)
-- [ ] [.includes()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/includes)
-- [ ] [.pop()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/pop?v=example)
-- [ ] [.push()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push?v=example)
-- [ ] [.join()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join?v=example)
-- [ ] [.length](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/length)
-- [ ] [.indexOf()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf)
-- [ ] [.shift()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/shift?v=example)
-- [ ] [.unshift()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/unshift?v=example)
-- [ ] [.every()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every)
-- [ ] [.flat()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/flat)
-- [ ] [.find()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find)
-- [ ] [.reverse()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse?v=example)
-- [ ] [.forEach()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
+- [ ] [.slice()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice?v=example){:target="_blank"}
+- [ ] [.splice()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice?v=example){:target="_blank"}
+- [ ] [.toString()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/toString){:target="_blank"}
+- [ ] [.concat()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/concat?v=example){:target="_blank"}
+- [ ] [.includes()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/includes){:target="_blank"}
+- [ ] [.pop()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/pop?v=example){:target="_blank"}
+- [ ] [.push()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push?v=example){:target="_blank"}
+- [ ] [.join()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join?v=example){:target="_blank"}
+- [ ] [.length](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/length){:target="_blank"}
+- [ ] [.indexOf()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf){:target="_blank"}
+- [ ] [.shift()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/shift?v=example){:target="_blank"}
+- [ ] [.unshift()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/unshift?v=example){:target="_blank"}
+- [ ] [.every()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every){:target="_blank"}
+- [ ] [.flat()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/flat){:target="_blank"}
+- [ ] [.find()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find){:target="_blank"}
+- [ ] [.reverse()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse?v=example){:target="_blank"}
+- [ ] [.forEach()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach){:target="_blank"}
 
-Hint: For Pig Latin you'll also need the string method: [.split()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/splitStudy) each method now and make flashcards to memorize them and make your programming faster!
+Hint: For Pig Latin you'll also need the string method: [.split()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/splitStudy){:target="_blank"} each method now and make flashcards to memorize them and make your programming faster!
 
 ### No Two Arrays Are Equal
 
@@ -220,7 +220,7 @@ Hint: For Pig Latin you'll also need the string method: [.split()](https://devel
 
 <iframe src="https://player.vimeo.com/video/385348888" width="900" height="600" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
-Before moving forward we should learn about a word called **mutability**. Derived from the word "mutate", to change; as in [Teenage Mutant Ninja Turtles](https://www.youtube.com/watch?v=bojx9BDpJks).
+Before moving forward we should learn about a word called **mutability**. Derived from the word "mutate", to change; as in [Teenage Mutant Ninja Turtles](https://www.youtube.com/watch?v=bojx9BDpJks){:target="_blank"}.
 
 In programming terms, this simply means that the original data we are working with can be changed or is permanently changed. Permanently changing the original data/data structure is something that should generally be avoided. This is where the word **immutable** comes into play.
 
@@ -231,13 +231,13 @@ We bring up immutability here because some of the array methods you just learned
 3. What arguments does the method take?
 4. Does the method change the original data?
 
-You'll learn when to change data and when not to as you go [deeper](https://www.codingame.com/playgrounds/6181/javascript-arrays---tips-tricks-and-examples), but for now just become aware of what each methods does, what it returns, and if it's changing the original array.
+You'll learn when to change data and when not to as you go [deeper](https://www.codingame.com/playgrounds/6181/javascript-arrays---tips-tricks-and-examples){:target="_blank"}, but for now just become aware of what each methods does, what it returns, and if it's changing the original array.
 
 An example of a method that mutates the original array is .`push()` : `exampleArray.push(‘x’)`. This method would add the string `'x'` to the end of `exampleArray` and thereby permanently change the array. The push method also returns the new length of the string. So if exampleArray had 5 elements, and you declared `const newLength = exampleArray.push('x')`, `newLength` would be equal to 6, and the string `'x'` would be added to the end of `exampleArray`.
 
 Adding new items to an array can also be accomplished without mutation by using the concat method, which merges two arrays, or merges values into an array: `const exArr2 = exampleArray.concat('x')`. In this case, `exampleArray` would not be changed, and `exArr2` would be the same as `exArr`, but with the string `'x'` added to the end of the array. This is an example of a non-mutating array method.
 
-To learn more about mutating and non-mutating array methods you can check out this [blog post](https://lorenstewart.me/2017/01/22/javascript-array-methods-mutating-vs-non-mutating/), but keep in mind that unlike in this article, in most cases you will want to declare all of your arrays with `const`, not `let`, whether or not you intend to mutate them.
+To learn more about mutating and non-mutating array methods you can check out this [blog post](https://lorenstewart.me/2017/01/22/javascript-array-methods-mutating-vs-non-mutating/){:target="_blank"}, but keep in mind that unlike in this article, in most cases you will want to declare all of your arrays with `const`, not `let`, whether or not you intend to mutate them.
 
 ## Practice It
 
@@ -256,14 +256,14 @@ Before coming into class...
 
 ## Know Your Docs
 
-* [MDN Docs - Type Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
+* [MDN Docs - Type Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array){:target="_blank"}
 
 ## Additional Resources
 
-* [Video - Arrays for Beginners](https://youtu.be/EUnV-fCY0Pc)
-* [Video - For Loops for Beginners](https://youtu.be/EUnV-fCY0Pc)
-* [Video - 15 Array Tricks](https://youtu.be/Rx_JFOSxgpY)
-* [Video - Diff Two Arrays](https://youtu.be/DAN-PElQ_xw)
+* [Video - Arrays for Beginners](https://youtu.be/EUnV-fCY0Pc){:target="_blank"}
+* [Video - For Loops for Beginners](https://youtu.be/EUnV-fCY0Pc){:target="_blank"}
+* [Video - 15 Array Tricks](https://youtu.be/Rx_JFOSxgpY){:target="_blank"}
+* [Video - Diff Two Arrays](https://youtu.be/DAN-PElQ_xw){:target="_blank"}
 
 <!-- 
 

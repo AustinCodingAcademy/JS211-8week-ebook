@@ -9,8 +9,8 @@
 ## The Methods of Strings
 
 Moving a little deeper into the complexity of data types, Strings are commonly used and have quite a few built-in methods we can leverage to manipulate them.
-
-To begin, you'll always know a string by the single-quotes or double-quotes wrapped around the characters. Notice I said characters and not numbers. That's because `"1976"` is a string, and so is `"I have a dog."` as well as `"My address is 89 Parmer Way."` Literally, any set of characters between quotes is a string.
+w
+To begin, you'll always know a string by the single-quotes or double-quotes wrapped around the characters. Notice I said characters and not numbers. That's because `"1976"` is a string, and so is `"I have a dog."` as well as `"My address is 389 Parmer Way."` Literally, any set of characters between quotes is a string.
 
 We use strings to store data when we don't need to do calculations on them like we would with numbers, when we don't need to iterate through multiple pieces of data, and when what we're storing is relatively simple like text and even phone numbers: `"214-990-0009"`.
 
@@ -44,7 +44,7 @@ You can use dot notation on any object as long as you know the **key** or **attr
 
 ### A Short List of Common String Methods
 
-Remember, you will have to [reference the documentation](https://www.w3schools.com/js/js_string_methods.asp) on each data type regularly to learn and remember each of their methods, but here we'll talk about some of the most common ones which should include the one's you'll need to complete the Pig Latin app.
+Remember, you will have to [reference the documentation](https://www.w3schools.com/js/js_string_methods.asp){:target="_blank"} on each data type regularly to learn and remember each of their methods, but here we'll talk about some of the most common ones which should include the one's you'll need to complete the Pig Latin app.
 
 * `.length` returns the number of characters in a string including spaces.
   > NOTE: length doesn't require parenthesis. Why?
@@ -122,7 +122,7 @@ E
 
 #### Try it Yourself!!
 
-Throw it into a [REPL.IT](https://REPLIT.com)!
+Throw it into a [REPL.IT](https://REPLIT.com){:target="_blank"}!
 
 The great thing about bracket notation is that you can use variables inside the `[]` just like the i you see above. In that example, `i` is a variable. We don't know the value of it at any given point but we assume it will be 0, then 1, then 2, then 3.
 
@@ -130,8 +130,8 @@ The great thing about bracket notation is that you can use variables inside the 
 
 ## Know Your Docs
 
-* [MDN Docs - Type String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)
-* [Article - Dot- vs Bracket-Notation](https://codeburst.io/javascript-quickie-dot-notation-vs-bracket-notation-333641c0f781)
+* [MDN Docs - Type String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String){:target="_blank"}
+* [Article - Dot- vs Bracket-Notation](https://codeburst.io/javascript-quickie-dot-notation-vs-bracket-notation-333641c0f781){:target="_blank"}
 
 
 <!-- ## Additional Resources

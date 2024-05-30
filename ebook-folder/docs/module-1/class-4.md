@@ -102,11 +102,11 @@ Today we're going to:
 
 ## Student Feedback
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScjuL10i2xFGMWRwkjtgAL8F1Y5ipMPPjtTCDzkO1ZBcxUYZA/viewform?embedded=true" width="640" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd85nNCk_MdnaXCsX7fWl3vYgcqvozzlK2cKq26d2g67Zh8Kg/viewform?embedded=true" width="640" height="600" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 
 ## Blogs to Show You Know
 
-Every other class will end with a discussion over these questions. If you have no idea about them, ask your instructor. Nevertheless, you will need to research the topics on your own and record what you learned in a blog. You will then turn in a link with the url of the published blog in Zollege. Feel free to copy/paste the question into google and read about what comes up. These interview questions are meant to broaden your knowledge and cover more ground than we can possibly get to in these few weeks. We want you to be well prepared for the rigors of interviewing for development jobs and knowing the answers to these questions will ensure that you have every tool you need to succeed!
+Every other class will end with a discussion over these questions. If you have no idea about them, ask your instructor. Nevertheless, you will need to research the topics on your own and record what you learned in a blog. You will then turn in a link with the url of the published blog in Canvas. Feel free to copy/paste the question into google and read about what comes up. These interview questions are meant to broaden your knowledge and cover more ground than we can possibly get to in these few weeks. We want you to be well prepared for the rigors of interviewing for development jobs and knowing the answers to these questions will ensure that you have every tool you need to succeed!
 
 [Blog Prompts](./../additionalResources/blogPrompts.md)
 

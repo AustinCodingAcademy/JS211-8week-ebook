@@ -2741,7 +2741,7 @@
 <h2 id="higher-order-functionsmethods-intro">Higher Order Functions(Methods) Intro</h2>
 <p>There are many higher-order functions built into JavaScript that help make our code efficient, readable and reusable. For now, we will discuss three array methods that are higher-order functions: Array.prototype.forEach, <strong>Array.prototype.map</strong>, and <strong>Array.prototype.filter</strong>. As you begin to create more complex programs and work with single page applications such as React and Angular, these will be some of the most frequently used methods in your code.</p>
 <h3 id="arrayprototypeforeach">Array.prototype.forEach()</h3>
-<p>The <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach">.forEach()</a> method can be called on any array. The <code>prototype</code> you see is just the basis of the array in the language of JavaScript. For now, don't worry or focus your attention on prototype, this is something you can figure out later. It is irrelevant at the moment. <code>.forEach()</code> takes a callback function as its only parameter. This function iterates through all of the values in an array and uses the callback function passed to it to do something with the value. If you have ever used a for loop that looks something like this: <code>for (let i = 0; i &lt; arr.length; i++){//do something}</code> then you have essentially created the functionality of a forEach loop in long-hand.</p>
+<p>The <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach" target="_blank">.forEach()</a> method can be called on any array. The <code>prototype</code> you see is just the basis of the array in the language of JavaScript. For now, don't worry or focus your attention on prototype, this is something you can figure out later. It is irrelevant at the moment. <code>.forEach()</code> takes a callback function as its only parameter. This function iterates through all of the values in an array and uses the callback function passed to it to do something with the value. If you have ever used a for loop that looks something like this: <code>for (let i = 0; i &lt; arr.length; i++){//do something}</code> then you have essentially created the functionality of a forEach loop in long-hand.</p>
 <p>Here is an example of a forEach loop:</p>
 <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
 <span class="normal">2</span>
@@ -2756,7 +2756,7 @@
 <p>Copy/paste the above code into a Repl.it and run it. You will notice that a sentence starting with "My favorite color is" gets logged to the console one time for each value in the array.</p>
 <p>Unlike the other two higher-order functions you will learn about in today's prep work, forEach will never be assigned to a new variable because it always returns undefined. Also notice the () =&gt; {} inside the <code>()</code> of the <code>.forEach()</code>. This <code>() =&gt; {}</code> is an <strong>anonymous function</strong> passed to the forEach. The parameter inside the <code>()</code> of the <code>() =&gt; {}</code> like color in the above example represents the individual element in the array as the forEach loops through the array.</p>
 <h3 id="arrayprototypemap">Array.prototype.map()</h3>
-<p>The <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map">.map()</a> method of an array is used to create a new array that is, in some way, a transformation of an existing array. Similarly to a forEach loop, it takes a <strong><a href="https://javascriptissexy.com/understand-javascript-callback-functions-and-use-them/">callback function</a></strong>, <code>() =&gt; {}</code>, as its only parameter and passes every value/element in the array into the callback function. In the new array returned by the map method, each new value is assigned to be equal to whatever the callback function returns when passed the original value. Let's look at an example of a map function in action:</p>
+<p>The <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map" target="_blank">.map()</a> method of an array is used to create a new array that is, in some way, a transformation of an existing array. Similarly to a forEach loop, it takes a <strong><a href="https://javascriptissexy.com/understand-javascript-callback-functions-and-use-them/" target="_blank">callback function</a></strong>, <code>() =&gt; {}</code>, as its only parameter and passes every value/element in the array into the callback function. In the new array returned by the map method, each new value is assigned to be equal to whatever the callback function returns when passed the original value. Let's look at an example of a map function in action:</p>
 <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
 <span class="normal">2</span>
 <span class="normal">3</span>
@@ -2773,10 +2773,10 @@
 </code></pre></div></td></tr></table></div>
 <p>Run the above code in a Repl.it. Notice that what is stored in the tieDye variable is an array that is equal in length to the colors array, but each value from the color array has been transformed to start with <code>"tieDyed-"</code> and end with the original color. If you will look at the code, you will see this is exactly what is returned in the callback function passed to <code>colors.map</code>.</p>
 <ul>
-<li><a href="https://youtu.be/bCqtb-Z5YGQ">Video FunFunFunction - .map()</a></li>
+<li><a href="https://youtu.be/bCqtb-Z5YGQ" target="_blank">Video FunFunFunction - .map()</a></li>
 </ul>
 <h3 id="arrayprototypefilter">Array.prototype.filter()</h3>
-<p>The .<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter">filter()</a> method does exactly what it sounds like it would do. It iterates through an array and returns only values that follow a specified rule. The filter method is passed a callback function as its only parameter. The filter method returns a new array by passing each value in the original array into the callback function. If the callback function returns true or any truthy value, that value is included in the new array, but if the callback function returns false or any falsy value, that value is not included in the new array. If all of the values passed into the callback function return a falsy value, then the filter method returns an empty array: <code>[]</code>.</p>
+<p>The .<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter" target="_blank">filter()</a> method does exactly what it sounds like it would do. It iterates through an array and returns only values that follow a specified rule. The filter method is passed a callback function as its only parameter. The filter method returns a new array by passing each value in the original array into the callback function. If the callback function returns true or any truthy value, that value is included in the new array, but if the callback function returns false or any falsy value, that value is not included in the new array. If all of the values passed into the callback function return a falsy value, then the filter method returns an empty array: <code>[]</code>.</p>
 <p>Let's look at an example of the filter method:</p>
 <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
 <span class="normal">2</span>
@@ -2797,7 +2797,7 @@
 <p>Before moving on make sure you watch the video <strong>Functional Programming w/Anjana Vakil</strong>, in the <a href="#additional-resources">Additional Resources</a>!</p>
 </blockquote>
 <ul>
-<li><a href="https://youtu.be/BMUiFMZr7vk">Video FunFunFunction - .filter()</a></li>
+<li><a href="https://youtu.be/BMUiFMZr7vk" target="_blank">Video FunFunFunction - .filter()</a></li>
 </ul>
 <h2 id="practice-it-pt-1">Practice It - pt. 1</h2>
 <ul class="task-list">
@@ -2851,14 +2851,14 @@
 </code></pre></div></td></tr></table></div>
 <h2 id="additional-resources">Additional Resources</h2>
 <ul>
-<li><a href="https://youtu.be/rRgD1yVwIvE">Video Traversy - JS Higher Order Functions + Arrays</a></li>
-<li><a href="https://youtu.be/e-5obm1G_FY">Video JS Conf - Functional Programming w/Anjana Vakil</a></li>
+<li><a href="https://youtu.be/rRgD1yVwIvE" target="_blank">Video Traversy - JS Higher Order Functions + Arrays</a></li>
+<li><a href="https://youtu.be/e-5obm1G_FY" target="_blank">Video JS Conf - Functional Programming w/Anjana Vakil</a></li>
 </ul>
 <h2 id="know-your-docs">Know Your Docs</h2>
 <ul>
-<li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter">MDN Docs - filter() Method</a></li>
-<li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach">MDN Docs - forEach() Method</a></li>
-<li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map">MDN Docs - map() Method</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter" target="_blank">MDN Docs - filter() Method</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach" target="_blank">MDN Docs - forEach() Method</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map" target="_blank">MDN Docs - map() Method</a></li>
 </ul>
 <!-- 
 

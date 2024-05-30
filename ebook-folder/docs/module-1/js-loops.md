@@ -40,7 +40,7 @@ We can think of this as giving directions for someone to navigate to our house:
 
 The *Drive for 5.2 miles* is the **action statement** of the loop. It says, *continue driving* until the **stop condition**: *5.2 miles, is met*.
 
-Obviously this is only a metaphor and we'll have to visualize how loops work in coding, so let's get to that. The [common loops](https://www.w3schools.com/js/js_loop_for.asp) we use as web developers are, listed from most often used to least often used:
+Obviously this is only a metaphor and we'll have to visualize how loops work in coding, so let's get to that. The [common loops](https://www.w3schools.com/js/js_loop_for.asp){:target="_blank"} we use as web developers are, listed from most often used to least often used:
 
 * **for** - loops through a block of code a specific number of times
 * **for/of** - loops through the values of an iterable object like an array.
@@ -229,7 +229,7 @@ Copy/paste the code above into a Repl.it and let's quickly break this down:
 
 ### Loops 1
 
-- [ ] Copy/paste this code into a new [Repl.it](https://Replit.com)
+- [ ] Copy/paste this code into a new [Repl.it](https://Replit.com){:target="_blank"}
 - [ ] Then follow the instructions in the comments.
 
 ```javascript
@@ -249,7 +249,7 @@ Copy/paste the code above into a Repl.it and let's quickly break this down:
 
 ### Loops 2
 
-- [ ] Copy/paste this code into a new [Repl.it](https://Replit.com)
+- [ ] Copy/paste this code into a new [Repl.it](https://Replit.com){:target="_blank"}
 - [ ] Then follow the instructions in the comments.
 
 ```javascript
@@ -270,15 +270,15 @@ Copy/paste the code above into a Repl.it and let's quickly break this down:
 
 ## Know Your Docs
 
-* [MDN Docs - While](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/while)
-* [MDN Docs - Break](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/break)
-* [MDN Docs - For...In](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...in)
-* [MDN Docs - For...Of](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of)
-* [MDN Docs - Do...While](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/do...while)
+* [MDN Docs - While](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/while){:target="_blank"}
+* [MDN Docs - Break](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/break){:target="_blank"}
+* [MDN Docs - For...In](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...in){:target="_blank"}
+* [MDN Docs - For...Of](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of){:target="_blank"}
+* [MDN Docs - Do...While](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/do...while){:target="_blank"}
 
 ## Additional Resources
 
-* [Video - JS For Loops](https://youtu.be/BxFi7vVZx4s)
+* [Video - JS For Loops](https://youtu.be/BxFi7vVZx4s){:target="_blank"}
 
 
 <!-- 

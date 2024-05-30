@@ -14,9 +14,6 @@ Bring the following items to class with you
 - [ ] [GitHub](https://github.com/) account
 - [ ] [CodePen](https://codepen.io/) account
 - [ ] [Repl.it](https://repl.it/repls) account (This will become a journal of code for you!!)
-- [ ] Zollege profile
-- [ ] [RocketChat](https://chat.austincodingacademy.com/) login info
-- [ ] [HackOverflow](https://discourse.austincodingacademy.com/) login info
 - [ ] [Medium](https://medium.com/) account info
 - [ ] Journal or writing pad (for notes and drawing)
 - [ ] Pencils or pens

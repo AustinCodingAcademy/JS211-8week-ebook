@@ -8,7 +8,7 @@ So far we've been working with primitive data types, like data type: Number, Str
 
   > The name "Object-Literal" is used because all things are objects as you learned in 101 but because this type is syntactically written out the way all objects are under-the-hood we call them "Object-Literals" as in *Literally an Object*.
 
-The first wonderful aspect of [objects](http://eloquentjavascript.net/06_object.html) is that they store data by unique **keys**. Instead of indexes like arrays, objects have **keys** that reference each of the various values stored in the object. The **keys** and values together are called **key-value** pairs.
+The first wonderful aspect of [objects](http://eloquentjavascript.net/06_object.html){:target="_blank"} is that they store data by unique **keys**. Instead of indexes like arrays, objects have **keys** that reference each of the various values stored in the object. The **keys** and values together are called **key-value** pairs.
 
 The simple rule about creating an object's **keys** is that they must be strings, usually words, or even symbols while the **values** can be any data type including Array, Object, Function, Boolean, Number, String, or Byte.
 
@@ -175,11 +175,11 @@ We see there is a function called `talk` set as a property on this object. Using
 
 Any time a function is put on an object like this, it's called a **method**. :) Sound familiar? Yes, all of those **methods** you've used for strings, arrays, and numbers are all functions built on the prototype object/template of those data types just like this .talk() method is built on person. Again, don't worry about understanding the prototype, it's not important right now.
 
-But, speaking of methods, objects come with their own [built-in methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects) and you should look at them for yourself before class!
+But, speaking of methods, objects come with their own [built-in methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects){:target="_blank"} and you should look at them for yourself before class!
 
 ### Commonly Used Methods of the Object-Literal
 
-The first method we'll cover is [.create()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/create#) because it helps introduce **OOP**, *object-oriented programming*, in a small and helpful way. You see, when we create an app with multiple users, each of our users will have similar data structures like: `name`, `id`, `password`, `email`, `phone`, `address`, and `username`. Each of these pieces of data will become our keys which create a template for all new users of our app to follow. This template structure is the basis of object-oriented programming where we only have to build the template once so we can reuse it over and over again as our app and database grow:
+The first method we'll cover is [.create()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/create#){:target="_blank"} because it helps introduce **OOP**, *object-oriented programming*, in a small and helpful way. You see, when we create an app with multiple users, each of our users will have similar data structures like: `name`, `id`, `password`, `email`, `phone`, `address`, and `username`. Each of these pieces of data will become our keys which create a template for all new users of our app to follow. This template structure is the basis of object-oriented programming where we only have to build the template once so we can reuse it over and over again as our app and database grow:
 
 ```javascript
   // Create a template object that holds the keys we'll need for each of our users
@@ -234,13 +234,12 @@ Of course, you should push to learn a new one everyday but these will be good on
 
 ## Know Your Docs
 
-* [MDN Docs - Object Literal](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)
+* [MDN Docs - Object Literal](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object){:target="_blank"}
 
 ## Additional Resources
 
-- [ ] [Eloquent JS - Object-Literals](http://eloquentjavascript.net/06_object.html)
-- [ ] [Video - What Are Objects in JS?](https://youtu.be/4uVwGw317QM)
-- [ ] ...
+- [ ] [Eloquent JS - Object-Literals](http://eloquentjavascript.net/06_object.html){:target="_blank"}
+- [ ] [Video - What Are Objects in JS?](https://youtu.be/4uVwGw317QM){:target="_blank"}
 
 
 

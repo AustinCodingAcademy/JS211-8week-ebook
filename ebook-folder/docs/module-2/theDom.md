@@ -40,11 +40,11 @@ A very short, non-exhaustive, list of some of the built-in methods on the DOM:
 ```
 
   > NOTE: While you've been coding HTML elements you have been blissfully unaware of these methods...until now—but now you know that every element you build comes with these and many more methods baked right in!
-  > NOTE 2: A method is actually a little more than a function. It can be invoked like a function but because it is an object on another object, the Document, it is read and stored slightly differently than a function you build. This is a pretty advanced topic, so don't worry too much about it right now. However, if you'd like to learn more, you can read this [forum](https://stackoverflow.com/questions/15285293/method-vs-functions-and-other-questions) to get a deeper understanding.
+  > NOTE 2: A method is actually a little more than a function. It can be invoked like a function but because it is an object on another object, the Document, it is read and stored slightly differently than a function you build. This is a pretty advanced topic, so don't worry too much about it right now. However, if you'd like to learn more, you can read this [forum](https://stackoverflow.com/questions/15285293/method-vs-functions-and-other-questions){:target="_blank"} to get a deeper understanding.
 
 ## Know Your Docs
 
-* [MDN Docs - the DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)
+* [MDN Docs - the DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction){:target="_blank"}
 
 ## Additional Resources
 
@@ -52,8 +52,8 @@ Before you move on, read the documentation over the DOM. This is a requirement!
 
 These videos are assigned learning but also might be useful during your next project.
 
-* [Video - JS & DOM pt. 1](https://youtu.be/hM9h1wN4rfU)
-* [Video - HTML/JS TicTacToe](https://youtu.be/gN0fXvWbJSk)
+* [Video - JS & DOM pt. 1](https://youtu.be/hM9h1wN4rfU){:target="_blank"}
+* [Video - HTML/JS TicTacToe](https://youtu.be/gN0fXvWbJSk){:target="_blank"}
 
 ## Practice It - Accessing the DOM
 

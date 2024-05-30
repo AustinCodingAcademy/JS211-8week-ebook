@@ -11,12 +11,12 @@ What's even better? RegEx translates to all languages. Use [the RegEx docs on Mo
 ### See It - RegEx
 
 <!-- TODO these should be replaced with original content -->
-- [ ] [YT, TechSith - RegEx in JS](https://youtu.be/rPNGB0ZLvdw)
-- [ ] [YT, Corey Shafer - How to Match Any Pattern](https://www.youtube.com/watch?v=sa-TUpSx1JA&t=1347s)
+- [ ] [YT, TechSith - RegEx in JS](https://youtu.be/rPNGB0ZLvdw){:target="_blank"}
+- [ ] [YT, Corey Shafer - How to Match Any Pattern](https://www.youtube.com/watch?v=sa-TUpSx1JA&t=1347s){:target="_blank"}
 
 ### Practice RegEx
 
-[RegEx Tutorial](https://regexone.com/#)
+[RegEx Tutorial](https://regexone.com/#){:target="_blank"}
 
 ## Reduce
 
@@ -24,11 +24,11 @@ We've covered quite a bit of ground in JavaScript so far. Think about it: you've
 
 We have just one more higher order function to cover: `.reduce()`. Like the other higher order functions we learned about, `.reduce()` takes a callback function, but instead of an argument representing each element it's iterating over in the array, the first argument in the callback is an accumulator. This accumulator keeps up with the total value of the elements it has iterated over and the current element respective of operations you put inside the callback function.
 
-Look at the example on the Mozilla docs on [`.reduce()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce). See how the `accumulator` and the `currentValue` are added together in the callback function on line 2, then how the callback function is passed to the `.reduce()` function on line 5?
+Look at the example on the Mozilla docs on [`.reduce()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce){:target="_blank"}. See how the `accumulator` and the `currentValue` are added together in the callback function on line 2, then how the callback function is passed to the `.reduce()` function on line 5?
 
 ### See It - Reduce
 
-- [ ] [YT, FunFunFunction- Reduce](https://youtu.be/Wl98eZpkp-c)
+- [ ] [YT, FunFunFunction- Reduce](https://youtu.be/Wl98eZpkp-c){:target="_blank"}
 
 ### Practice It - Loops, Array Methods, HOFs
 
@@ -61,11 +61,11 @@ Look at the example on the Mozilla docs on [`.reduce()`](https://developer.mozil
 - [ ] `.some()`:
     * [ ] In a Repl.it, build a `.some()` function from scratch
     * [ ] Make sure you know the specifications of `.some()`
-    * [ ] Use this [resource](https://youtu.be/l155liDxty8) as well.
+    * [ ] Use this [resource](https://youtu.be/l155liDxty8){:target="_blank"} as well.
 - [ ] `.every()`:
     * [ ] In a Repl.it, build a `.every()` function from scratch
     * [ ] Make sure you know the specifications of `.every()`
-    * [ ] Use this [resource](https://youtu.be/jY1WZ29YOkM) as well.
+    * [ ] Use this [resource](https://youtu.be/jY1WZ29YOkM){:target="_blank"} as well.
 - [ ] `.reduce()`:
     * [ ] Use a `.reduce()` function to add up an array of numbers
     * [ ] Use a `.reduce()` function to find the product of an array of numbers
@@ -73,11 +73,11 @@ Look at the example on the Mozilla docs on [`.reduce()`](https://developer.mozil
 
 ## Additional Resources
 
-- [ ] [YT, TechSith - RegEx in JS](https://youtu.be/rPNGB0ZLvdw)
-- [ ] [YT, Corey Shafer - How to Match Any Pattern](https://youtu.be/rPNGB0ZLvdw)
-- [ ] [YT, FunFunFunction - Reduce](https://youtu.be/Wl98eZpkp-c)
-- [ ] [YT, Steve Griffith - JS .every()](https://youtu.be/jY1WZ29YOkM)
-- [ ] [YT, Steve Griffith - JS .some()](https://youtu.be/l155liDxty8)
+- [ ] [YT, TechSith - RegEx in JS](https://youtu.be/rPNGB0ZLvdw){:target="_blank"}
+- [ ] [YT, Corey Shafer - How to Match Any Pattern](https://youtu.be/rPNGB0ZLvdw){:target="_blank"}
+- [ ] [YT, FunFunFunction - Reduce](https://youtu.be/Wl98eZpkp-c){:target="_blank"}
+- [ ] [YT, Steve Griffith - JS .every()](https://youtu.be/jY1WZ29YOkM){:target="_blank"}
+- [ ] [YT, Steve Griffith - JS .some()](https://youtu.be/l155liDxty8){:target="_blank"}
 
 <!-- 
 ## Know Your Docs

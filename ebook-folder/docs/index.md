@@ -24,7 +24,7 @@ This class will follow a Flipped-Classroom methodology. This means you, the stud
     * The **Final Submission Day** for any late assignments is the Second Sunday after each course ends.
     * Assignments turned in after the **Final Submission Day** will receive an automatic grade of 50.
 
-* **Homework submission**: Turn in your homework on Campus Manager. Copy/paste a link to your completed assignment(GitHub Pull Request or repo URL) in the designated spot for the assignment. For assignments that cannot be accessed via link, we'll make other arrangements on a case-by-case basis.
+* **Homework submission**: Turn in your homework on Canvas. Copy/paste a link to your completed assignment(GitHub Pull Request or repo URL) in the designated spot for the assignment. For assignments that cannot be accessed via link, we'll make other arrangements on a case-by-case basis.
 
 * **Homework guidelines**: Your work should be thorough and demonstrate an understanding of the topic and tasks set forth. Please make sure that your assignments are detailed with comments, inclusive of all specifications, and complete.
 

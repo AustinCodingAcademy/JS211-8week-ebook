@@ -2696,7 +2696,7 @@
 <p><em>Success means doing the best we can with what we have. Success is the doing, not the getting; in the trying, not the triumph. Success is a personal standard, reaching for the highest that is in us, becoming all that we can be. —Zig Ziglar</em></p>
 <h2 id="jsonobjects-arrays-pt-2">JSON/Objects &amp; Arrays pt. 2</h2>
 <p>Objects and arrays are both used to store data in different ways.</p>
-<p>Later in this course we'll be making fetch requests to web APIs that are connected to a database. These fetch requests will return data we can use to render on our websites. Most data that is returned from the database will be a complex data structure of nested objects and arrays. When working with JavaScript and a front-end web app we'll be dealing with data in the format of <a href="https://json.org/">JSON</a> or <a href="https://en.wikipedia.org/wiki/JSON">JavaScript Object Notation</a>. Below is a common looking JSON Object you might receive from a fetch request.</p>
+<p>Later in this course we'll be making fetch requests to web APIs that are connected to a database. These fetch requests will return data we can use to render on our websites. Most data that is returned from the database will be a complex data structure of nested objects and arrays. When working with JavaScript and a front-end web app we'll be dealing with data in the format of <a href="https://json.org/" target="_blank">JSON</a> or <a href="https://en.wikipedia.org/wiki/JSON" target="_blank">JavaScript Object Notation</a>. Below is a common looking JSON Object you might receive from a fetch request.</p>
 <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
 <span class="normal"> 2</span>
 <span class="normal"> 3</span>
@@ -2752,7 +2752,7 @@
 <blockquote>
 <p>Notice the <code>""</code> around the <strong>keys</strong>. This is a major distinction in syntax between JSON and JavaScript.</p>
 </blockquote>
-<p>Accessing data in complex data structures is one of the most important tasks in front-end development and the first step in receiving data from the backend and displaying it to the user. Take a look at the JSON object in this <a href="https://www.sitepoint.com/database-json-file/">example</a> link and see if you know how to access each object, its <code>product_name</code> and <code>unit_cost</code>.</p>
+<p>Accessing data in complex data structures is one of the most important tasks in front-end development and the first step in receiving data from the backend and displaying it to the user. Take a look at the JSON object in this <a href="https://www.sitepoint.com/database-json-file/" target="_blank">example</a> link and see if you know how to access each object, its <code>product_name</code> and <code>unit_cost</code>.</p>
 <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
 <span class="normal"> 2</span>
 <span class="normal"> 3</span>
@@ -2856,7 +2856,7 @@
 <span class="w">    </span><span class="mf">2</span><span class="o">/</span><span class="mf">15</span><span class="o">/</span><span class="mf">2018</span><span class="o">:</span><span class="w"> </span><span class="s1">&#39;its 5 o’clock somewhere&#39;</span><span class="w"></span>
 <span class="w">  </span><span class="p">}</span><span class="w"></span>
 </code></pre></div></td></tr></table></div>
-<p><code>Object.keys(userObj["posts"])</code> returns an array of the keys <code>[ "1/4/2018","2/14/2018", "2/15/2018"]</code> Remember, objects are made of key-value pairs! If we use the <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys">.keys()</a> object prototype method we will get the keys of all the key-value pairs in the objects. If we use the object prototype method <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/entries">.entries()</a>, we'll get the values of all the key-value pairs in the object.</p>
+<p><code>Object.keys(userObj["posts"])</code> returns an array of the keys <code>[ "1/4/2018","2/14/2018", "2/15/2018"]</code> Remember, objects are made of key-value pairs! If we use the <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys" target="_blank">.keys()</a> object prototype method we will get the keys of all the key-value pairs in the objects. If we use the object prototype method <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/entries" target="_blank">.entries()</a>, we'll get the values of all the key-value pairs in the object.</p>
 <p>A forEach loop is the best option to use here. It has decreased scope, simplified syntax, and doesn’t have the possibility of an infinite loop.</p>
 <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
 <span class="normal"> 2</span>
@@ -2899,11 +2899,11 @@
 </code></pre></div></td></tr></table></div>
 <p><strong>Before</strong> you finish up here, make sure to watch the videos in the <a href="#AdditionalResources">Additional Resources</a></p>
 <h2 id="bind-this">.bind() &amp; this</h2>
-<p>from <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind">MDN, The <code>.bind()</code> method</a></p>
+<p>from <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind" target="_blank">MDN, The <code>.bind()</code> method</a></p>
 <blockquote>
 <p>creates a new function that, when called, has its <code>this</code> keyword set to the provided value, with a given sequence of arguments preceding any provided when the new function is called.</p>
 </blockquote>
-<p>from <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this">MDN, <code>this</code>:</a></p>
+<p>from <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this" target="_blank">MDN, <code>this</code>:</a></p>
 <blockquote>
 <p>ES5 introduced the <code>bind()</code> method to set the value of a function's <code>this</code> regardless of how it's called, and ES2015 introduced arrow functions which don't provide their own <code>this</code> binding (they retain the <code>this</code> value of the enclosing <strong>lexical context</strong>).</p>
 </blockquote>
@@ -2913,7 +2913,7 @@
 <iframe width="655" height="368" src="https://www.youtube.com/embed/GhbhD1HR5vk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <ul>
-<li><a href="https://youtu.be/GhbhD1HR5vk">Video FunFunFunction - bind &amp; this</a></li>
+<li><a href="https://youtu.be/GhbhD1HR5vk" target="_blank">Video FunFunFunction - bind &amp; this</a></li>
 </ul>
 <h2 id="practice-it">Practice It</h2>
 <p>Copy/paste the following code into a Repl.it and run it. Then follow the instructions in the comments at the bottom.</p>
@@ -2955,12 +2955,12 @@
 </code></pre></div></td></tr></table></div>
 <h2 id="additional-resources">Additional Resources</h2>
 <ul>
-<li><a href="https://youtu.be/AqgVLYpBWG8">Video Steve Griffith - Nested Loops with Arrays &amp; Objects</a></li>
-<li><a href="https://youtu.be/-P04pE6zRNE">Video Hitesh Choudary - Objects in JavaScript</a></li>
+<li><a href="https://youtu.be/AqgVLYpBWG8" target="_blank">Video Steve Griffith - Nested Loops with Arrays &amp; Objects</a></li>
+<li><a href="https://youtu.be/-P04pE6zRNE" target="_blank">Video Hitesh Choudary - Objects in JavaScript</a></li>
 </ul>
 <h2 id="know-your-docs">Know Your Docs</h2>
 <ul>
-<li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects">MDN Docs - Working with Objects</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects" target="_blank">MDN Docs - Working with Objects</a></li>
 </ul>
 <!-- 
 ## Additional Resources

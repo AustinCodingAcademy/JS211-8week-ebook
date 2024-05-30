@@ -146,9 +146,9 @@ Multiple **else statements**: You can also provide one or more alternatives that
   }
 ```
 
-  > Above we see the use of [parseInt()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseInt) which is a built-in method in JS we can use whenever we need a whole number. We also see Math and .random() which generates a random decimal number.
+  > Above we see the use of [parseInt()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseInt){:target="_blank"} which is a built-in method in JS we can use whenever we need a whole number. We also see Math and .random() which generates a random decimal number.
 
-Go to the MDN docs on [parseInt()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseInt)  and [Math.random()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random) and explain the following:
+Go to the MDN docs on [parseInt()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseInt){:target="_blank"}  and [Math.random()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random){:target="_blank"} and explain the following:
 
 - [ ] Why do you think we multiply it by 100?
 - [ ] Can you explain why number is always going to be less than 100?
@@ -256,7 +256,7 @@ For each of the following, create a new Repl.it called the title you see in bold
 
 ## Know Your Docs
 
-* [MDN Docs - Conditional Statements](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)
+* [MDN Docs - Conditional Statements](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else){:target="_blank"}
 
 <!-- ## Additional Resources
 

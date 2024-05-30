@@ -6,7 +6,7 @@
 
 Objects and arrays are both used to store data in different ways.
 
-Later in this course we'll be making fetch requests to web APIs that are connected to a database. These fetch requests will return data we can use to render on our websites. Most data that is returned from the database will be a complex data structure of nested objects and arrays. When working with JavaScript and a front-end web app we'll be dealing with data in the format of [JSON](https://json.org/) or [JavaScript Object Notation](https://en.wikipedia.org/wiki/JSON). Below is a common looking JSON Object you might receive from a fetch request.
+Later in this course we'll be making fetch requests to web APIs that are connected to a database. These fetch requests will return data we can use to render on our websites. Most data that is returned from the database will be a complex data structure of nested objects and arrays. When working with JavaScript and a front-end web app we'll be dealing with data in the format of [JSON](https://json.org/){:target="_blank"} or [JavaScript Object Notation](https://en.wikipedia.org/wiki/JSON){:target="_blank"}. Below is a common looking JSON Object you might receive from a fetch request.
 
 ```json
   {
@@ -39,7 +39,7 @@ Later in this course we'll be making fetch requests to web APIs that are connect
 
   > Notice the `""` around the **keys**. This is a major distinction in syntax between JSON and JavaScript.
 
-Accessing data in complex data structures is one of the most important tasks in front-end development and the first step in receiving data from the backend and displaying it to the user. Take a look at the JSON object in this [example](https://www.sitepoint.com/database-json-file/) link and see if you know how to access each object, its `product_name` and `unit_cost`.
+Accessing data in complex data structures is one of the most important tasks in front-end development and the first step in receiving data from the backend and displaying it to the user. Take a look at the JSON object in this [example](https://www.sitepoint.com/database-json-file/){:target="_blank"} link and see if you know how to access each object, its `product_name` and `unit_cost`.
 
 ```json
   [{
@@ -116,7 +116,7 @@ For example, if I wanted to show the end user all of the posts from the `userObj
   }
 ```
 
-`Object.keys(userObj["posts"])` returns an array of the keys `[ "1/4/2018","2/14/2018", "2/15/2018"]` Remember, objects are made of key-value pairs! If we use the [.keys()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys) object prototype method we will get the keys of all the key-value pairs in the objects. If we use the object prototype method [.entries()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/entries), we'll get the values of all the key-value pairs in the object.
+`Object.keys(userObj["posts"])` returns an array of the keys `[ "1/4/2018","2/14/2018", "2/15/2018"]` Remember, objects are made of key-value pairs! If we use the [.keys()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys){:target="_blank"} object prototype method we will get the keys of all the key-value pairs in the objects. If we use the object prototype method [.entries()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/entries){:target="_blank"}, we'll get the values of all the key-value pairs in the object.
 
 A forEach loop is the best option to use here. It has decreased scope, simplified syntax, and doesn’t have the possibility of an infinite loop.
 
@@ -152,11 +152,11 @@ Because I have both the key and the object, I can also gain access to the value 
 
 ## .bind() & this
 
-from [MDN, The `.bind()` method](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind)
+from [MDN, The `.bind()` method](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind){:target="_blank"}
 
   > creates a new function that, when called, has its `this` keyword set to the provided value, with a given sequence of arguments preceding any provided when the new function is called.
 
-from [MDN, `this`:](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this)
+from [MDN, `this`:](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this){:target="_blank"}
 
   > ES5 introduced the `bind()` method to set the value of a function's `this` regardless of how it's called, and ES2015 introduced arrow functions which don't provide their own `this` binding (they retain the `this` value of the enclosing **lexical context**).
 
@@ -168,7 +168,7 @@ For now, think of JavaScript as a beautiful mix of OOP and functional language, 
 
 <iframe width="655" height="368" src="https://www.youtube.com/embed/GhbhD1HR5vk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-* [Video FunFunFunction - bind & this](https://youtu.be/GhbhD1HR5vk)
+* [Video FunFunFunction - bind & this](https://youtu.be/GhbhD1HR5vk){:target="_blank"}
 
 ## Practice It
 
@@ -197,12 +197,12 @@ Copy/paste the following code into a Repl.it and run it. Then follow the instruc
 
 ## Additional Resources
 
-* [Video Steve Griffith - Nested Loops with Arrays & Objects](https://youtu.be/AqgVLYpBWG8)
-* [Video Hitesh Choudary - Objects in JavaScript](https://youtu.be/-P04pE6zRNE)
+* [Video Steve Griffith - Nested Loops with Arrays & Objects](https://youtu.be/AqgVLYpBWG8){:target="_blank"}
+* [Video Hitesh Choudary - Objects in JavaScript](https://youtu.be/-P04pE6zRNE){:target="_blank"}
 
 ## Know Your Docs
 
-* [MDN Docs - Working with Objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects)
+* [MDN Docs - Working with Objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects){:target="_blank"}
 
 <!-- 
 ## Additional Resources
