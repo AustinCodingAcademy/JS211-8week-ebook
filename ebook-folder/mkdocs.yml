@@ -20,14 +20,15 @@ site_name: JS211 - Foundations in Programming
 
 nav:
     - Home: 'index.md'
+    - Self-Help: 'HowTo-selfHelp.md'
     - 'Pre-Course Prep':
-      - 'Part 1: How To Succeed':
+      - 'Step 1: How To Succeed':
         - The Flipped Classroom: preCourse/succeedInThisCourse.md
-      - 'Part 2: Set Up':
+      - 'Step 2: Set Up':
         - Prepare Your Machine: preCourse/setupInstructions.md
-      - 'Part 3: Coding and Programming':
+      - 'Step 3: Coding and Programming':
         - Coding + Programming: preCourse/codingAndProgramming.md
-      - 'Part 4: Intro to JavaScript':
+      - 'Step 4: Intro to JavaScript':
         - What is JavaScript: preCourse/whatIsJavaScript.md
         - Variables & Functions: preCourse/variablesAndFunctions.md
         - Data Types: preCourse/dataTypes.md
@@ -38,13 +39,13 @@ nav:
         - Function Signatures:  preCourse/functionSignatures.md
         - Practice Data Types & Functions: preCourse/dataTypesAndFunctions.md
         - Date & Time Repo: preCourse/firstRepo.md
-      - 'Part 5: Nitty Gritty': 
+      - 'Step 5: Nitty Gritty': 
         - History of JavaScript: preCourse/historyOfJavaScript.md
         - ES5 vs ES6: preCourse/es5&es6.md
         - Intro to TDD: preCourse/testDriveDevelopmentIntro.md
         - Submitting Homework: preCourse/submittingHomework.md
       - Day 1 Checklist: preCourse/preClassChecklist.md
-    - 'Module 1: The Fundamentals': 
+    - 'Part I: The Fundamentals': 
       - Class 1 JS Review: module-1/class-1.md
       - 'Class 2 Pre-Lessons': 
         - Conditionals: module-1/conditionals.md
@@ -60,7 +61,7 @@ nav:
         - Loops in JS: module-1/js-loops.md  
         - Develop - Your Prison: module-1/developSeries-PrisonOfYourMind.md
         - Class 4 TicTacToe: module-1/class-4.md
-    - 'Module 2: Functional Programming':
+    - 'Part II: Functional Programming':
         - 'Class 5 Pre-Lessons':
           - The DOM: module-2/theDom.md
           - Develop - Stop Thinking: module-2/developSeries-StopThinking.md
@@ -80,7 +81,7 @@ nav:
           - HOF pt. 2: module-2/higherOrderFunctions-pt2.md
           - Big O Pt. 4: module-2/bigO-pt4.md
           - Class 8 find & findIndex: module-2/class-8.md  
-    - 'Module 3: OOP & Algorithms':
+    - 'Part III: OOP & Algorithms':
         - 'Class 9 Pre-Lessons':
           - OOP-pt.1: module-3/oop-pt1.md
           - Closures: module-3/closures.md
@@ -97,7 +98,7 @@ nav:
           - Develop - Thinking Programmer: module-3/developeSeries-thinkingLikeAProgrammer.md
           - Algorithms pt.2: module-3/algorithms-pt2.md
           - Class 12 Hackathon: module-3/class-12.md
-    - 'Module 4: Developing in Node':
+    - 'Part IV: Developing in Node':
         - 'Class 13 Pre-Lessons':
           - Data From APIs: module-4/dataFromAPIs.md
           - Promises: module-4/promises.md
@@ -118,7 +119,7 @@ nav:
           - Immutability: module-4/immutability.md
           - Class 16 Lodash & Recursion: module-4/class-16.md
     - Report A Bug: additionalResources/reportABug.md
-    - 'Additional Resources':
+    - Resources:
       - Interview Training: additionalResources/interviewChallenges.md
       - Student Presentations: additionalResources/studentPresentations.md
       - Develop Series Collection: additionalResources/developSeries.md
@@ -165,8 +166,10 @@ theme:
     # Defines the logo in the top-left, file must be in the /doc directory
   logo: CE_WhiteBlue_Icon.png
   features:
-    - navigation.instant
     - navigation.top
+    - navigation.tabs
+    - navigation.instant
+    - header.autohide
     # - navigation.tabs
 
 
