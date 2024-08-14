@@ -150,7 +150,7 @@ Because I have both the key and the object, I can also gain access to the value 
 
 **Before** you finish up here, make sure to watch the videos in the [Additional Resources](#AdditionalResources)
 
-## .bind() & this
+## Intro to .bind() & this
 
 from [MDN, The `.bind()` method](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind){:target="_blank"}
 

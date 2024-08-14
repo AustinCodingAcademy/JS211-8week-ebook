@@ -53,7 +53,7 @@ We've done a lot of programming by ourselves but rarely do we program in a bubbl
 - [ ] Create a repo using your template
 - [ ] Clone it to one of your machines
     - [ ]  `npm init`
-    - [ ]  Understand [dotenv](https://youtu.be/zDup0I2VGmk)
+    - [ ]  Understand [dotenv, YT, DevCoffee](https://youtu.be/zDup0I2VGmk)
     - [ ]  `npm install dotenv --save`
     - [ ]  `require('dotenv').config()` at the top of your `main.js`
     - [ ]  create a `.gitignore` file in the root folder
@@ -72,7 +72,7 @@ We've done a lot of programming by ourselves but rarely do we program in a bubbl
 
 #### Brewery App
 
-`[https://www.brewerydb.com/developers](https://www.brewerydb.com/developers)`
+[https://www.openbrewerydb.org/](https://www.openbrewerydb.org/)
 
 - [ ] Build an app that allows a user to find breweries near them.
 - [ ] Remember the [Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API) you learned in 101!
@@ -87,7 +87,7 @@ If they get it right they get a point added to their side. (Use the logic from y
 
 #### Pokemon Collection
 
-`[https://www.pokeapi.co/](https://pokeapi.co/)`
+[https://www.pokeapi.co/](https://pokeapi.co/)
 
 - [ ] Sign up for api key
 - [ ] Create an arena that displays two Pokemon battling each other.
@@ -95,7 +95,7 @@ If they get it right they get a point added to their side. (Use the logic from y
 
 #### Marvel Character Look-Up
 
-`[https://developer.marvel.com/documentation/getting_started](https://developer.marvel.com/documentation/getting_started)`
+[https://developer.marvel.com/documentation/getting_started](https://developer.marvel.com/documentation/getting_started)
 
 - [ ] Sign up for an api key
 - [ ] Create a collector catalog of all the characters a person has/wants to collect.
